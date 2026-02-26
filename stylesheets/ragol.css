@@ -1,0 +1,9 @@
+html { height: 100%; }
+body { align-items: center; background: #000 url(../images/scanlines.png); border-top: 4px solid #39C; box-sizing: border-box; color: #FFF; display: flex; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; justify-content: center; line-height: 1; margin: 0; min-height: 100%; }
+a { color: #0FF; text-decoration: none; }
+a:hover { text-decoration: underline; }
+#memorial { align-items: center; background: url(../images/racaseal.png) no-repeat; display:flex; gap: 0.5ch; justify-content: center; padding: 427px 0 0; text-align: center; text-transform: uppercase; width: 377px; }
+#memorial h1 { font-size: 16px; margin: 0; }
+#memorial p { margin: 0; }
+#memorial nav ul { display: flex; gap: 0.5ch; list-style: none; margin: 0; padding: 0; }
+#memorial nav ul li::before { content: "|"; margin-right: 0.5ch; }
