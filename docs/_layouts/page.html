@@ -1,0 +1,21 @@
+---
+layout: base
+---
+<header>
+    <div class="wrapper">
+        <div id="logo"><a href="/"><img alt="Home" src="/assets/images/racaseal.png" title="Home" /></a></div>
+        <div id="domain">Ragol<span id="tld">.co.uk</span></div>
+        {% include nav.html %}
+    </div>
+</header>
+<main>
+    <div class="wrapper">
+        {% include breadcrumbs.html %}
+        {{ content }}
+    </div>
+</main>
+<footer>
+    <div class="wrapper">
+        <div id="copyright">Powered by <a href="https://pages.github.com">GitHub Pages</a>, &copy; 2002-{{ 'now' | date: "%Y" }} <a href="https://ragol.co.uk">Ragol</a>.</div>
+    </div>
+</footer>
