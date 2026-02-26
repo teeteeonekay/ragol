@@ -1,0 +1,10 @@
+#home { align-items: center; display: flex; flex-grow: 1; border-bottom: 4px solid #39C; padding: 1rem 0; text-align: center; text-transform: uppercase; }
+#home #logo { margin: 0 0 2rem; }
+#home #logo img { height: 377px; width: 287px; }
+#home #nav { width:377px; }
+#home #nav #domain { font-weight: bold; }
+#home #nav #domain #tld { font-weight: normal; }
+#home #nav ul { list-style: none; margin: 0; padding: 0; }
+#home #nav ul li { display: inline; }
+#home #nav ul li:not(:last-child)::after { content: "|"; margin: 0 0 0 0.5ch; }
+#home #nav ul li a { vertical-align: middle; }

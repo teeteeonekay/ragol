@@ -1,0 +1,5 @@
+#breadcrumbs { font-size: 0.875rem; margin: 0 0 1rem; }
+#breadcrumbs ol { list-style: none; margin: 0; padding: 0; }
+#breadcrumbs ol li { display: inline; }
+#breadcrumbs ol li:not(:nth-last-child(2), :last-child)::after { content: "›"; margin: 0 0 0 0.5ch; }
+#breadcrumbs ol li:last-child { background: url(/assets/images/breadcrumb.png) no-repeat; display: block; font-weight: bold; padding: 0 0 0 18px; }

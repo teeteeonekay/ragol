@@ -1,0 +1,20 @@
+---
+layout: base
+---
+<header>
+    <div class="wrapper">
+        <div id="logo"><a href="/"><img alt="Home" src="/assets/images/racaseal.webp" title="Home" /></a></div>
+        {% include nav.html %}
+    </div>
+</header>
+<main>
+    <div class="wrapper">
+        {% include breadcrumbs.html %}
+        {{ content }}
+    </div>
+</main>
+<footer>
+    <div class="wrapper">
+        <div id="copyright">Powered by <a href="https://pages.github.com">GitHub Pages</a>, &copy; 2002-{{ 'now' | date: "%Y" }} <a href="https://ragol.co.uk">Ragol</a>.</div>
+    </div>
+</footer>

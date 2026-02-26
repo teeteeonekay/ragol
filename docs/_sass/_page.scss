@@ -1,0 +1,25 @@
+@import "mixins";
+
+header { border-bottom: 4px solid #39C; padding: 1rem 0; text-transform: uppercase; }
+header .wrapper { align-items: end; display: flex; gap: 1rem; }
+header #logo { flex: 1; overflow: hidden; }
+header #logo img { display: block; float: left; max-width: 200px; width: 100%; }
+header #nav { flex: 1; text-align: right; }
+header #nav #domain { font-weight: bold; }
+header #nav #domain #tld { font-weight: normal; }
+header #nav ul { list-style: none; margin: 0; padding: 0; }
+header #nav ul li { display: inline; }
+header #nav ul li:not(:last-child)::after { content: "|"; margin: 0 0 0 0.5ch; }
+header #nav ul li a { vertical-align: middle; }
+@include mobile {
+    header #nav ul li { display: block; }
+    header #nav ul li:not(:last-child)::after { content: none; }
+}
+
+main { background: #036; padding: 1rem 0; }
+main a img { border: 3px solid transparent; transition: border 0.25s; }
+main a:hover img { border-color: #0FF; }
+main img { box-sizing: border-box; border-radius: 10px; max-width: 747px; width: 100%; }
+
+footer { background: #036; border-top: 4px solid #39C; flex-grow: 1; font-size: 0.8rem; padding: 1rem 0; min-height: 100% }
+footer #copyright a { color: #CFF; font-weight: bold; }

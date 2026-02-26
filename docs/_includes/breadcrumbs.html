@@ -1,0 +1,14 @@
+<nav id="breadcrumbs">
+    <ol>
+        {% assign breadcrumbs = page.url | split: '/' %}
+        {% for breadcrumb in breadcrumbs %}
+            {% if forloop.first %}
+                <li><a href="/">Home</a></li>
+            {% elsif forloop.last %}
+                <li>{{ page.title }}</li>
+            {% else %}
+                <li><a href="{% for breadcrumb in breadcrumbs limit: forloop.index %}{{ breadcrumb | append: '/' }}{% endfor %}">{{ breadcrumb | capitalize }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ol>
+</nav>
