@@ -1,0 +1,33 @@
+@import "mixins";
+
+header { border-bottom: 4px solid #39C; padding: 1rem 0; text-transform: uppercase; }
+header .wrapper { align-items: end; display: flex; gap: 1rem; }
+header #logo { flex: 1; overflow: hidden; }
+header #logo img { display: block; float: left; max-width: 200px; width: 100%; }
+header #nav { flex: 1; text-align: right; }
+header #nav #domain { font-weight: bold; }
+header #nav #domain #tld { font-weight: normal; }
+header #nav ul { list-style: none; margin: 0; padding: 0; }
+header #nav ul li { display: inline; margin: 0; }
+header #nav ul li:not(:last-child)::after { content: "|"; margin: 0 0 0 0.5ch; }
+header #nav ul li a { vertical-align: middle; }
+@include mobile {
+    header #nav ul li { display: block; }
+    header #nav ul li:not(:last-child)::after { content: none; }
+}
+
+#container { background: #036; flex-grow: 1; min-height: 100%; padding: 1rem 0; }
+
+#breadcrumbs { font-size: 0.875rem; margin: 0 0 1rem; }
+#breadcrumbs ol { list-style: none; margin: 0; padding: 0; }
+#breadcrumbs ol li { display: inline; margin: 0; }
+#breadcrumbs ol li:not(:nth-last-child(2), :last-child)::after { content: "›"; margin: 0 0 0 0.5ch; }
+#breadcrumbs ol li:last-child { background: url(/assets/images/breadcrumb.png) no-repeat; display: block; font-weight: bold; padding: 0 0 0 18px; }
+
+main { margin: 0 0 1rem; }
+main #contents { font-size: 1.5rem; line-height: 1.3; margin: 2rem 0 1rem 1rem; padding: 1rem 0 0; }
+main #contents + ul { background-color: #024; border-left: 4px solid #39C; border-radius: 4px; list-style: none; margin: -3.9375rem 0 1rem; padding: 3.9375rem 1rem 1rem; }
+main img { box-sizing: border-box; border-radius: 4px; max-width: 747px; width: 100%; }
+
+footer { border-top: 4px solid #39C; font-size: 0.813rem; padding: 1rem 0 0; }
+footer #copyright a { color: #CFF; font-weight: bold; }

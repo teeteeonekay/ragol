@@ -1,0 +1,37 @@
+---
+layout: base
+---
+<header>
+    <div class="wrapper">
+        <div id="logo"><a href="/"><img alt="Home" src="/assets/images/racaseal.webp" title="Home" /></a></div>
+        {% include nav.html %}
+    </div>
+</header>
+<div id="container">
+    <nav id="breadcrumbs">
+        <div class="wrapper">
+            <ol>
+                {% assign breadcrumbs = page.url | split: '/' %}
+                {% for breadcrumb in breadcrumbs %}
+                    {% if forloop.first %}
+                        <li><a href="/">Home</a></li>
+                    {% elsif forloop.last %}
+                        <li>{{ page.title }}</li>
+                    {% else %}
+                        <li><a href="{% for breadcrumb in breadcrumbs limit: forloop.index %}{{ breadcrumb | append: '/' }}{% endfor %}">{{ breadcrumb | capitalize }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ol>
+        </div>
+    </nav>
+    <main>
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div id="copyright">Powered by <a href="https://pages.github.com">GitHub Pages</a>, &copy; 2002-{{ 'now' | date: "%Y" }} <a href="https://ragol.co.uk">Ragol.co.uk</a>.</div>
+        </div>
+    </footer>
+</div>

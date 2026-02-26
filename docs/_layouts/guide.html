@@ -1,0 +1,9 @@
+---
+layout: page
+---
+{{ content }}
+<div id="author">
+    {% if page.author == 'decswxaqz' %}{% assign url = 'https://forums.ragol.co.uk/member.php?action=profile&uid=17' %}{% endif %}
+    {% if page.author == 'T_T1K' %}{% assign url = 'https://forums.ragol.co.uk/member.php?action=profile&uid=5' %}{% endif %}
+    Posted by <a href="{{ url }}">{{ page.author }}</a> on {{ page.date | date_to_long_string: 'ordinal' }}.
+</div>

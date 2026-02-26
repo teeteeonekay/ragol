@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {% if page.title %}{% assign title = page.title | append: ' - ' | append: site.title %}{% else %}{% assign title = site.title %}{% endif %}
+        {% assign description = page.description | default: site.description %}
+        {% assign url = page.url | absolute_url %}
+        {% assign image = page.image | default: '/assets/images/racaseal.webp' | absolute_url %}
+        <title>{{ title }}</title>
+        <meta name="description" content="{{ description }}" />
+        <meta property="og:title" content="{{ title }}" />
+        <meta property="og:description" content="{{ description }}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="{{ url }}" />
+        <meta property="og:site_name" content="{{ site.title }}" />
+        <meta property="og:image" content="{{ image }}" />
+        <link rel="canonical" href="{{ url }}" />
+        <link rel="icon" href="/favicon.ico" />
+		<link rel="stylesheet" href="/assets/css/styles.css" />
+	</head>
+	<body>
+		{{ content }}
+	</body>
+</html>

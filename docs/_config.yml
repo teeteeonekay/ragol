@@ -1,0 +1,15 @@
+collections:
+    guides:
+        output: true
+defaults:
+    - scope:
+          path: ""
+          type: guides
+      values:
+          layout: guide
+permalink: pretty
+plugins:
+    - jekyll-sitemap
+title: Ragol.co.uk
+description: A Phantasy Star Online Fansite
+url: https://ragol.co.uk
