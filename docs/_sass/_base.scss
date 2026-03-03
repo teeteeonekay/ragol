@@ -13,5 +13,8 @@ ol, ul { line-height: 1.6; margin: 0 0 1rem 1.25rem; }
 ol ol, ol ul, ul ul, ul ol, { margin-bottom: 0; }
 li { margin: 0; }
 p { font-size: 1rem; line-height: 1.6; margin: 0 0 1rem; }
+code { background: #024; border-radius: 4px; color: #F39; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; padding: 0.1em 0.35em; }
+pre { background: #024; border-left: 4px solid #F39; border-radius: 6px; margin: 1.25em 0; overflow-x: auto; padding: 1rem 1.25rem; }
+pre code { background: none; color:#FFF; display:block; padding:0; }
 
 .wrapper { margin: 0 auto; max-width: 1500px; padding: 0 1rem; }
