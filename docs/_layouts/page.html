@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<header>
+<header id="header">
     <div class="wrapper">
         <div id="logo"><a href="/"><img alt="Home" src="/assets/images/racaseal.webp" title="Home" /></a></div>
         {% include nav.html %}
@@ -24,12 +24,12 @@ layout: base
             </ol>
         </div>
     </nav>
-    <main>
+    <main id="main">
         <div class="wrapper">
             {{ content }}
         </div>
     </main>
-    <footer>
+    <footer id="footer">
         <div class="wrapper">
             <div id="copyright">Powered by <a href="https://pages.github.com">GitHub Pages</a>, &copy; 2002-{{ 'now' | date: "%Y" }} <a href="https://ragol.co.uk">Ragol.co.uk</a>.</div>
         </div>
