@@ -16,5 +16,12 @@ p { font-size: 1rem; line-height: 1.6; margin: 0 0 1rem; }
 code { background: #024; border-radius: 4px; color: #F39; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; padding: 0.1em 0.35em; }
 pre { background: #024; border-left: 4px solid #F39; border-radius: 6px; margin: 1.25em 0; overflow-x: auto; padding: 1rem 1.25rem; }
 pre code { background: none; color:#FFF; display:block; padding:0; }
+table { border-collapse: collapse; font-size: 0.9375rem; }
+th { background:#39C; font-weight: 600; }
+td:nth-child(odd) { background: #369; }
+td:nth-child(even) { background: #069; }
+th, td { border: 1px solid #000; line-height: 1.45; padding: 0.65em 0.8em; }
 
 .wrapper { margin: 0 auto; max-width: 1500px; padding: 0 1rem; }
+.table-wrapper { max-width: 100%; margin: 0 0 1.5rem; overflow-x: auto; }
+.table-wrapper table { min-width: 100%; width: auto; }
