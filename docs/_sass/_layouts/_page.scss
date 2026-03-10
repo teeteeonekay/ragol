@@ -1,0 +1,28 @@
+@import "../mixins";
+
+.container { background: #036; flex-grow: 1; min-height: 100%; padding: 1rem 0; }
+
+.footer { border-top: 4px solid #39C; font-size: 0.813rem; padding: 1rem 0 0; }
+.footer .copyright a { color: #CFF; font-weight: bold; }
+
+.header { border-bottom: 4px solid #39C; padding: 1rem 0; text-transform: uppercase; }
+.header .wrapper { align-items: end; display: flex; gap: 1rem; }
+.header .logo { flex: 1; overflow: hidden; }
+.header .logo img { display: block; float: left; max-width: 200px; width: 100%; }
+.header .nav { flex: 1; text-align: right; }
+.header .nav .domain { font-weight: bold; }
+.header .nav .domain .tld { font-weight: normal; }
+.header .nav ul { list-style: none; margin: 0; padding: 0; }
+.header .nav ul li { display: inline; margin: 0; }
+.header .nav ul li:not(:last-child)::after { content: "|"; margin: 0 0 0 0.5ch; }
+.header .nav ul li a { vertical-align: middle; }
+@include mobile {
+    .header .nav ul li { display: block; }
+    .header .nav ul li:not(:last-child)::after { content: none; }
+}
+
+.main { margin: 0 0 1rem; }
+.main img { box-sizing: border-box; border-radius: 4px; max-width: 747px; width: 100%; }
+.main a img { border: 1px solid #0FF; }
+
+.wrapper { margin: 0 auto; max-width: 1500px; padding: 0 1rem; }

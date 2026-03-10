@@ -1,0 +1,15 @@
+.faqs { background: #024; border-left: 4px solid #39C; border-radius: 4px; margin: 2rem 0; padding: 1rem; }
+.faqs h2 { font-size: 1.5rem; line-height: 1.3; margin: 0 0 1rem; }
+.faqs code { background: #036; }
+.faqs pre { background: #036; }
+.faqs .question { border-bottom: 1px dotted #39C; margin: 0 0 1rem; padding: 0 0 1rem; }
+.faqs .question h3 { color: #0FF; font-size: 1rem; font-weight: normal; margin: 0; }
+.faqs .question h3 button { background: none; border: none; color: inherit; cursor: pointer; font: inherit; padding: 0; text-align: left; width: 100%; -webkit-tap-highlight-color: transparent; }
+.faqs .question h3 button::before { content: "⏷"; float: right; margin: 0 0 0 1rem; transition: transform 0.2s ease; }
+.faqs .question.on h3 button::before { transform: rotate(180deg); }
+.faqs .question:last-child { border: none; margin: 0; padding: 0; }
+.faqs .question .answer { overflow: hidden; transition: max-height 0.2s ease; }
+.faqs .question .answer *:last-child { margin-bottom: 0; }
+@media (hover: hover) {
+    .faqs .question h3 button:hover { text-decoration: underline; }
+}

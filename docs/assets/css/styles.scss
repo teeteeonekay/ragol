@@ -1,7 +1,11 @@
 ---
 ---
+@import "_components/breadcrumbs";
+@import "_components/contents";
+@import "_components/faqs";
+@import "_components/tables";
+@import "_layouts/base";
+@import "_layouts/page";
+@import "_layouts/guide";
+@import "_pages/home";
 @import "fonts";
-@import "base";
-@import "home";
-@import "page";
-@import "guide";

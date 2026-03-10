@@ -34,7 +34,7 @@ Contents
 * [FOmarl](#fomarl)
 * [FOnewm](#fonewm)
 * [FOnewearl](#fonewearl)
-* [Frequently Asked Questions](#frequently-asked-questions)
+* [FAQs](#faqs)
 
 ---
 
@@ -621,19 +621,26 @@ Sorry people. She is completely impossible to ever max out too. I tried my best.
 
 ---
 
-Frequently Asked Questions
---------------------------
+FAQs
+----
 
-* **Q:** Why do you only use 5-35 luck materials on the characters? Don't you need 45 to max out luck?
-    * **A:** No. Every character listed above uses God/Ability's to make up the lacking luck. Each God/Ability adds 20 luck.
-* **Q:** What if I have used too many of 1 material?
-    * **A:** Sometimes it is fixable, sometimes it isn't. If, for example, you have only used 4 mind materials more than you should, then the steps to fix it are:
-        1. Make sure you use 4 power materials less than you should
-        2. Make sure your mag has 4 more pow than it should
-        3. Make sure your mag has 4 less mind than it should
-        4. Power and Mind are the only 2 stats that are interchangeable in this way
-* **Q:** What if my mag has more than 5 def. It can be hard to keep it that low?
-    * **A:** It depends on how many leftover materials your class has available. If for example, you end up with 7 def on your mag. Make sure that either MIND or POW is the stat that has 2 less. (Or make sure each stat is 1 less), then use whatever amount of materials are necessary to make up the loss.
+### Why do you only use 5-35 luck materials on the characters? Don't you need 45 to max out luck?
+
+No. Every character listed above uses God/Ability's to make up the lacking luck. Each God/Ability adds 20 luck.
+
+### What if I have used too many of 1 material?
+
+Sometimes it is fixable, sometimes it isn't. If, for example, you have only used 4 mind materials more than you should, then the steps to fix it are:
+
+1. Make sure you use 4 power materials less than you should
+2. Make sure your mag has 4 more pow than it should
+3. Make sure your mag has 4 less mind than it should
+
+Power and Mind are the only 2 stats that are interchangeable in this way
+
+### What if my mag has more than 5 def. It can be hard to keep it that low?
+
+It depends on how many leftover materials your class has available. If for example, you end up with 7 def on your mag. Make sure that either MIND or POW is the stat that has 2 less. (Or make sure each stat is 1 less), then use whatever amount of materials are necessary to make up the loss.
 
 ---
 

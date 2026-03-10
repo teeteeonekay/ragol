@@ -1,10 +1,7 @@
-document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('main table').forEach(t => {
-        if (!t.parentElement.classList.contains('table-wrapper')) {
-            const wrapper = document.createElement('div');
-            wrapper.className = 'table-wrapper';
-            t.parentNode.insertBefore(wrapper, t);
-            wrapper.appendChild(t);
-        }
-    });
-});
+import initContents from './components/contents.js';
+import initFaqs from './components/faqs.js';
+import initTables from './components/tables.js';
+
+initContents();
+initFaqs();
+initTables();

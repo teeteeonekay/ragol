@@ -28,7 +28,7 @@ Contents
 * [Hunters](#hunters)
 * [Rangers](#rangers)
 * [Forces](#forces)
-* [Frequently Asked Questions](#frequently-asked-questions)
+* [FAQs](#faqs)
 
 ---
 
@@ -122,13 +122,16 @@ FOnewearl is a great choice if you have patience, and the desire to be a healer.
 
 ---
 
-Frequently Asked Questions
---------------------------
+FAQs
+----
 
-* **Q:** Are your opinions correct?!?!
-    * **A:** How can my opinions be correct? They are mine, and mine alone.
-* **Q:** I disagree with you!! xxxx is way better than xxxx PERIOD!!!
-    * **A:** If it was hands-down better then I wouldn't have room to disagree now would I?
+### Are your opinions correct?!?!
+
+How can my opinions be correct? They are mine, and mine alone.
+
+### I disagree with you!! xxxx is way better than xxxx PERIOD!!!
+
+If it was hands-down better then I wouldn't have room to disagree now would I?
 
 ---
 
