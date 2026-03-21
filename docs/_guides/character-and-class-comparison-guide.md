@@ -37,12 +37,12 @@ Ratings
 
 As you will see me say alot, these ratings are based on MY opinions, and do not reflect those of the Ragol.co.uk staff. If you disagree, then that is not my fault. Opinions are meant to be unique anyways.
 
-| Rank | Hunters (Offline)   | Hunters (Online)    | Rangers (Offline)  | Rangers (Online)   | Forces (Offline)   | Forces (Online)    |
-| ---- | ------------------- | ------------------- | ------------------ | ------------------ | ------------------ | ------------------ |
-| 1    | HUnewearl           | HUcast            | RAmarl               | RAmarl             | FOnewm             | FOmar              |
-| 2    | HUmar               | HUnewearl         | RAmar                | RAcast             | FOnewearl          | FOnewearl          |
-| 3    | HUcast              | HUmar             | RAcast               | RAmar              | FOmar              | FOnewm             |
-| 4    | HUcaseal            | HUcaseal          | RAcaseal             | RAcaseal           | FOmarl             | FOmarl             |
+| Rank | Hunters (Offline)   | Hunters (Online)  | Rangers (Offline)  | Rangers (Online)   | Forces (Offline)   | Forces (Online)    |
+| ---- | ------------------- | ----------------- | ------------------ | ------------------ | ------------------ | ------------------ |
+| 1    | HUnewearl           | HUcast            | RAmarl             | RAmarl             | FOnewm             | FOmar              |
+| 2    | HUmar               | HUnewearl         | RAmar              | RAcast             | FOnewearl          | FOnewearl          |
+| 3    | HUcast              | HUmar             | RAcast             | RAmar              | FOmar              | FOnewm             |
+| 4    | HUcaseal            | HUcaseal          | RAcaseal           | RAcaseal           | FOmarl             | FOmarl             |
 
 ---
 

@@ -1,7 +1,7 @@
-import initContents from './components/contents.js';
-import initFaqs from './components/faqs.js';
-import initTables from './components/tables.js';
+const modules = await Promise.all([
+    import('./components/contents.js'),
+    import('./components/faqs.js'),
+    import('./components/tables.js')
+]);
 
-initContents();
-initFaqs();
-initTables();
+modules.forEach(m => m.default());
