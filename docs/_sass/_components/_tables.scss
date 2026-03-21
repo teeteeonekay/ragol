@@ -1,2 +1,9 @@
 .table { max-width: 100%; margin: 0 0 1.5rem; overflow-x: auto; }
 .table table { min-width: 100%; width: auto; }
+.table table th.def { color: blue; }
+.table table th.pow { color: red; }
+.table table th.dex { color: yellow; }
+.table table th.mind { color: darkgreen; }
+.table table td.zero code { color: #9AC; }
+.table table td.positive code { color: #0F0; }
+.table table td.negative code { color: #F39; }

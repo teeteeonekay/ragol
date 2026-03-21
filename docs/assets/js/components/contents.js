@@ -1,5 +1,9 @@
 export default () => {
     const contentsHeading = document.querySelector('h2#contents');
+
+    if (!contentsHeading)
+        return;
+
     const contentsNodes = [];
     const contentsDiv = Object.assign(document.createElement('div'), { className: 'contents' });
 

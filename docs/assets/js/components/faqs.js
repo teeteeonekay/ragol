@@ -1,5 +1,9 @@
 export default () => {
     const faqsHeading = document.querySelector('h2#faqs');
+
+    if (!faqsHeading)
+        return;
+
     const faqNodes = [];
     const faqsDiv = Object.assign(document.createElement('div'), { className: 'faqs' });
 
