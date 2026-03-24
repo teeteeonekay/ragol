@@ -1,4 +1,11 @@
 .guide footer { display: flex; margin: 2rem 0 1rem; }
-.guide footer .author { color: #aaa; flex: 1; }
-.guide footer .author a { font-style: italic; }
-.guide footer .back-to-top { flex: 1; text-align: right; }
+.guide footer ul.meta { color: #aaa; flex: 1; list-style: none; margin: 0; padding: 0; }
+.guide footer ul.meta li { display: inline; }
+.guide footer ul.meta li:not(:last-child)::after { color: #aaa; content: "·"; }
+.guide footer ul.meta li.comments a { align-items: center; display: inline-flex; gap: 3px; }
+.guide footer ul.meta li.comments a svg { fill: #0FF; height: 16px; width: 16px; }
+.guide footer .back-to-top { align-self: flex-end; flex: 1; text-align: right; }
+@include mobile {
+    .guide footer ul.meta li { display: block; }
+    .guide footer ul.meta li:not(:last-child)::after { content: none; }
+}

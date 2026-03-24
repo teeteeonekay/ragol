@@ -1,9 +1,10 @@
 ---
 author: decswxaqz
 category: Challenge Mode
+commentsUrl: https://forums.ragol.co.uk/showthread.php?tid=1809
+coverImage: /assets/images/guides/challenge-mode-stage-1/area-1.webp
 date: 2003-09-15
 description: "Step‑by‑step walkthrough of Challenge Mode Stage 1: Area 1, Area 2, and the Boss, with tips to complete the stage efficiently."
-image: /assets/images/guides/challenge-mode-stage-1-area-1.webp
 ---
 
 Challenge Mode Stage 1
@@ -21,7 +22,7 @@ Contents
 Area 1
 ------
 
-[![Challenge Mode - Stage 1 - Area 1](/assets/images/guides/challenge-mode-stage-1-area-1.webp)](/assets/images/guides/challenge-mode-stage-1-area-1.webp){:target="_blank"}
+[![Challenge Mode - Stage 1 - Area 1](/assets/images/guides/challenge-mode-stage-1/area-1.webp)](/assets/images/guides/challenge-mode-stage-1/area-1.webp){:target="_blank"}
 
 ### Room 1
 
@@ -47,7 +48,7 @@ The force will be the first one to enter this room. They should push the switch 
 
 ## Area 2
 
-[![Challenge Mode - Stage 1 - Area 2](/assets/images/guides/challenge-mode-stage-1-area-2.webp)](/assets/images/guides/challenge-mode-stage-1-area-2.webp){:target="_blank"}
+[![Challenge Mode - Stage 1 - Area 2](/assets/images/guides/challenge-mode-stage-1/area-2.webp)](/assets/images/guides/challenge-mode-stage-1/area-2.webp){:target="_blank"}
 
 ## Room 1
 

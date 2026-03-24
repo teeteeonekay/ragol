@@ -7,7 +7,7 @@ export default () => {
     const faqNodes = [];
     const faqsDiv = Object.assign(document.createElement('div'), { className: 'faqs' });
 
-    for (let node = faqsHeading.nextElementSibling; node && node.tagName !== 'HR'; node = node.nextElementSibling) {
+    for (let node = faqsHeading.nextElementSibling; node && node.tagName !== 'HR' && node.tagName !== 'FOOTER'; node = node.nextElementSibling) {
         switch (node.tagName) {
             case 'H3':
                 faqNodes.push({ questionNode: node, answerNodes: [] });
