@@ -10,7 +10,7 @@ description: "Step-by-step guide to setting up a gamepad for Ephinea with all ac
 Ephinea Gamepad Setup
 =====================
 
-[Phantasy Star Online: Blue Burst on the Ephinea private server](https://ephinea.pioneer2.net){:target="_blank"} supports gamepads, but some additional configuration is needed to make them fully functional. This step-by-step guide shows you how to set up a gamepad for Ephinea, enabling all action shortcuts and improving camera control.
+[Ephinea Phantasy Star Online: Blue Burst](https://ephinea.pioneer2.net){:target="_blank"} supports gamepads, but some additional configuration is needed to make them fully functional. This step-by-step guide shows you how to set up a gamepad for Ephinea, enabling all action shortcuts and improving camera control.
 
 Contents
 --------

@@ -10,7 +10,7 @@ description: "Step-by-step guide to running Ephinea on Steam Deck with all actio
 Ephinea Steam Deck Setup
 ========================
 
-[Phantasy Star Online: Blue Burst on the Ephinea private server](https://ephinea.pioneer2.net){:target="_blank"} runs on Steam Deck, but some additional configuration is needed compared with Windows. This step-by-step guide shows you how to run Ephinea on a Steam Deck, enabling all action shortcuts and improving camera control.
+[Ephinea Phantasy Star Online: Blue Burst](https://ephinea.pioneer2.net){:target="_blank"} runs on Steam Deck, but some additional configuration is needed compared with Windows. This step-by-step guide shows you how to run Ephinea on a Steam Deck, enabling all action shortcuts and improving camera control.
 
 Contents
 --------
