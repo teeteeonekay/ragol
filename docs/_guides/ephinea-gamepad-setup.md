@@ -159,6 +159,8 @@ Step 4 - Enable Gamepad
 
 Enable your gamepad in the Ephinea Launcher (**Options** → **Page 4** → **Use XInput for Gamepad**).
 
+> Tip: If you’re on Steam Deck, you don’t need to enable this.
+
 [![Enable Gamepad](/assets/images/guides/ephinea-gamepad-setup/enable-gamepad/options.webp)](/assets/images/guides/ephinea-gamepad-setup/enable-gamepad/options.webp){:target="_blank"}
 
 ---
@@ -240,6 +242,10 @@ Yes. The guide uses an Xbox Series X/S controller as an example. Steam Deck and 
 ### I can't find the community button layout on Steam
 
 If you can’t find it, ask for help on our Discord or Forums.
+
+### I get the error "XInput support requires Windows 8 or greater. XInput will be disabled."
+
+If you’re on Steam Deck, you don’t need to enable XInput.
 
 ---
 
