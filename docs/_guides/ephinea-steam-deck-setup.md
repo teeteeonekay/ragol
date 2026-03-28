@@ -154,4 +154,10 @@ At the time of writing, there are issues with Lutris and Ephinea. Using Steam ke
 Extras
 ------
 
+### Gamepad
+
 Ephinea supports gamepads, but some additional configuration is needed to make them fully functional. The [Ephinea Gamepad Setup](/guides/ephinea-gamepad-setup/) guide shows you how to set up a gamepad for Ephinea, enabling all action shortcuts and improving camera control. It works great for Steam Deck too!
+
+### Font
+
+Ephinea uses **Tahoma** as the default in-game font, but also includes two additional fonts: **Dotum** and **Gulim**. The [Ephinea Font Setup](/guides/ephinea-font-setup/) guide shows you where to find the fonts and how to install them on both Windows and Steam Deck.
