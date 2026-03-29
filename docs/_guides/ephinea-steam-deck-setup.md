@@ -85,7 +85,7 @@ Now we’ll point Steam to the installed game instead of the installer.
 8. Click **Manage** → **Properties** → **Shortcut**.
 9. Paste into **TARGET**, with quotes (e.g. `"/home/deck/.local/share/Steam/steamapps/compatdata/3535824940/pfx/drive_c/EphineaPSO/online.exe"`).
 10. Paste into **START IN**, without quotes or a filename (e.g. `/home/deck/.local/share/Steam/steamapps/compatdata/3535824940/pfx/drive_c/EphineaPSO/`).
-11. Rename the shortcut to something like **Phantasy Star Online: Blue Burst**.
+11. Rename the shortcut to **Phantasy Star Online: Blue Burst**.
 
 > Tip: Use Dolphin's **Copy Location** to avoid typos when entering paths.
 

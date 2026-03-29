@@ -112,7 +112,7 @@ Adding PSO to Steam allows you to use Steam Input to map your gamepad to keyboar
 3. Select `online.exe`.
 4. Find the new entry in your library.
 5. Click **Manage** → **Properties**.
-6. Rename the shortcut to something like **Phantasy Star Online: Blue Burst**.
+6. Rename the shortcut to **Phantasy Star Online: Blue Burst**.
 
 [![Add PSO to Steam - Add a Non-Steam Game](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/add-a-non-steam-game.webp)](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/add-a-non-steam-game.webp){:target="_blank"}
 [![Add PSO to Steam - Properties](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/properties.webp)](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/properties.webp){:target="_blank"}
