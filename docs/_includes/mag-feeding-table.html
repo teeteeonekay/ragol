@@ -1,0 +1,39 @@
+<div class="mag-feeding-table">
+    <p>
+        {% assign categories = site.data.mags | where: 'feedingTable', include.name | group_by: 'category' %}
+        {% for category in categories %}
+            <strong>{{ category.name }}:</strong>
+            {% for mag in category.items %}
+                <a href="/guides/mags/#{{ mag.name | slugify }}">{{ mag.name }}</a>{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+            <br />
+        {% endfor %}
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th class="stat">Synchro</th>
+                <th class="stat">IQ</th>
+                <th class="stat level def">DEF</th>
+                <th class="stat level pow">POW</th>
+                <th class="stat level dex">DEX</th>
+                <th class="stat level mind">MIND</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% assign group = site.data.mag-feeding-tables | where: 'name', include.name | first %}
+            {% for item in group.items %}
+                <tr>
+                    <td>{{ item.name }}</td>
+                    <td class="stat {% if item.synchro > 0 %}positive{% elsif item.synchro < 0 %}negative{% else %}zero{% endif %}"><code>{% if item.synchro > 0 %}+{% endif %}{{ item.synchro }}</code></td>
+                    <td class="stat {% if item.iq > 0 %}positive{% elsif item.iq < 0 %}negative{% else %}zero{% endif %}"><code>{% if item.iq > 0 %}+{% endif %}{{ item.iq }}</code></td>
+                    <td class="stat {% if item.def > 0 %}positive{% elsif item.def < 0 %}negative{% else %}zero{% endif %}"><code>{% if item.def > 0 %}+{% endif %}{{ item.def }}</code></td>
+                    <td class="stat {% if item.pow > 0 %}positive{% elsif item.pow < 0 %}negative{% else %}zero{% endif %}"><code>{% if item.pow > 0 %}+{% endif %}{{ item.pow }}</code></td>
+                    <td class="stat {% if item.dex > 0 %}positive{% elsif item.dex < 0 %}negative{% else %}zero{% endif %}"><code>{% if item.dex > 0 %}+{% endif %}{{ item.dex }}</code></td>
+                    <td class="stat {% if item.mind > 0 %}positive{% elsif item.mind < 0 %}negative{% else %}zero{% endif %}"><code>{% if item.mind > 0 %}+{% endif %}{{ item.mind }}</code></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

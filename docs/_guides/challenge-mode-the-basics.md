@@ -12,6 +12,8 @@ Challenge Mode - The Basics
 
 Welcome! This guide is for all who are new (or even those who are experienced, but are intrigued to know more) about Challenge Mode. Please remember, all information differs and is not a set trend within the game! Everyone has their own opinion of who is the best character to use, etc. This guide is just a general oversight into the world of Challenge Mode. If there is anything you would like to discuss, or maybe if you've got some handy Japanese phrases that would be suitable to add to the list below in this guide, please visit our [Forums](https://forums.ragol.co.uk) and comment. All feedback is appreciated.
 
+<div class="contents" markdown="1">
+
 Contents
 --------
 
@@ -21,6 +23,8 @@ Contents
 * [Rangers](#rangers)
 * [Forces](#forces)
 * [Key Japanese Phrases](#key-japanese-phrases)
+
+</div>
 
 ---
 

@@ -1,0 +1,639 @@
+- name: Group 0
+  items:
+    - name: Monomate
+      synchro: 3
+      iq: 3
+      def: 5
+      pow: 40
+      dex: 5
+      mind: 0
+    - name: Dimate
+      synchro: 3
+      iq: 3
+      def: 10
+      pow: 45
+      dex: 5
+      mind: 0
+    - name: Trimate
+      synchro: 4
+      iq: 4
+      def: 15
+      pow: 50
+      dex: 10
+      mind: 0
+    - name: Monofluid
+      synchro: 3
+      iq: 3
+      def: 5
+      pow: 0
+      dex: 5
+      mind: 40
+    - name: Difluid
+      synchro: 3
+      iq: 3
+      def: 10
+      pow: 0
+      dex: 5
+      mind: 45
+    - name: Trifluid
+      synchro: 4
+      iq: 4
+      def: 15
+      pow: 0
+      dex: 10
+      mind: 50
+    - name: Antidote
+      synchro: 3
+      iq: 3
+      def: 5
+      pow: 1
+      dex: 40
+      mind: 0
+    - name: Antiparalysis
+      synchro: 3
+      iq: 3
+      def: 5
+      pow: 0
+      dex: 44
+      mind: 10
+    - name: Sol Atomizer
+      synchro: 4
+      iq: 1
+      def: 15
+      pow: 30
+      dex: 15
+      mind: 25
+    - name: Moon Atomizer
+      synchro: 4
+      iq: 1
+      def: 15
+      pow: 25
+      dex: 15
+      mind: 30
+    - name: Star Atomizer
+      synchro: 6
+      iq: 5
+      def: 25
+      pow: 25
+      dex: 25
+      mind: 25
+
+- name: Group 1
+  items:
+    - name: Monomate
+      synchro: 0
+      iq: 0
+      def: 5
+      pow: 10
+      dex: 0
+      mind: -1
+    - name: Dimate
+      synchro: 2
+      iq: 1
+      def: 6
+      pow: 15
+      dex: 3
+      mind: -3
+    - name: Trimate
+      synchro: 3
+      iq: 2
+      def: 12
+      pow: 21
+      dex: 4
+      mind: -7
+    - name: Monofluid
+      synchro: 0
+      iq: 0
+      def: 5
+      pow: 0
+      dex: 0
+      mind: 8
+    - name: Difluid
+      synchro: 2
+      iq: 1
+      def: 7
+      pow: 0
+      dex: 3
+      mind: 13
+    - name: Trifluid
+      synchro: 3
+      iq: 2
+      def: 7
+      pow: -7
+      dex: 6
+      mind: 19
+    - name: Antidote
+      synchro: 0
+      iq: 1
+      def: 0
+      pow: 5
+      dex: 15
+      mind: 0
+    - name: Antiparalysis
+      synchro: 2
+      iq: 0
+      def: -1
+      pow: 0
+      dex: 14
+      mind: 5
+    - name: Sol Atomizer
+      synchro: -2
+      iq: 2
+      def: 10
+      pow: 11
+      dex: 8
+      mind: 0
+    - name: Moon Atomizer
+      synchro: 3
+      iq: -2
+      def: 9
+      pow: 0
+      dex: 9
+      mind: 11
+    - name: Star Atomizer
+      synchro: 4
+      iq: 3
+      def: 14
+      pow: 9
+      dex: 18
+      mind: 11
+
+- name: Group 2
+  items:
+    - name: Monomate
+      synchro: 0
+      iq: -1
+      def: 1
+      pow: 9
+      dex: 0
+      mind: -5
+    - name: Dimate
+      synchro: 3
+      iq: 0
+      def: 1
+      pow: 13
+      dex: 0
+      mind: -10
+    - name: Trimate
+      synchro: 4
+      iq: 1
+      def: 8
+      pow: 16
+      dex: 2
+      mind: -15
+    - name: Monofluid
+      synchro: 0
+      iq: -1
+      def: 0
+      pow: -5
+      dex: 0
+      mind: 9
+    - name: Difluid
+      synchro: 3
+      iq: 0
+      def: 4
+      pow: -10
+      dex: 0
+      mind: 13
+    - name: Trifluid
+      synchro: 3
+      iq: 2
+      def: 6
+      pow: -15
+      dex: 5
+      mind: 17
+    - name: Antidote
+      synchro: -1
+      iq: 1
+      def: -5
+      pow: 4
+      dex: 12
+      mind: -5
+    - name: Antiparalysis
+      synchro: 0
+      iq: 0
+      def: -5
+      pow: -6
+      dex: 11
+      mind: 4
+    - name: Sol Atomizer
+      synchro: 4
+      iq: -2
+      def: 0
+      pow: 11
+      dex: 3
+      mind: -5
+    - name: Moon Atomizer
+      synchro: -1
+      iq: 1
+      def: 4
+      pow: -5
+      dex: 0
+      mind: 11
+    - name: Star Atomizer
+      synchro: 4
+      iq: 2
+      def: 7
+      pow: 8
+      dex: 6
+      mind: 9
+
+- name: Group 3
+  items:
+    - name: Monomate
+      synchro: 0
+      iq: -1
+      def: 0
+      pow: 3
+      dex: 0
+      mind: 0
+    - name: Dimate
+      synchro: 2
+      iq: 0
+      def: 5
+      pow: 7
+      dex: 0
+      mind: -5
+    - name: Trimate
+      synchro: 3
+      iq: 1
+      def: 4
+      pow: 14
+      dex: 6
+      mind: -10
+    - name: Monofluid
+      synchro: 0
+      iq: 0
+      def: 0
+      pow: 0
+      dex: 0
+      mind: 4
+    - name: Difluid
+      synchro: 0
+      iq: 1
+      def: 4
+      pow: -5
+      dex: 0
+      mind: 8
+    - name: Trifluid
+      synchro: 2
+      iq: 2
+      def: 4
+      pow: -10
+      dex: 3
+      mind: 15
+    - name: Antidote
+      synchro: -3
+      iq: 3
+      def: 0
+      pow: 0
+      dex: 7
+      mind: 0
+    - name: Antiparalysis
+      synchro: 3
+      iq: 0
+      def: -4
+      pow: -5
+      dex: 20
+      mind: -5
+    - name: Sol Atomizer
+      synchro: 3
+      iq: -2
+      def: -10
+      pow: 9
+      dex: 6
+      mind: 9
+    - name: Moon Atomizer
+      synchro: -2
+      iq: 2
+      def: 8
+      pow: 5
+      dex: -8
+      mind: 7
+    - name: Star Atomizer
+      synchro: 3
+      iq: 2
+      def: 7
+      pow: 7
+      dex: 7
+      mind: 7
+
+- name: Group 4
+  items:
+    - name: Monomate
+      synchro: 2
+      iq: -1
+      def: -5
+      pow: 9
+      dex: -5
+      mind: 0
+    - name: Dimate
+      synchro: 2
+      iq: 0
+      def: 0
+      pow: 11
+      dex: 0
+      mind: -10
+    - name: Trimate
+      synchro: 0
+      iq: 1
+      def: 4
+      pow: 14
+      dex: 0
+      mind: -15
+    - name: Monofluid
+      synchro: 2
+      iq: -1
+      def: -5
+      pow: 0
+      dex: -6
+      mind: 10
+    - name: Difluid
+      synchro: 2
+      iq: 0
+      def: 0
+      pow: -10
+      dex: 0
+      mind: 11
+    - name: Trifluid
+      synchro: 0
+      iq: 1
+      def: 4
+      pow: -15
+      dex: 0
+      mind: 15
+    - name: Antidote
+      synchro: 2
+      iq: -1
+      def: -5
+      pow: -5
+      dex: 16
+      mind: -5
+    - name: Antiparalysis
+      synchro: -2
+      iq: 3
+      def: 7
+      pow: -3
+      dex: 0
+      mind: -3
+    - name: Sol Atomizer
+      synchro: 4
+      iq: -2
+      def: 5
+      pow: 21
+      dex: -5
+      mind: -20
+    - name: Moon Atomizer
+      synchro: 3
+      iq: 0
+      def: -5
+      pow: -20
+      dex: 5
+      mind: 21
+    - name: Star Atomizer
+      synchro: 3
+      iq: 2
+      def: 4
+      pow: 6
+      dex: 8
+      mind: 5
+
+- name: Group 5
+  items:
+    - name: Monomate
+      synchro: 2
+      iq: -1
+      def: -4
+      pow: 13
+      dex: -5
+      mind: -5
+    - name: Dimate
+      synchro: 0
+      iq: 1
+      def: 0
+      pow: 16
+      dex: 0
+      mind: -15
+    - name: Trimate
+      synchro: 2
+      iq: 0
+      def: 3
+      pow: 19
+      dex: -2
+      mind: -18
+    - name: Monofluid
+      synchro: 2
+      iq: -1
+      def: -4
+      pow: -5
+      dex: -5
+      mind: 13
+    - name: Difluid
+      synchro: 0
+      iq: 1
+      def: 0
+      pow: -15
+      dex: 0
+      mind: 16
+    - name: Trifluid
+      synchro: 2
+      iq: 0
+      def: 3
+      pow: -20
+      dex: 0
+      mind: 19
+    - name: Antidote
+      synchro: 0
+      iq: 1
+      def: 5
+      pow: -6
+      dex: 6
+      mind: -5
+    - name: Antiparalysis
+      synchro: -1
+      iq: 1
+      def: 0
+      pow: -4
+      dex: 14
+      mind: -10
+    - name: Sol Atomizer
+      synchro: 4
+      iq: -1
+      def: 4
+      pow: 17
+      dex: -5
+      mind: -15
+    - name: Moon Atomizer
+      synchro: 2
+      iq: 0
+      def: -10
+      pow: -15
+      dex: 5
+      mind: 21
+    - name: Star Atomizer
+      synchro: 3
+      iq: 2
+      def: 2
+      pow: 8
+      dex: 3
+      mind: 6
+
+- name: Group 6
+  items:
+    - name: Monomate
+      synchro: -1
+      iq: 1
+      def: -3
+      pow: 9
+      dex: -3
+      mind: -4
+    - name: Dimate
+      synchro: 2
+      iq: 0
+      def: 0
+      pow: 11
+      dex: 0
+      mind: -10
+    - name: Trimate
+      synchro: 2
+      iq: 0
+      def: 2
+      pow: 15
+      dex: 0
+      mind: -16
+    - name: Monofluid
+      synchro: -1
+      iq: 1
+      def: -3
+      pow: -4
+      dex: -3
+      mind: 9
+    - name: Difluid
+      synchro: 2
+      iq: 0
+      def: 0
+      pow: -10
+      dex: 0
+      mind: 11
+    - name: Trifluid
+      synchro: 2
+      iq: 0
+      def: -2
+      pow: -15
+      dex: 0
+      mind: 19
+    - name: Antidote
+      synchro: 2
+      iq: -1
+      def: 0
+      pow: 6
+      dex: 9
+      mind: -15
+    - name: Antiparalysis
+      synchro: -2
+      iq: 3
+      def: 0
+      pow: -15
+      dex: 9
+      mind: 6
+    - name: Sol Atomizer
+      synchro: 3
+      iq: -1
+      def: 9
+      pow: -20
+      dex: -5
+      mind: 17
+    - name: Moon Atomizer
+      synchro: 0
+      iq: 2
+      def: -5
+      pow: 20
+      dex: 5
+      mind: -20
+    - name: Star Atomizer
+      synchro: 3
+      iq: 2
+      def: 0
+      pow: 11
+      dex: 0
+      mind: 11
+
+- name: Group 7
+  items:
+    - name: Monomate
+      synchro: -1
+      iq: 0
+      def: -4
+      pow: 21
+      dex: -15
+      mind: -5
+    - name: Dimate
+      synchro: 0
+      iq: 1
+      def: -1
+      pow: 27
+      dex: -10
+      mind: -16
+    - name: Trimate
+      synchro: 2
+      iq: 0
+      def: 5
+      pow: 29
+      dex: -7
+      mind: -25
+    - name: Monofluid
+      synchro: -1
+      iq: 0
+      def: -10
+      pow: -5
+      dex: -10
+      mind: 21
+    - name: Difluid
+      synchro: 0
+      iq: 1
+      def: -5
+      pow: -16
+      dex: -5
+      mind: 25
+    - name: Trifluid
+      synchro: 2
+      iq: 0
+      def: -7
+      pow: -25
+      dex: 6
+      mind: 29
+    - name: Antidote
+      synchro: -1
+      iq: 1
+      def: -10
+      pow: -10
+      dex: 28
+      mind: -10
+    - name: Antiparalysis
+      synchro: 2
+      iq: -1
+      def: 9
+      pow: -18
+      dex: 24
+      mind: -15
+    - name: Sol Atomizer
+      synchro: 2
+      iq: 1
+      def: 19
+      pow: 18
+      dex: -15
+      mind: -20
+    - name: Moon Atomizer
+      synchro: 2
+      iq: 1
+      def: -15
+      pow: -20
+      dex: 19
+      mind: 18
+    - name: Star Atomizer
+      synchro: 4
+      iq: 2
+      def: 3
+      pow: 7
+      dex: 3
+      mind: 3

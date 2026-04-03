@@ -1,0 +1,157 @@
+<div class="mags">
+    {% assign mags = site.data.mags | where: 'category', include.category %}
+    {% for mag in mags %}
+        <div class="mag {{ mag.introduced | slugify }}" id="{{ mag.name | slugify }}">
+            <h3 class="name"><a href="#{{ mag.name | slugify }}">{{ mag.name }}</a> <span class="introduced">{{ mag.introduced }}</span></h3>
+            <div class="images">
+                <img alt="" aria-hidden="true" class="preview" src="/assets/images/guides/mags/mags/{{ mag.name | slugify }}/preview.webp">
+                <a href="/assets/images/guides/mags/mags/{{ mag.name | slugify }}/large.webp" target="_blank">
+                    <img alt="{{ mag.name }} Screenshot" class="screenshot" decoding="async" loading="lazy" src="/assets/images/guides/mags/mags/{{ mag.name | slugify }}/small.webp">
+                </a>
+            </div>
+            <div class="data">
+                <h4>Overview</h4>
+                <dl>
+                    <dt>Evolution:</dt>
+                    <dd class="evolution">{{ mag.evolution }}</dd>
+                    <dt>Level:</dt>
+                    <dd>{{ mag.level }}</dd>
+                    <dt>Photon Blast:</dt>
+                    <dd>
+                        {% case mag.photonBlastState %}
+                            {% when 'normal' %}
+                                <span class="tooltip" data-tooltip="{{ mag.photonBlast }}">
+                                    <img alt="{{ mag.photonBlast }}" src="/assets/images/guides/mags/photon-blasts/{{ mag.photonBlast | slugify }}.webp" />
+                                </span>
+                            {% when 'inherited' %}
+                                <span class="inherited">Inherited</span>
+                            {% when 'none' %}
+                                -
+                        {% endcase %}
+                    </dd>
+                    <dt>Feeding Table:</dt>
+                    <dd><a href="/guides/mag-feeding-tables/#{{ mag.feedingTable | slugify }}">{{ mag.feedingTable }}</a></dd>
+                </dl>
+            </div>
+            {% if mag.triggers %}
+                <div class="data">
+                    <h4>Triggers</h4>
+                    <dl>
+                        <dt>100% PB:</dt>
+                        <dd>
+                            {% if mag.triggers.pb100 %}
+                                <span class="tooltip" data-tooltip="{{ mag.triggers.pb100 }}">
+                                    <img alt="{{ mag.triggers.pb100 }}" src="/assets/images/guides/mags/triggers/{{ mag.triggers.pb100 | slugify }}.webp" />
+                                </span>
+                            {% else %}
+                                <span class="none">-</span>
+                            {% endif %}
+                        </dd>
+                        <dt>10% HP:</dt>
+                        <dd>
+                            {% if mag.triggers.hp10 %}
+                                <span class="tooltip" data-tooltip="{{ mag.triggers.hp10 }}">
+                                    <img alt="{{ mag.triggers.hp10 }}" src="/assets/images/guides/mags/triggers/{{ mag.triggers.hp10 | slugify }}.webp" />
+                                </span>
+                            {% else %}
+                                <span class="none">-</span>
+                            {% endif %}
+                        </dd>
+                        <dt>Boss:</dt>
+                        <dd>
+                            {% if mag.triggers.boss %}
+                                <span class="tooltip" data-tooltip="{{ mag.triggers.boss }}">
+                                    <img alt="{{ mag.triggers.boss }}" src="/assets/images/guides/mags/triggers/{{ mag.triggers.boss | slugify }}.webp" />
+                                </span>
+                            {% else %}
+                                <span class="none">-</span>
+                            {% endif %}
+                        </dd>
+                        <dt>Death:</dt>
+                        <dd>
+                            {% if mag.triggers.death %}
+                                <span class="tooltip" data-tooltip="{{ mag.triggers.death }}">
+                                    <img alt="{{ mag.triggers.death }}" src="/assets/images/guides/mags/triggers/{{ mag.triggers.death | slugify }}.webp" />
+                                </span>
+                            {% else %}
+                                <span class="none">-</span>
+                            {% endif %}
+                        </dd>
+                    </dl>
+                </div>
+            {% endif %}
+            {% if mag.evolutionRequirements != empty %}
+                <div class="data">
+                    <h4>Evolution Requirements</h4>
+                    {% for evolutionRequirement in mag.evolutionRequirements %}
+                        <dl>
+                            {% if evolutionRequirement.class %}
+                                <dt>Class:</dt>
+                                <dd>{{ evolutionRequirement.class }}</dd>
+                            {% endif %}
+                            {% if evolutionRequirement.sectionIds != empty %}
+                                <dt>Section IDs:</dt>
+                                <dd>
+                                    {% for sectionId in evolutionRequirement.sectionIds %}
+                                        <span class="tooltip" data-tooltip="{{ sectionId }}">
+                                            <img alt="{{ sectionId }}" src="/assets/images/guides/mags/section-ids/{{ sectionId | slugify }}.webp">
+                                        </span>
+                                    {% endfor %}
+                                </dd>
+                            {% endif %}
+                            {% if evolutionRequirement.magStats %}
+                                <dt>Mag Stats:</dt>
+                                <dd><code>{{ evolutionRequirement.magStats }}</code></dd>
+                            {% endif %}
+                        </dl>
+                    {% endfor %}
+                </div>
+            {% endif %}
+            {% if mag.cellRequirements %}
+                <div class="data">
+                    <h4>Cell Requirements</h4>
+                    <dl>
+                        <dt>Cell:</dt>
+                        <dd class="cell">{{ mag.cellRequirements.cell }}</dd>
+                        {% if mag.cellRequirements.level %}
+                            <dt>Level:</dt>
+                            <dd>{{ mag.cellRequirements.level }}</dd>
+                        {% endif %}
+                        {% if mag.cellRequirements.sectionIds != empty %}
+                            <dt>Section IDs:</dt>
+                            <dd>
+                                {% for sectionId in mag.cellRequirements.sectionIds %}
+                                    <span class="tooltip" data-tooltip="{{ sectionId }}">
+                                        <img alt="{{ sectionId }}" src="/assets/images/guides/mags/section-ids/{{ sectionId | slugify }}.webp">
+                                    </span>
+                                {% endfor %}
+                            </dd>
+                        {% endif %}
+                        {% if mag.cellRequirements.mag %}
+                            <dt>Mag:</dt>
+                            <dd><a href="#{{ mag.cellRequirements.mag | slugify }}">{{ mag.cellRequirements.mag }}</a></dd>
+                        {% endif %}
+                        {% if mag.cellRequirements.magLevel %}
+                            <dt>Mag Level:</dt>
+                            <dd>{{ mag.cellRequirements.magLevel }}</dd>
+                        {% endif %}
+                        {% if mag.cellRequirements.magEvolution %}
+                            <dt>Mag Evolution:</dt>
+                            <dd>{{ mag.cellRequirements.magEvolution }}</dd>
+                        {% endif %}
+                        {% if mag.cellRequirements.magStats %}
+                            <dt>Mag Stats:</dt>
+                            <dd><code>{{ mag.cellRequirements.magStats }}</code></dd>
+                        {% endif %}
+                    </dl>
+                </div>
+            {% endif %}
+            {% if mag.notes %}
+                <div class="data">
+                    <h4>Notes</h4>
+                    {{ mag.notes | markdownify }}
+                </div>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>

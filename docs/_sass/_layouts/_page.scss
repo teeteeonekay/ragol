@@ -1,11 +1,17 @@
 @import "../mixins";
 
-.container { background: #036; flex-grow: 1; min-height: 100%; padding: 1rem 0; }
+.breadcrumbs { font-size: 0.875rem; margin: 0 0 1rem; }
+.breadcrumbs ol { list-style: none; margin: 0; padding: 0; }
+.breadcrumbs ol li { display: inline; }
+.breadcrumbs ol li:not(:nth-last-child(2), :last-child)::after { content: "›"; margin: 0 0 0 0.5ch; }
+.breadcrumbs ol li:last-child { background: url(/assets/images/breadcrumb.png) no-repeat; display: block; font-weight: bold; padding: 0 0 0 18px; }
 
-.footer { border-top: 4px solid #39c; font-size: 0.813rem; padding: 1rem 0 0; }
-.footer .copyright a { color: #cff; font-weight: bold; }
+.container { background: $color-primary; flex-grow: 1; min-height: 100%; overflow-x: clip; padding: 1rem 0; }
 
-.header { border-bottom: 4px solid #39c; padding: 1rem 0; text-transform: uppercase; }
+.footer { border-top: 4px solid $color-separator-primary; font-size: 0.813rem; padding: 1rem 0 0; }
+.footer .copyright a { color: $color-heading-primary; font-weight: bold; }
+
+.header { border-bottom: 4px solid $color-separator-primary; padding: 1rem 0; text-transform: uppercase; }
 .header .wrapper { align-items: end; display: flex; gap: 1rem; }
 .header .logo { flex: 1; overflow: hidden; }
 .header .logo img { display: block; float: left; max-width: 200px; width: 100%; }
@@ -13,16 +19,12 @@
 .header .nav .domain { font-weight: bold; }
 .header .nav .domain .tld { font-weight: normal; }
 .header .nav ul { list-style: none; margin: 0; padding: 0; }
-.header .nav ul li { display: inline; }
-.header .nav ul li:not(:last-child)::after { content: "|"; margin: 0 0 0 0.5ch; }
+.header .nav ul li { display: inline; @include mobile { display: block; } }
+.header .nav ul li:not(:last-child)::after { content: "|"; margin: 0 0 0 0.5ch; @include mobile { content: none; } }
 .header .nav ul li a { vertical-align: middle; }
-@include mobile {
-    .header .nav ul li { display: block; }
-    .header .nav ul li:not(:last-child)::after { content: none; }
-}
 
 .main { margin: 0 0 1rem; }
-.main img { box-sizing: border-box; border-radius: 4px; max-width: 747px; width: 100%; }
-.main a img { border: 1px solid #0ff; }
+
+.table { max-width: 100%; margin: 0 0 1.5rem; overflow-x: auto; }
 
 .wrapper { margin: 0 auto; max-width: 1500px; padding: 0 1rem; }

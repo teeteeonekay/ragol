@@ -10,12 +10,16 @@ description: "Step‑by‑step walkthrough of Challenge Mode Stage 1: Area 1, Ar
 Challenge Mode Stage 1
 ======================
 
+<div class="contents" markdown="1">
+
 Contents
 --------
 
 * [Area 1](#area-1)
 * [Area 2](#area-2)
 * [Area 3](#area-3)
+
+</div>
 
 ---
 

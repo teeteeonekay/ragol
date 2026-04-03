@@ -12,6 +12,8 @@ Ephinea Font Setup
 
 [Ephinea Phantasy Star Online: Blue Burst](https://ephinea.pioneer2.net){:target="_blank"} uses **Tahoma** as the default in-game font, but also includes two additional fonts: **Dotum** and **Gulim**. These can be used to make the in-game text more closely match the original GameCube release. However, they need to be installed manually on your OS before selecting them in the launcher. This guide shows you where to find the fonts and how to install them on both Windows and Steam Deck.
 
+<div class="contents" markdown="1">
+
 Contents
 --------
 
@@ -19,6 +21,8 @@ Contents
 * [Windows](#windows)
 * [Steam Deck](#steam-deck)
 * [FAQs](#faqs)
+
+</div>
 
 ---
 
@@ -56,6 +60,8 @@ Steam Deck
 
 ---
 
+<div class="faqs" markdown="1">
+
 FAQs
 ----
 
@@ -66,3 +72,5 @@ Correct - both fonts are included in the same file. In fact, there are four font
 ### Which font is best?
 
 It’s up to you - I prefer **Dotum**.
+
+</div>

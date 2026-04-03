@@ -10,14 +10,16 @@ Character Stat Maxing Guide
 
 Hiya, I'm FurryBagi. (Bay-jee. Not Baggy) I've put alot of work into this guide, trying my best to make it the best that I could. All I ask is that if you like this guide and see me around, let me know! I hang out on the GameFAQS message board as. FurryBagi! Or if you see any of the following characters on PSO, then that is (probably) me too, until someone steals the names:
 
-* FOnewearl: Bagi
-* RAmarl: Meeya
-* HUnewearl: Neo Katt
-* FOmar: Dani Filth
+* **FOnewearl:** Bagi
+* **RAmarl:** Meeya
+* **HUnewearl:** Neo Katt
+* **FOmar:** Dani Filth
 
 I usually hang out on Deneb/4, Antares/9, Alcyone/6, or rarely Vega/1
 
 This guide is simply here to help players figure out how to more easily max their stats completely on Phantasy Star Online, using their materials, mags, and units. There are plenty of stat maxxing guides out there, but none of them completely max your stats, but this one does! Well, except of course for 2 classes which I have found are just 100% impossible to max out, but I got them _very very_ close. These 2 classes would be: HUnewearl, and FOnewearl. Anyways, enjoy! (Note that you do have to be level 200 for your stats to be maxxed with these setups) Any errors, should be reported to me via my contact information in the next section.
+
+<div class="contents" markdown="1">
 
 Contents
 --------
@@ -35,6 +37,8 @@ Contents
 * [FOnewm](#fonewm)
 * [FOnewearl](#fonewearl)
 * [FAQs](#faqs)
+
+</div>
 
 ---
 
@@ -621,6 +625,8 @@ Sorry people. She is completely impossible to ever max out too. I tried my best.
 
 ---
 
+<div class="faqs" markdown="1">
+
 FAQs
 ----
 
@@ -641,6 +647,8 @@ Power and Mind are the only 2 stats that are interchangeable in this way
 ### What if my mag has more than 5 def. It can be hard to keep it that low?
 
 It depends on how many leftover materials your class has available. If for example, you end up with 7 def on your mag. Make sure that either MIND or POW is the stat that has 2 less. (Or make sure each stat is 1 less), then use whatever amount of materials are necessary to make up the loss.
+
+</div>
 
 ---
 

@@ -12,6 +12,8 @@ Ephinea Gamepad Setup
 
 [Ephinea Phantasy Star Online: Blue Burst](https://ephinea.pioneer2.net){:target="_blank"} supports gamepads, but some additional configuration is needed to make them fully functional. This step-by-step guide shows you how to set up a gamepad for Ephinea, enabling all action shortcuts and improving camera control.
 
+<div class="contents" markdown="1">
+
 Contents
 --------
 
@@ -28,6 +30,8 @@ Contents
 * [FAQs](#faqs)
 * [Original Keyboard Mappings](#original-keyboard-mappings)
 
+</div>
+
 ---
 
 Mappings
@@ -43,7 +47,7 @@ Following this guide will result in the button mappings below. The triggers act 
 | `Left Stick Click`  | `Q`          | Auto Run                          |
 | `Right Stick`       |              | Adjust Camera                     |
 | `Right Stick Click` | `↑`          | Center Camera                     |
-| `LB`                | `↑`          | Center Camera / Prev Page         |
+| `LB`                | `↑` / `←`       | Center Camera / Prev Page         |
 
 ### Action Palette
 
@@ -53,7 +57,7 @@ Following this guide will result in the button mappings below. The triggers act 
 | `B`                 | `→`          | Action Palette Right              |
 | `X`                 | `←`          | Action Palette Left               |
 | `Y`                 | `End`        | Action Palette Top                |
-| `RB`                | `Ctrl`       | Change Action Palette / Next Page |
+| `RB`                | `Ctrl` / `→`    | Change Action Palette / Next Page |
 
 ### Action Shortcuts
 
@@ -228,6 +232,8 @@ Your gamepad should now be fully configured for Ephinea with support for all act
 
 ---
 
+<div class="faqs" markdown="1">
+
 FAQs
 ----
 
@@ -246,6 +252,8 @@ If you can’t find it, ask for help on our Discord or Forums.
 ### I get the error "XInput support requires Windows 8 or greater. XInput will be disabled."
 
 If you’re on Steam Deck, you don’t need to enable XInput.
+
+</div>
 
 ---
 

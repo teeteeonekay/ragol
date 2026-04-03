@@ -18,6 +18,8 @@ A Mag with the stats 5/45/45/5 will work perfectly as Defense and Dexterity (50)
 
 Remember that Defense and Dexterity both have a poor yeild on a Mag! This means for every point you put in Defense on your Mag you will get 1 DFP on your character! Dexterity is even worse! For every point of Dexterity you raise on a Mag, your character will get 0.5 ATA! Pretty naff eh?
 
+<div class="contents" markdown="1">
+
 Contents
 --------
 
@@ -27,6 +29,8 @@ Contents
 * [Stage 4 - Final Evolution!](#stage-4---final-evolution)
 * [Last few words...](#last-few-words)
 * [Useful Links](#useful-links)
+
+</div>
 
 ---
 
@@ -74,5 +78,5 @@ If you're having problems with making a Sato, or any other Mag - Just gimme a sh
 Useful Links
 ------------
 
-* [Mag listings and Feeding Charts](https://web.archive.org/web/20070211193513/http://ragol.co.uk/mags.shtml)
+* [Mag listings and Feeding Charts](/guides/mag/)
 * [Section ID and Mag Calculators](https://web.archive.org/web/20070211193513/http://ragol.co.uk/calculators.shtml)

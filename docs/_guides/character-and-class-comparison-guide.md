@@ -11,14 +11,16 @@ Character and Class Comparison Guide
 
 Hiya, I'm FurryBagi. (Bay-jee. Not Baggy). All I ask is that if you like this guide and see me around, let me know! I hang out on the GameFAQS message board as. FurryBagi! Or if you see any of the following characters on PSO, then that is (probably) me too, until someone steals the names:
 
-* FOnewearl: Bagi
-* RAmarl: Meeya
-* HUnewearl: Neo Katt
-* FOmar: Dani Filth
+* **FOnewearl:** Bagi
+* **RAmarl:** Meeya
+* **HUnewearl:** Neo Katt
+* **FOmar:** Dani Filth
 
 I usually hang out on Deneb/4, Antares/9, Alcyone/6, or rarely Vega/1
 
 This guide is a comparison of the different classes, and the different characters within each class. It is here to help you, the player, more effectively choose who he/she should play as. A couple of simple facts however, that should be taken into consideration. These are mostly just MY opinions, based around many known factors. While they may have similar opinions, my opinions do NOT reflect the opinions of the Ragol.co.uk staff. That said, I'll continue.
+
+<div class="contents" markdown="1">
 
 Contents
 --------
@@ -29,6 +31,8 @@ Contents
 * [Rangers](#rangers)
 * [Forces](#forces)
 * [FAQs](#faqs)
+
+</div>
 
 ---
 
@@ -122,6 +126,8 @@ FOnewearl is a great choice if you have patience, and the desire to be a healer.
 
 ---
 
+<div class="faqs" markdown="1">
+
 FAQs
 ----
 
@@ -132,6 +138,8 @@ How can my opinions be correct? They are mine, and mine alone.
 ### I disagree with you!! xxxx is way better than xxxx PERIOD!!!
 
 If it was hands-down better then I wouldn't have room to disagree now would I?
+
+</div>
 
 ---
 

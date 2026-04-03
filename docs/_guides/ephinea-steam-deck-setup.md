@@ -12,6 +12,8 @@ Ephinea Steam Deck Setup
 
 [Ephinea Phantasy Star Online: Blue Burst](https://ephinea.pioneer2.net){:target="_blank"} runs on Steam Deck, but some additional configuration is needed compared with Windows. This step-by-step guide shows you how to run Ephinea on a Steam Deck, enabling all action shortcuts and improving camera control.
 
+<div class="contents" markdown="1">
+
 Contents
 --------
 
@@ -22,6 +24,8 @@ Contents
 * [Step 5 - Finished](#step-5---finished)
 * [FAQs](#faqs)
 * [Extras](#extras)
+
+</div>
 
 ---
 
@@ -130,6 +134,8 @@ Restart your Steam Deck into *Gaming Mode* and launch the game from your library
 
 ---
 
+<div class="faqs" markdown="1">
+
 FAQs
 ----
 
@@ -148,6 +154,8 @@ It avoids the need for terminal commands, making the setup simpler for beginners
 ### Why not use Lutris?
 
 At the time of writing, there are issues with Lutris and Ephinea. Using Steam keeps things simple and reduces the chances of other issues occurring.
+
+</div>
 
 ---
 
