@@ -6,7 +6,7 @@ description: "Credits and licence information for Ragol.co.uk, including third-p
 Credits
 =======
 
-This page acknowledges third-party assets and licences used by Ragol.co.uk.
+This page acknowledges licences and third-party assets used by Ragol.co.uk.
 
 Phantasy Star Online
 --------------------
@@ -18,12 +18,12 @@ Licence
 
 Unless otherwise stated, original content created for Ragol.co.uk is licensed under [GPLv3](https://github.com/teeteeonekay/ragol/blob/main/LICENSE){:target="_blank"}. Third-party assets and materials remain subject to their original owners, authors, and licence terms.
 
+Third-Party Assets
+------------------
+
+Some interface icons and related assets are based on [PSO High Res UI](https://github.com/eleriaqueen/pso-highres-ui){:target="_blank"}.
+
 Hosting
 -------
 
 The Ragol.co.uk forums are hosted by [NoBull Networks](https://www.nobullnetworks.com){:target="_blank"}.
-
-Open Source Assets
-------------------
-
-Some interface icons and related assets are based on [PSO High Res UI](https://github.com/eleriaqueen/pso-highres-ui){:target="_blank"}.

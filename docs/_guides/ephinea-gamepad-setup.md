@@ -4,7 +4,7 @@ category: Ephinea
 commentsUrl: https://forums.ragol.co.uk/showthread.php?tid=11698
 coverImage: /assets/images/guides/ephinea-gamepad-setup/cover.webp
 date: 2026-03-10
-description: "Step-by-step guide to setting up a gamepad for Ephinea with all action shortcuts and improved camera control."
+description: "Step-by-step guide to setting up a gamepad for Ephinea PSO with all action shortcuts and improved camera control."
 ---
 
 Ephinea Gamepad Setup

@@ -1,14 +1,15 @@
 ---
 layout: base
 ---
-<header class="header">
+
+<header id="header">
     <div class="wrapper">
         <div class="logo"><a href="/"><img alt="Home" src="/assets/images/racaseal.webp" title="Home" /></a></div>
         {% include nav.html %}
     </div>
 </header>
-<div class="container">
-    <nav class="breadcrumbs">
+<div id="container">
+    <nav id="breadcrumbs">
         <div class="wrapper">
             <ol>
                 {% assign breadcrumbs = page.url | split: '/' %}
@@ -24,12 +25,12 @@ layout: base
             </ol>
         </div>
     </nav>
-    <main class="main">
+    <main id="main">
         <div class="wrapper">
             {{ content }}
         </div>
     </main>
-    <footer class="footer">
+    <footer id="footer">
         <div class="wrapper">
             <div class="copyright">© 2002-{{ 'now' | date: "%Y" }} <a href="https://ragol.co.uk">Ragol.co.uk</a> · <a href="https://github.com/teeteeonekay/ragol/blob/main/LICENSE">Licence</a> · <a href="/credits/">Credits</a></div>
         </div>

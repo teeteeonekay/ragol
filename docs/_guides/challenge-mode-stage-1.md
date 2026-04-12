@@ -4,7 +4,7 @@ category: Challenge Mode
 commentsUrl: https://forums.ragol.co.uk/showthread.php?tid=1809
 coverImage: /assets/images/guides/challenge-mode-stage-1/area-1.webp
 date: 2003-09-15
-description: "Step‑by‑step walkthrough of Challenge Mode Stage 1: Area 1, Area 2, and the Boss, with tips to complete the stage efficiently."
+description: "Step‑by‑step walkthrough of PSO Challenge Mode Stage 1: Area 1, Area 2, and the Boss, with tips to complete the stage efficiently."
 ---
 
 Challenge Mode Stage 1

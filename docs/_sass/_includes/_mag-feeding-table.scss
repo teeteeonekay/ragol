@@ -7,6 +7,6 @@
 .mag-feeding-table table th.stat.level.dex::before { background: $color-dex; }
 .mag-feeding-table table th.stat.level.mind::before { background: $color-mind; }
 .mag-feeding-table table td.stat code { white-space: nowrap; }
-.mag-feeding-table table td.stat.zero code { color: $color-zero; }
-.mag-feeding-table table td.stat.positive code { color: $color-positive; }
-.mag-feeding-table table td.stat.negative code { color: $color-negative; }
+.mag-feeding-table table td.stat.zero code { color: $color-zero !important; }
+.mag-feeding-table table td.stat.positive code { color: $color-positive !important; }
+.mag-feeding-table table td.stat.negative code { color: $color-negative !important; }

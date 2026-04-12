@@ -1,0 +1,11 @@
+@import "../mixins";
+@import "../variables";
+
+#guides .guides { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); list-style: none; margin: 0; padding: 0; @include tablet { grid-template-columns: repeat(2, 1fr); } @include mobile { grid-template-columns: 1fr; } }
+#guides .guides .guide { background: $color-secondary; border-top: 4px solid $color-separator-primary; border-radius: 4px; display: flex; flex-direction: column; }
+#guides .guides .guide .title { border-bottom: 1px solid $color-separator-secondary; margin: 0; }
+#guides .guides .guide .title a { color: $color-link-primary; display: block; padding: 0.75rem; text-decoration: none; }
+#guides .guides .guide .title a:is(:hover, :active) { color: $color-text; }
+#guides .guides .guide .cover { border-bottom: 1px solid $color-separator-secondary; height: 120px; object-fit: cover; width: 100%; }
+#guides .guides .guide .description { border-bottom: 1px solid $color-separator-secondary; flex-grow: 1; margin: 0; padding: 0.75rem; }
+#guides .guides .guide .meta { padding: 0.75rem; }

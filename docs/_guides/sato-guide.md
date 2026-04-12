@@ -1,8 +1,10 @@
 ---
 author: Junon
 category: Mags
+commentsUrl: https://forums.ragol.co.uk/showthread.php?tid=590
+coverImage: /assets/images/guides/sato-guide/cover.webp
 date: 2003-10-23
-description: "Step-by-step guide to raising the rare Episode II Mag Sato - feeding tips, evolution stages, and stats optimization."
+description: "Step-by-step guide to raising the rare PSO Episode II mag Sato - feeding tips, evolution stages, and stats optimization."
 ---
 
 Sato Guide
@@ -78,5 +80,5 @@ If you're having problems with making a Sato, or any other Mag - Just gimme a sh
 Useful Links
 ------------
 
-* [Mag listings and Feeding Charts](/guides/mag/)
+* [Mag listings and Feeding Charts](/guides/mags/)
 * [Section ID and Mag Calculators](https://web.archive.org/web/20070211193513/http://ragol.co.uk/calculators.shtml)

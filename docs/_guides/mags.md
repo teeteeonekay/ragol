@@ -4,7 +4,7 @@ category: Mags
 commentsUrl: https://forums.ragol.co.uk/showthread.php?tid=590
 coverImage: /assets/images/guides/mags/cover.webp
 date: 2003-08-16
-description: "A list of all mags including screenshots, photon blasts, triggers, and evolution requirements."
+description: "A list of all PSO mags including screenshots, photon blasts, triggers, and evolution requirements."
 ---
 
 Mags

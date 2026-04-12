@@ -1,7 +1,7 @@
-<div class="mags">
+<ul class="mags">
     {% assign mags = site.data.mags | where: 'category', include.category %}
     {% for mag in mags %}
-        <div class="mag {{ mag.introduced | slugify }}" id="{{ mag.name | slugify }}">
+        <li class="mag {{ mag.introduced | slugify }}" id="{{ mag.name | slugify }}">
             <h3 class="name"><a href="#{{ mag.name | slugify }}">{{ mag.name }}</a> <span class="introduced">{{ mag.introduced }}</span></h3>
             <div class="images">
                 <img alt="" aria-hidden="true" class="preview" src="/assets/images/guides/mags/mags/{{ mag.name | slugify }}/preview.webp">
@@ -152,6 +152,6 @@
                     {{ mag.notes | markdownify }}
                 </div>
             {% endif %}
-        </div>
+        </li>
     {% endfor %}
-</div>
+</ul>

@@ -4,7 +4,7 @@ category: Ephinea
 commentsUrl: https://forums.ragol.co.uk/showthread.php?tid=11699
 coverImage: /assets/images/guides/ephinea-steam-deck-setup/cover.webp
 date: 2026-03-24
-description: "Step-by-step guide to running Ephinea on Steam Deck with all action shortcuts and improved camera control."
+description: "Step-by-step guide to running Ephinea PSO on Steam Deck with all action shortcuts and improved camera control."
 ---
 
 Ephinea Steam Deck Setup

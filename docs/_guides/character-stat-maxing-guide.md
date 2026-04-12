@@ -1,8 +1,9 @@
 ---
 author: FurryBagi
 category: Character
+coverImage: /assets/images/guides/character-stat-maxing-guide/cover.webp
 date: 2003-06-15
-description: "Complete guide to maxing character stats - materials, Mags, and unit requirements to optimize Hunters, Rangers, and Forces."
+description: "Complete guide to maxing PSO character stats - materials, Mags, and unit requirements to optimize Hunters, Rangers, and Forces."
 ---
 
 Character Stat Maxing Guide

@@ -4,7 +4,7 @@ category: Ephinea
 commentsUrl: https://forums.ragol.co.uk/showthread.php?tid=11700
 coverImage: /assets/images/guides/ephinea-font-setup/in-game-after.webp
 date: 2026-03-27  
-description: "Step-by-step guide to changing the Ephinea in-game text to more closely match the original GameCube release."  
+description: "Step-by-step guide to changing the Ephinea PSO in-game text to more closely match the original GameCube release."  
 ---
 
 Ephinea Font Setup

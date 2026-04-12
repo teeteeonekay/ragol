@@ -2,8 +2,9 @@
 author: T_T1K
 category: Mags
 commentsUrl: https://forums.ragol.co.uk/showthread.php?tid=590
+coverImage: /assets/images/guides/mag-feeding-tables/cover.webp
 date: 2003-08-16
-description: "Mag feeding tables showing item effects on Synchro, IQ, DEF, POW, DEX, and MIND."
+description: "PSO mag feeding tables showing item effects on Synchro, IQ, DEF, POW, DEX, and MIND."
 ---
 
 Mag Feeding Tables

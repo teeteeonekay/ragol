@@ -1,32 +1,11 @@
 ---
 layout: page
 ---
-<article class="guide">
+
+<article id="guide">
     {{ content }}
-    <footer>
-        <ul class="meta">
-            <li class="author">
-                {% if page.author == 'decswxaqz' %}{% assign authorUrl = 'https://forums.ragol.co.uk/member.php?action=profile&uid=17' %}{% endif %}
-                {% if page.author == 'FurryBagi' %}{% assign authorUrl = 'https://forums.ragol.co.uk/member.php?action=profile&uid=78' %}{% endif %}
-                {% if page.author == 'Junon' %}{% assign authorUrl = 'https://forums.ragol.co.uk/member.php?action=profile&uid=2' %}{% endif %}
-                {% if page.author == 'Lee-yoshi' %}{% assign authorUrl = 'https://forums.ragol.co.uk/member.php?action=profile&uid=107' %}{% endif %}
-                {% if page.author == 'T_T1K' %}{% assign authorUrl = 'https://forums.ragol.co.uk/member.php?action=profile&uid=5' %}{% endif %}
-                <a href="{{ authorUrl }}">{{ page.author }}</a>
-            </li>
-            <li class="date">
-                {{ page.date | date: '%Y-%m-%d' }}
-            </li>
-            {% if page.commentsUrl %}
-                <li class="comments">
-                    <a href="{{ page.commentsUrl }}">
-                        Comments
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/>
-                        </svg>
-                    </a>
-                </li>
-            {% endif %}
-        </ul>
+    <footer class="footer">
+        {% include meta.html page=page %}
         <div class="back-to-top">
             <a href="#top">↑ Back to top</a>
         </div>

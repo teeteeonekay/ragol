@@ -1,18 +1,29 @@
 ---
 layout: page
 title: Guides
-description: "Phantasy Star Online guides written by fans and players - step‑by‑step walkthroughs, strategies, and tips to help you master every challenge."
+description: "Phantasy Star Online guides written by players - step‑by‑step walkthroughs, strategies, and tips."
 ---
 
-<h1>Guides</h1>
-{% assign categories = site.guides | group_by: 'category' | sort: 'name' %}
-{% for category in categories %}
-    <h2>{{ category.name }}</h2>
-    <ul>
-        {% assign guides = category.items | sort: 'title' %}
-        {% for guide in guides %}
-            <li><a href="{{ guide.url }}">{{ guide.title }}</a></li>
-        {% endfor %}
-    </ul>
-    {% if forloop.last == false %}<hr />{% endif %}
-{% endfor %}
+<div id="guides">
+    <h1>Guides</h1>
+    <p>Phantasy Star Online guides written by players - step‑by‑step walkthroughs, strategies, and tips.</p>
+    <hr />
+    {% assign categories = site.guides | group_by: 'category' | sort: 'name' %}
+    {% for category in categories %}
+        <h2>{{ category.name }}</h2>
+        <ul class="guides">
+            {% assign guides = category.items | sort: 'title' %}
+            {% for guide in guides %}
+                <li class="guide">
+                    <h3 class="title"><a href="{{ guide.url }}">{{ guide.title }}</a></h3>
+                    {% if guide.coverImage %}
+                        <img alt="{{ guide.title }}" class="cover" decoding="async" loading="lazy" src="{{ guide.coverImage }}">
+                    {% endif %}
+                    <p class="description">{{ guide.description }}</p>
+                    {% include meta.html page=guide %}
+                </li>
+            {% endfor %}
+        </ul>
+        {% if forloop.last == false %}<hr />{% endif %}
+    {% endfor %}
+</div>
