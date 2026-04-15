@@ -1,0 +1,4 @@
+@import "../mixins";
+@import "../variables";
+
+.category { border: 1px solid $color-muted; border-radius: 3px; color: $color-muted; display: block; font-family: Sarpanch, sans-serif; font-size: 0.7rem; font-weight: normal; line-height: 1; padding: 0.3rem; text-transform: uppercase; width: fit-content; }

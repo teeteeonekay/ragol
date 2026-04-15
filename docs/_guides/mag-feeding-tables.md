@@ -15,69 +15,69 @@ Mag Feeding Tables
 Contents
 --------
 
-* [Group 0](#group-0)
-* [Group 1](#group-1)
-* [Group 2](#group-2)
-* [Group 3](#group-3)
-* [Group 4](#group-4)
-* [Group 5](#group-5)
-* [Group 6](#group-6)
-* [Group 7](#group-7)
+* [Table 0](#table-0)
+* [Table 1](#table-1)
+* [Table 2](#table-2)
+* [Table 3](#table-3)
+* [Table 4](#table-4)
+* [Table 5](#table-5)
+* [Table 6](#table-6)
+* [Table 7](#table-7)
 
 </div>
 
 ---
 
-Group 0
+Table 0
 -------
 
-{% include mag-feeding-table.html name='Group 0' %}
+{% include mag-feeding-table.html name='Table 0' %}
 
 ---
 
-Group 1
+Table 1
 -------
 
-{% include mag-feeding-table.html name='Group 1' %}
+{% include mag-feeding-table.html name='Table 1' %}
 
 ---
 
-Group 2
+Table 2
 -------
 
-{% include mag-feeding-table.html name='Group 2' %}
+{% include mag-feeding-table.html name='Table 2' %}
 
 ---
 
-Group 3
+Table 3
 -------
 
-{% include mag-feeding-table.html name='Group 3' %}
+{% include mag-feeding-table.html name='Table 3' %}
 
 ---
 
-Group 4
+Table 4
 -------
 
-{% include mag-feeding-table.html name='Group 4' %}
+{% include mag-feeding-table.html name='Table 4' %}
 
 ---
 
-Group 5
+Table 5
 -------
 
-{% include mag-feeding-table.html name='Group 5' %}
+{% include mag-feeding-table.html name='Table 5' %}
 
 ---
 
-Group 6
+Table 6
 -------
 
-{% include mag-feeding-table.html name='Group 6' %}
+{% include mag-feeding-table.html name='Table 6' %}
 
 ---
 
-Group 7
+Table 7
 -------
 
-{% include mag-feeding-table.html name='Group 7' %}
+{% include mag-feeding-table.html name='Table 7' %}

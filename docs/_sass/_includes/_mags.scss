@@ -2,22 +2,23 @@
 @import "../variables";
 
 .mags { display: grid; gap: 1rem; grid-template-columns: repeat(4, 1fr); list-style: none; padding: 0; margin: 0; @include tablet { grid-template-columns: repeat(3, 1fr); } @include mobile { grid-template-columns: 1fr; } }
-.mags .mag { background: $color-secondary; border-top: 4px solid $color-separator-primary; border-radius: 4px; position: relative; transition: border-color 0.3s ease; }
-.mags .mag.ver-1:is(:hover, :target) { border-top-color: $color-ver-1; }
-.mags .mag.ver-2:is(:hover, :target) { border-top-color: $color-ver-2; }
-.mags .mag.episode-ii:is(:hover, :target) { border-top-color: $color-episode-ii; }
-.mags .mag.episode-iv:is(:hover, :target) { border-top-color: $color-episode-iv; }
-.mags .mag .name { border-bottom: 1px solid $color-separator-secondary; margin: 0; position: relative; }
-.mags .mag .name a { color: inherit; display: block; padding: 0.75rem; text-decoration: none; }
-.mags .mag .name .introduced { border: 1px solid $color-separator-primary; border-radius: 3px; color: $color-separator-primary; font-size: 0.7rem; font-weight: normal; padding: 0.15rem 0.4rem; pointer-events: none; position: absolute; right: 0.75rem; top: 50%; transform: translateY(-50%); transition: border-color 0.3s ease, color 0.3s ease; }
-.mags .mag.ver-1:is(:hover, :target) .name .introduced { border-color: $color-ver-1; color: $color-ver-1; }
-.mags .mag.ver-2:is(:hover, :target) .name .introduced { border-color: $color-ver-2; color: $color-ver-2; }
-.mags .mag.episode-ii:is(:hover, :target) .name .introduced { border-color: $color-episode-ii; color: $color-episode-ii; }
-.mags .mag.episode-iv:is(:hover, :target) .name .introduced { border-color: $color-episode-iv; color: $color-episode-iv; }
+.mags .mag { background: $color-secondary; border-top: 4px solid $color-separator-primary; border-radius: 4px; position: relative; transition: border-color 0.2s ease; }
+.mags .mag.ver-1:is(:hover, :target) { border-top-color: $color-version-ver-1; }
+.mags .mag.ver-2:is(:hover, :target) { border-top-color: $color-version-ver-2; }
+.mags .mag.episode-ii:is(:hover, :target) { border-top-color: $color-version-episode-ii; }
+.mags .mag.episode-iv:is(:hover, :target) { border-top-color: $color-version-episode-iv; }
+.mags .mag .name { border-bottom: 1px solid $color-separator-secondary; margin: 0; }
+.mags .mag .name a { align-items: center; color: inherit; display: flex; gap: 0.75rem; padding: 0.75rem; text-decoration: none; }
+.mags .mag .name a .text { flex: 1; }
+.mags .mag .name .introduced { border: 1px solid $color-separator-primary; border-radius: 3px; color: $color-separator-primary; font-family: Sarpanch, sans-serif; font-size: 0.7rem; font-weight: normal; line-height: 1; padding: 0.3rem; text-transform: uppercase; transition: border-color 0.2s ease, color 0.3s ease; }
+.mags .mag.ver-1:is(:hover, :target) .name .introduced { border-color: $color-version-ver-1; color: $color-version-ver-1; }
+.mags .mag.ver-2:is(:hover, :target) .name .introduced { border-color: $color-version-ver-2; color: $color-version-ver-2; }
+.mags .mag.episode-ii:is(:hover, :target) .name .introduced { border-color: $color-version-episode-ii; color: $color-version-episode-ii; }
+.mags .mag.episode-iv:is(:hover, :target) .name .introduced { border-color: $color-version-episode-iv; color: $color-version-episode-iv; }
 .mags .mag .images { align-items: center; background: radial-gradient(circle, $color-primary 0%, $color-secondary 100%); border-bottom: 1px solid $color-separator-secondary; display: flex; height: 120px; justify-content: center; overflow: hidden; position: relative; }
-.mags .mag .images img.preview { height: 64px; image-rendering: pixelated; object-fit: contain; pointer-events: none; position: relative; transition: opacity 0.3s ease, transform 0.3s ease; width: 64px; }
+.mags .mag .images img.preview { height: 64px; image-rendering: pixelated; object-fit: contain; pointer-events: none; position: relative; transition: opacity 0.2s ease, transform 0.3s ease; width: 64px; }
 .mags .mag:is(:hover, :target) .images img.preview { opacity: 0; transform: scale(0.9); }
-.mags .mag .images img.screenshot { filter: blur(3px); height: 100%; inset: 0; object-fit: cover; opacity: 0.15; position: absolute; transition: filter 0.3s ease, opacity 0.3s ease; width: 100%; }
+.mags .mag .images img.screenshot { filter: blur(3px); height: 100%; inset: 0; object-fit: cover; opacity: 0.15; position: absolute; transition: filter 0.2s ease, opacity 0.3s ease; width: 100%; }
 .mags .mag:is(:hover, :target) .images img.screenshot { filter: blur(0); opacity: 1; }
 .mags .mag .data { border-bottom: 1px solid $color-separator-secondary; padding: 0.75rem; }
 .mags .mag .data:last-child { border-bottom: none; }

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Guides
 description: "Phantasy Star Online guides written by players - step‑by‑step walkthroughs, strategies, and tips."
 ---
@@ -15,7 +14,7 @@ description: "Phantasy Star Online guides written by players - step‑by‑step 
             {% assign guides = category.items | sort: 'title' %}
             {% for guide in guides %}
                 <li class="guide">
-                    <h3 class="title"><a href="{{ guide.url }}">{{ guide.title }}</a></h3>
+                    <h3 class="title"><a href="{{ guide.url }}"><span class="text">{{ guide.title }}</span> <span class="category">{{ guide.category }}</span></a></h3>
                     {% if guide.coverImage %}
                         <img alt="{{ guide.title }}" class="cover" decoding="async" loading="lazy" src="{{ guide.coverImage }}">
                     {% endif %}
@@ -26,4 +25,9 @@ description: "Phantasy Star Online guides written by players - step‑by‑step 
         </ul>
         {% if forloop.last == false %}<hr />{% endif %}
     {% endfor %}
+    <footer class="footer">
+        <div class="back-to-top">
+            <a href="#top">↑ Back to top</a>
+        </div>
+    </footer>
 </div>

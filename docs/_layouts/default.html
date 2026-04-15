@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {% if page.title %}
+            {% assign title = page.title | append: ' - ' | append: site.title %}
+        {% else %}
+            {% assign title = site.title %}
+        {% endif %}
+        {% assign description = page.description | default: site.description %}
+        {% assign url = page.url | absolute_url %}
+        {% assign coverImage = page.coverImage | default: '/assets/images/racaseal.webp' | absolute_url %}
+        <title>{{ title }}</title>
+        <meta name="description" content="{{ description }}" />
+        <meta property="og:title" content="{{ title }}" />
+        <meta property="og:description" content="{{ description }}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="{{ url }}" />
+        <meta property="og:site_name" content="{{ site.title }}" />
+        <meta property="og:image" content="{{ coverImage }}" />
+        <link rel="canonical" href="{{ url }}" />
+        <link rel="icon" href="/favicon.ico" />
+		<link rel="stylesheet" href="/assets/css/styles.css" />
+		<script src="/assets/js/scripts.js" type="module"></script>
+	</head>
+	<body id="top">
+        <header id="header">
+            <div class="wrapper">
+                <a class="logo" href="/">
+                    <img alt="RAcaseal" class="image" src="/assets/images/racaseal.webp" title="Home" />
+                    <div class="text">
+                        <div class="site">Ragol<span class="tld">.co.uk</span></div>
+                        <div class="tagline">A Phantasy Star Online Fansite</div>
+                    </div>
+                </a>
+                <nav class="nav max">
+                    {% include nav-links.html %}
+                </nav>
+                <nav class="nav min">
+                    <input id="nav-toggle" type="checkbox" />
+                    <label class="burger" for="nav-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M20 5H4V7H20V5Z" />
+                            <path d="M4 11H20V13H4V11Z" />
+                            <path d="M20 17H4V19H20V17Z" />
+                        </svg>
+                    </label>
+                    <label class="overlay" for="nav-toggle"></label>
+                    {% include nav-links.html %}
+                </nav>
+            </div>
+        </header>
+        <div id="container">
+            {% if page.url != '/' %}
+                <nav id="breadcrumbs">
+                    <div class="wrapper">
+                        <ol>
+                            {% assign breadcrumbs = page.url | split: '/' %}
+                            {% for breadcrumb in breadcrumbs %}
+                                {% if forloop.first %}
+                                    <li><a href="/">Home</a></li>
+                                {% elsif forloop.last %}
+                                    <li>{{ page.title }}</li>
+                                {% else %}
+                                    <li><a href="{% for breadcrumb in breadcrumbs limit: forloop.index %}{{ breadcrumb | append: '/' }}{% endfor %}">{{ breadcrumb | capitalize }}</a></li>
+                                {% endif %}
+                            {% endfor %}
+                        </ol>
+                    </div>
+                </nav>
+            {% endif %}
+            <main id="main">
+                <div class="wrapper">
+                    {{ content }}
+                </div>
+            </main>
+            <footer id="footer">
+                <div class="wrapper">
+                    <div class="copyright">© 2002-{{ 'now' | date: "%Y" }} <a href="https://ragol.co.uk">Ragol.co.uk</a> · <a href="https://github.com/teeteeonekay/ragol/blob/main/LICENSE">Licence</a> · <a href="/credits/">Credits</a></div>
+                </div>
+            </footer>
+        </div>
+	</body>
+</html>

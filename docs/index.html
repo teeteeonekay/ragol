@@ -1,10 +1,82 @@
 ---
-layout: base
 ---
 
 <div id="home">
-    <div class="wrapper">
-        <h1 class="logo"><img alt="{{ site.title }} - {{ site.description }}" src="/assets/images/racaseal.webp" /></h1>
-        {% include nav.html %}
+    <div class="main">
+        <h1>News</h1>
+        <p class="welcome">Since 2003, <strong>Ragol.co.uk</strong> has been home to fans who never stopped playing Phantasy Star Online. We're still here, still playing, and still sharing everything we've learned along the way.</p>
+        <h2>Featured Post</h2>
+        {% assign featuredPost = site.news | where: 'featured', true | sort: 'date' | reverse | first %}
+        <article class="featured-post">
+            <div class="date">
+                <span class="month">{{ featuredPost.date | date: "%b" }}</span>
+                <span class="day">{{ featuredPost.date | date: "%-d" }}</span>
+            </div>
+            <div class="container">
+                {% if featuredPost.coverImage %}
+                    <a class="cover" href="{{ featuredPost.link }}">
+                        <img alt="{{ featuredPost.title }}" src="{{ featuredPost.coverImage }}">
+                    </a>
+                {% endif %}
+                <div class="content">
+                    {% include category.html page=featuredPost %}
+                    <h3 class="title"><a href="{{ featuredPost.link }}">{{ featuredPost.title }}</a></h3>
+                    {{ featuredPost.content }}
+                    {% include meta.html page=featuredPost %}
+                </div>
+            </div>
+        </article>
+        <h2>Latest Posts</h2>
+        <ul class="latest-posts">
+            {% assign news = site.news | where_exp: 'post', 'post.url != featuredPost.url' | sort: 'date' | reverse %}
+            {% for post in news %}
+                <li>
+                    <article class="latest-post">
+                        <div class="date">
+                            <span class="month">{{ post.date | date: "%b" }}</span>
+                            <span class="day">{{ post.date | date: "%-d" }}</span>
+                        </div>
+                        {% if post.coverImage %}
+                            <a class="cover" href="{{ post.link }}">
+                                <img alt="{{ post.title }}" decoding="async" loading="lazy" src="{{ post.coverImage }}">
+                            </a>
+                        {% endif %}
+                        <div class="content">
+                            <div class="category">{{ post.category }}</div>
+                            <h3 class="title"><a href="{{ post.link }}">{{ post.title }}</a></h3>
+                            {{ post.content }}
+                            {% include meta.html page=post %}
+                        </div>
+                    </article>
+                </li>
+            {% endfor %}
+        </ul>
     </div>
+    <aside class="aside">
+        <h2>Latest Guides</h2>
+        <ul class="latest-guides">
+            {% assign guides = site.guides | sort: 'date' | reverse %}
+            {% for guide in guides limit:10 %}
+                <li>
+                    <article class="latest-guide">
+                        {% if guide.coverImage %}
+                            <a class="cover" href="{{ guide.url }}">
+                                <img alt="{{ guide.title }}" decoding="async" loading="lazy" src="{{ guide.coverImage }}">
+                            </a>
+                        {% endif %}
+                        <div class="content">
+                            <div class="category">{{ guide.category }}</div>
+                            <h3 class="title"><a href="{{ guide.url }}">{{ guide.title }}</a></h3>
+                            <div class="date">{{ guide.date | date: '%Y-%m-%d' }}</div>
+                        </div>
+                    </article>
+                </li>
+            {% endfor %}
+        </ul>
+    </aside>
+    <footer class="footer">
+        <div class="back-to-top">
+            <a href="#top">↑ Back to top</a>
+        </div>
+    </footer>
 </div>

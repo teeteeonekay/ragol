@@ -5,7 +5,7 @@
   level: 5
   photonBlastState: none
   photonBlast: null
-  feedingTable: Group 0
+  feedingTable: Table 0
   triggers: null
   evolutionRequirements: []
   cellRequirements: null
@@ -18,7 +18,7 @@
   level: 10
   photonBlastState: normal
   photonBlast: Estlla
-  feedingTable: Group 1
+  feedingTable: Table 1
   triggers:
       pb100: Invulnerability
       hp10: null
@@ -38,7 +38,7 @@
   level: 10
   photonBlastState: normal
   photonBlast: Farlla
-  feedingTable: Group 1
+  feedingTable: Table 1
   triggers:
     pb100: Invulnerability
     hp10: null
@@ -58,7 +58,7 @@
   level: 10
   photonBlastState: normal
   photonBlast: Leilla
-  feedingTable: Group 1
+  feedingTable: Table 1
   triggers:
     pb100: Invulnerability
     hp10: null
@@ -78,7 +78,7 @@
   level: 35
   photonBlastState: normal
   photonBlast: Pilla
-  feedingTable: Group 2
+  feedingTable: Table 2
   triggers:
       pb100: Invulnerability
       hp10: Shifta & Deband
@@ -98,7 +98,7 @@
   level: 35
   photonBlastState: normal
   photonBlast: Pilla
-  feedingTable: Group 2
+  feedingTable: Table 2
   triggers:
       pb100: Invulnerability
       hp10: Shifta & Deband
@@ -118,7 +118,7 @@
   level: 35
   photonBlastState: normal
   photonBlast: Pilla
-  feedingTable: Group 3
+  feedingTable: Table 3
   triggers:
       pb100: Invulnerability
       hp10: Shifta & Deband
@@ -138,7 +138,7 @@
   level: 35
   photonBlastState: normal
   photonBlast: Mylla & Youlla
-  feedingTable: Group 2
+  feedingTable: Table 2
   triggers:
       pb100: Invulnerability
       hp10: Resta
@@ -155,7 +155,7 @@
   category: 2nd Evolution
   introduced: Ver. 1
   evolution: 2
-  feedingTable: Group 2
+  feedingTable: Table 2
   level: 35
   photonBlastState: normal
   photonBlast: Golla
@@ -178,7 +178,7 @@
   level: 35
   photonBlastState: normal
   photonBlast: Golla
-  feedingTable: Group 2
+  feedingTable: Table 2
   triggers:
       pb100: Invulnerability
       hp10: Resta
@@ -198,7 +198,7 @@
   level: 35
   photonBlastState: normal
   photonBlast: Golla
-  feedingTable: Group 3
+  feedingTable: Table 3
   triggers:
       pb100: Invulnerability
       hp10: Resta
@@ -218,7 +218,7 @@
   level: 35
   photonBlastState: normal
   photonBlast: Mylla & Youlla
-  feedingTable: Group 3
+  feedingTable: Table 3
   triggers:
       pb100: Invulnerability
       hp10: Resta
@@ -238,7 +238,7 @@
   level: 35
   photonBlastState: normal
   photonBlast: Mylla & Youlla
-  feedingTable: Group 4
+  feedingTable: Table 4
   triggers:
       pb100: Invulnerability
       hp10: Resta
@@ -258,7 +258,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Estlla
-  feedingTable: Group 6
+  feedingTable: Table 6
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -288,7 +288,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Estlla
-  feedingTable: Group 4
+  feedingTable: Table 4
   triggers:
       pb100: Invulnerability
       hp10: Invulnerability
@@ -321,7 +321,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Estlla
-  feedingTable: Group 6
+  feedingTable: Table 6
   triggers:
     pb100: Invulnerability
     hp10: Invulnerability
@@ -372,7 +372,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Pilla
-  feedingTable: Group 4
+  feedingTable: Table 4
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -421,7 +421,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Estlla
-  feedingTable: Group 5
+  feedingTable: Table 5
   triggers:
     pb100: Invulnerability
     hp10: Invulnerability
@@ -446,7 +446,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Pilla
-  feedingTable: Group 5
+  feedingTable: Table 5
   triggers:
     pb100: Resta
     hp10: Resta
@@ -479,7 +479,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Mylla & Youlla
-  feedingTable: Group 5
+  feedingTable: Table 5
   triggers:
     pb100: null
     hp10: Resta
@@ -512,7 +512,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Mylla & Youlla
-  feedingTable: Group 6
+  feedingTable: Table 6
   triggers:
     pb100: Invulnerability
     hp10: Shifta & Deband
@@ -553,7 +553,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Mylla & Youlla
-  feedingTable: Group 4
+  feedingTable: Table 4
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -586,7 +586,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Pilla
-  feedingTable: Group 4
+  feedingTable: Table 4
   triggers:
     pb100: null
     hp10: Shifta & Deband
@@ -643,7 +643,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Golla
-  feedingTable: Group 4
+  feedingTable: Table 4
   triggers:
     pb100: Resta
     hp10: Resta
@@ -676,7 +676,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Mylla & Youlla
-  feedingTable: Group 6
+  feedingTable: Table 6
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -701,7 +701,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Pilla
-  feedingTable: Group 6
+  feedingTable: Table 6
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -726,7 +726,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Mylla & Youlla
-  feedingTable: Group 6
+  feedingTable: Table 6
   triggers:
     pb100: null
     hp10: Shifta & Deband
@@ -767,7 +767,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Estlla
-  feedingTable: Group 5
+  feedingTable: Table 5
   triggers:
     pb100: Invulnerability
     hp10: Invulnerability
@@ -792,7 +792,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Golla
-  feedingTable: Group 6
+  feedingTable: Table 6
   triggers:
     pb100: Resta
     hp10: Resta
@@ -817,7 +817,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Farlla
-  feedingTable: Group 6
+  feedingTable: Table 6
   triggers:
     pb100: Invulnerability
     hp10: Shifta & Deband
@@ -842,7 +842,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Farlla
-  feedingTable: Group 5
+  feedingTable: Table 5
   triggers:
     pb100: Invulnerability
     hp10: Invulnerability
@@ -867,7 +867,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Pilla
-  feedingTable: Group 5
+  feedingTable: Table 5
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -892,7 +892,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Estlla
-  feedingTable: Group 5
+  feedingTable: Table 5
   triggers:
     pb100: Invulnerability
     hp10: Invulnerability
@@ -917,7 +917,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Golla
-  feedingTable: Group 4
+  feedingTable: Table 4
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -942,7 +942,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Golla
-  feedingTable: Group 4
+  feedingTable: Table 4
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -999,7 +999,7 @@
   level: 50+
   photonBlastState: normal
   photonBlast: Golla
-  feedingTable: Group 5
+  feedingTable: Table 5
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1024,7 +1024,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 6
+  feedingTable: Table 6
   triggers:
     pb100: Shifta & Deband
     hp10: Invulnerability
@@ -1053,7 +1053,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 5
+  feedingTable: Table 5
   triggers:
     pb100: Shifta & Deband
     hp10: Resta
@@ -1077,7 +1077,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Shifta & Deband
     hp10: Resta
@@ -1100,7 +1100,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Invulnerability
@@ -1136,7 +1136,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 6
+  feedingTable: Table 6
   triggers:
     pb100: Shifta & Deband
     hp10: Resta
@@ -1172,7 +1172,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 6 
+  feedingTable: Table 6 
   triggers:
     pb100: Shifta & Deband
     hp10: Resta
@@ -1201,7 +1201,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 5
+  feedingTable: Table 5
   triggers:
     pb100: Shifta & Deband
     hp10: Resta
@@ -1231,7 +1231,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 5
+  feedingTable: Table 5
   triggers:
     pb100: Invulnerability
     hp10: Invulnerability
@@ -1255,7 +1255,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Shifta & Deband
     hp10: Resta
@@ -1291,7 +1291,7 @@
   level: 50+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1315,7 +1315,7 @@
   level: 50+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Shifta & Deband
     hp10: Invulnerability
@@ -1339,7 +1339,7 @@
   level: 140+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1363,7 +1363,7 @@
   level: 50+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Shifta & Deband
     hp10: Invulnerability
@@ -1387,7 +1387,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Resta
     hp10: Resta
@@ -1416,7 +1416,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1440,7 +1440,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1464,7 +1464,7 @@
   level: 100+
   photonBlastState: none
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1488,7 +1488,7 @@
   level: 50+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Shifta & Deband
     hp10: Invulnerability
@@ -1512,7 +1512,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Invulnerability
@@ -1536,7 +1536,7 @@
   level: 70+
   photonBlastState: none
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1560,7 +1560,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Resta
     hp10: Invulnerability
@@ -1584,7 +1584,7 @@
   level: 50+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1608,7 +1608,7 @@
   level: 50+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1632,7 +1632,7 @@
   level: 5+
   photonBlastState: none
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: null
     hp10: null
@@ -1656,7 +1656,7 @@
   level: 60+
   photonBlastState: none
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: null
@@ -1680,7 +1680,7 @@
   level: 50+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1704,7 +1704,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1728,7 +1728,7 @@
   level: 50+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Shifta & Deband
     hp10: Invulnerability
@@ -1752,7 +1752,7 @@
   level: 120+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1776,7 +1776,7 @@
   level: 50+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1800,7 +1800,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Resta
     hp10: Resta
@@ -1829,7 +1829,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Shifta & Deband
     hp10: Shifta & Deband
@@ -1858,7 +1858,7 @@
   level: 50+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Shifta & Deband
     hp10: Shifta & Deband
@@ -1882,7 +1882,7 @@
   level: 145+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1906,7 +1906,7 @@
   level: 50+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Resta
     hp10: Resta
@@ -1930,7 +1930,7 @@
   level: 90+
   photonBlastState: none
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta
@@ -1954,7 +1954,7 @@
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Invulnerability
@@ -1983,7 +1983,7 @@
   level: 50+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Resta
     hp10: Resta
@@ -2007,7 +2007,7 @@
   level: 50+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Invulnerability
@@ -2031,7 +2031,7 @@
   level: 50+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Group 7
+  feedingTable: Table 7
   triggers:
     pb100: Invulnerability
     hp10: Resta

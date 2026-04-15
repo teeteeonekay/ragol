@@ -1,5 +1,5 @@
 <ul class="meta">
-    <li class="author">
+    <li class="meta-author">
         {% case include.page.author %}
             {% when 'decswxaqz' %}
                 {% assign authorUrl = 'https://forums.ragol.co.uk/member.php?action=profile&uid=17' %}
@@ -19,14 +19,14 @@
         {% endcase %}
         <a href="{{ authorUrl }}"><img alt="Avatar" src="{{ authorAvatarUrl }}" /> {{ include.page.author }}</a>
     </li>
-    <li class="date">
+    <li class="meta-date">
         {{ include.page.date | date: '%Y-%m-%d' }}
     </li>
     {% if include.page.commentsUrl %}
-        <li class="comments">
+        <li class="meta-comments">
             <a href="{{ include.page.commentsUrl }}">
                 Comments
-                <svg viewBox="0 0 24 24" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
                     <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/>
                 </svg>
             </a>

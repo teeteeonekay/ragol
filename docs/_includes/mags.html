@@ -2,9 +2,9 @@
     {% assign mags = site.data.mags | where: 'category', include.category %}
     {% for mag in mags %}
         <li class="mag {{ mag.introduced | slugify }}" id="{{ mag.name | slugify }}">
-            <h3 class="name"><a href="#{{ mag.name | slugify }}">{{ mag.name }}</a> <span class="introduced">{{ mag.introduced }}</span></h3>
+            <h3 class="name"><a href="#{{ mag.name | slugify }}"><span class="text">{{ mag.name }}</span> <span class="introduced">{{ mag.introduced }}</span></a></h3>
             <div class="images">
-                <img alt="" aria-hidden="true" class="preview" src="/assets/images/guides/mags/mags/{{ mag.name | slugify }}/preview.webp">
+                <img alt="" class="preview" src="/assets/images/guides/mags/mags/{{ mag.name | slugify }}/preview.webp">
                 <a href="/assets/images/guides/mags/mags/{{ mag.name | slugify }}/large.webp" target="_blank">
                     <img alt="{{ mag.name }} Screenshot" class="screenshot" decoding="async" loading="lazy" src="/assets/images/guides/mags/mags/{{ mag.name | slugify }}/small.webp">
                 </a>

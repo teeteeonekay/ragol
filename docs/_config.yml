@@ -3,10 +3,16 @@ description: A Phantasy Star Online Fansite
 url: https://ragol.co.uk
 
 collections:
+  news:
+    output: false
   guides:
     output: true
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
   - scope:
       path: ""
       type: guides

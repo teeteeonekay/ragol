@@ -4,13 +4,13 @@ category: Ephinea
 commentsUrl: https://forums.ragol.co.uk/showthread.php?tid=11700
 coverImage: /assets/images/guides/ephinea-font-setup/in-game-after.webp
 date: 2026-03-27  
-description: "Step-by-step guide to changing the Ephinea PSO in-game text to more closely match the original GameCube release."  
+description: "Step-by-step guide to changing the Ephinea PSO in-game text to better match the original GameCube release."  
 ---
 
 Ephinea Font Setup
 ==================
 
-[Ephinea Phantasy Star Online: Blue Burst](https://ephinea.pioneer2.net){:target="_blank"} uses **Tahoma** as the default in-game font, but also includes two additional fonts: **Dotum** and **Gulim**. These can be used to make the in-game text more closely match the original GameCube release. However, they need to be installed manually on your OS before selecting them in the launcher. This guide shows you where to find the fonts and how to install them on both Windows and Steam Deck.
+[Ephinea Phantasy Star Online: Blue Burst](https://ephinea.pioneer2.net){:target="_blank"} uses **Tahoma** as the default in-game font, but also includes two additional fonts: **Dotum** and **Gulim**. These can be used to make the in-game text better match the original GameCube release. However, they need to be installed manually on your OS before selecting them in the launcher. This guide shows you where to find the fonts and how to install them on both Windows and Steam Deck.
 
 <div class="contents" markdown="1">
 
