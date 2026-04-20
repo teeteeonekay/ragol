@@ -1,15 +1,13 @@
 @import "../mixins";
 @import "../variables";
 
-#guides .footer { flex: 100%; margin: 2.5rem 0 0; }
-#guides .footer .back-to-top { text-align: right; }
-
 #guides .guides { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); list-style: none; margin: 0; padding: 0; @include tablet { grid-template-columns: repeat(2, 1fr); } @include mobile { grid-template-columns: 1fr; } }
 #guides .guides .guide { background: $color-secondary; border-top: 4px solid $color-separator-primary; border-radius: 4px; display: flex; flex-direction: column; transition: border-color 0.2s ease; }
-#guides .guides .guide:has(.title a:is(:hover, :active)) { border-top-color: $color-link-primary; }
+#guides .guides .guide:has(.title a:is(:hover, :active), .cover:is(:hover, :active)) { border-top-color: $color-link-primary; }
 #guides .guides .guide .title { border-bottom: 1px solid $color-separator-secondary; margin: 0; }
 #guides .guides .guide .title a { align-items: center; color: $color-link-primary; display: flex; font-size: 1rem; font-weight: normal; gap: 0.75rem; padding: 0.75rem; text-decoration: none; }
 #guides .guides .guide .title a .text { flex: 1; }
-#guides .guides .guide .cover { border-bottom: 1px solid $color-separator-secondary; height: 120px; object-fit: cover; width: 100%; }
+#guides .guides .guide .cover { background: radial-gradient(circle, $color-primary 0%, $color-secondary 100%); border-bottom: 1px solid $color-separator-secondary; height: 120px; }
+#guides .guides .guide .cover img { height: 100%; object-fit: cover; width: 100%; }
 #guides .guides .guide .description { border-bottom: 1px solid $color-separator-secondary; flex-grow: 1; margin: 0; padding: 0.75rem; }
 #guides .guides .guide .meta { padding: 0.75rem; }

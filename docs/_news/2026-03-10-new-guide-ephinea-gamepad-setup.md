@@ -7,4 +7,4 @@ link: /guides/ephinea-gamepad-setup/
 title: "Ephinea Gamepad Setup"
 ---
 
-New guide! Get your gamepad set up for Ephinea PSO with all action shortcuts and smoother camera control.
+New guide! Get your gamepad set up for Ephinea PSO with all action shortcuts and improved camera control.

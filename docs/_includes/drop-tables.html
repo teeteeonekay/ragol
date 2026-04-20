@@ -1,0 +1,63 @@
+<div class="drop-tables {{ include.version | slugify }}">
+    {% assign dropTables = 'drop-tables-' | append: include.version | slugify %}
+    {% assign difficulty = site.data[dropTables] | where: 'name', include.difficulty | first %}
+    {% assign tabName = include.version | append: '-' | append: difficulty.name | slugify %}
+    <div class="tabs">
+        {% for episode in difficulty.episodes %}
+            {% assign tabId = tabName | append: '-' | append: episode.name | slugify %}
+            <input {% if forloop.first %}checked{% endif %} id="{{ tabId }}-tab" name="{{ tabName }}" type="radio">
+            <label for="{{ tabId }}-tab">{{ episode.name }}</label>
+        {% endfor %}
+    </div>
+    <div class="table">
+        {% for episode in difficulty.episodes %}
+            {% assign tabId = tabName | append: '-' | append: episode.name | slugify %}
+            <table id="{{ tabId }}-panel">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        {% for sectionId in episode.monsters.first.sectionIds %}
+                            <th class="{{ sectionId.name | slugify }}">
+                                <span class="tooltip bottom right" data-tooltip="{{ sectionId.name }}">
+                                    <img alt="{{ sectionId.name }}" src="/assets/images/section-ids/{{ sectionId.name | slugify }}.webp">
+                                </span>
+                            </th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for monster in episode.monsters %}
+                        <tr>
+                            <th>{{ monster.name }}</th>
+                            {% for sectionId in monster.sectionIds %}
+                                <td class="{{ sectionId.name | slugify }}">
+                                    {% for item in sectionId.items %}
+                                        <dl>
+                                            <dt>{{ item.name }}</dt>
+                                            <dd><code>{{ item.combinedDropRate }}</code></dd>
+                                        </dl>
+                                    {% endfor %}
+                                </td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                    {% for box in episode.boxes %}
+                        <tr>
+                            <th>Box: {{ box.name }}</th>
+                            {% for sectionId in box.sectionIds %}
+                                <td class="{{ sectionId.name | slugify }}">
+                                    {% for item in sectionId.items %}
+                                        <dl>
+                                            <dt>{{ item.name }}</dt>
+                                            <dd><code>{{ item.rareDropRate }}</code></dd>
+                                        </dl>
+                                    {% endfor %}
+                                </td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% endfor %}
+    </div>
+</div>

@@ -1,39 +1,39 @@
 - name: Mag
+  version: Ver. 1
   category: Starter
-  introduced: Ver. 1
   evolution: 0
   level: 5
   photonBlastState: none
   photonBlast: null
   feedingTable: Table 0
   triggers: null
-  evolutionRequirements: []
-  cellRequirements: null
+  evolutionConditions: []
+  cellEvolutionConditions: null
   notes: null
 
 - name: Kalki
+  version: Ver. 1
   category: 1st Evolution
-  introduced: Ver. 1
   evolution: 1
   level: 10
   photonBlastState: normal
   photonBlast: Estlla
   feedingTable: Table 1
   triggers:
-      pb100: Invulnerability
-      hp10: null
-      boss: Shifta & Deband
-      death: null
-  evolutionRequirements:
+    pb100: Invulnerability
+    hp10: null
+    boss: Shifta & Deband
+    death: null
+  evolutionConditions:
     - class: RA
       sectionIds: []
       magStats: null
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Varuna
+  version: Ver. 1
   category: 1st Evolution
-  introduced: Ver. 1
   evolution: 1
   level: 10
   photonBlastState: normal
@@ -44,16 +44,16 @@
     hp10: null
     boss: Shifta & Deband
     death: null
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU
       sectionIds: []
       magStats: null
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Vritra
+  version: Ver. 1
   category: 1st Evolution
-  introduced: Ver. 1
   evolution: 1
   level: 10
   photonBlastState: normal
@@ -64,196 +64,196 @@
     hp10: null
     boss: Resta
     death: null
-  evolutionRequirements:
+  evolutionConditions:
     - class: FO
       sectionIds: []
       magStats: null
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Ashvinau
+  version: Ver. 1
   category: 2nd Evolution
-  introduced: Ver. 1
   evolution: 2
   level: 35
   photonBlastState: normal
   photonBlast: Pilla
   feedingTable: Table 2
   triggers:
-      pb100: Invulnerability
-      hp10: Shifta & Deband
-      boss: null
-      death: null
-  evolutionRequirements:
+    pb100: Invulnerability
+    hp10: Shifta & Deband
+    boss: null
+    death: null
+  evolutionConditions:
     - class: null
       sectionIds: []
       magStats: DEX > POW & MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Marutah
+  version: Ver. 1
   category: 2nd Evolution
-  introduced: Ver. 1
   evolution: 2
   level: 35
   photonBlastState: normal
   photonBlast: Pilla
   feedingTable: Table 2
   triggers:
-      pb100: Invulnerability
-      hp10: Shifta & Deband
-      boss: null
-      death: null
-  evolutionRequirements:
+    pb100: Invulnerability
+    hp10: Shifta & Deband
+    boss: null
+    death: null
+  evolutionConditions:
     - class: null
       sectionIds: []
       magStats: DEX > POW & MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Mitra
+  version: Ver. 1
   category: 2nd Evolution
-  introduced: Ver. 1
   evolution: 2
   level: 35
   photonBlastState: normal
   photonBlast: Pilla
   feedingTable: Table 3
   triggers:
-      pb100: Invulnerability
-      hp10: Shifta & Deband
-      boss: null
-      death: null
-  evolutionRequirements:
+    pb100: Invulnerability
+    hp10: Shifta & Deband
+    boss: null
+    death: null
+  evolutionConditions:
     - class: null
       sectionIds: []
       magStats: DEX > POW & MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Namuci
+  version: Ver. 1
   category: 2nd Evolution
-  introduced: Ver. 1
   evolution: 2
   level: 35
   photonBlastState: normal
   photonBlast: Mylla & Youlla
   feedingTable: Table 2
   triggers:
-      pb100: Invulnerability
-      hp10: Resta
-      boss: Resta
-      death: null
-  evolutionRequirements:
+    pb100: Invulnerability
+    hp10: Resta
+    boss: Resta
+    death: null
+  evolutionConditions:
     - class: null
       sectionIds: []
       magStats: MIND > POW & DEX
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Rudra
+  version: Ver. 1
   category: 2nd Evolution
-  introduced: Ver. 1
   evolution: 2
   feedingTable: Table 2
   level: 35
   photonBlastState: normal
   photonBlast: Golla
   triggers:
-      pb100: Invulnerability
-      hp10: Resta
-      boss: Shifta & Deband
-      death: null
-  evolutionRequirements:
+    pb100: Invulnerability
+    hp10: Resta
+    boss: Shifta & Deband
+    death: null
+  evolutionConditions:
     - class: null
       sectionIds: []
       magStats: POW > DEX & MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Sumba
+  version: Ver. 1
   category: 2nd Evolution
-  introduced: Ver. 1
   evolution: 2
   level: 35
   photonBlastState: normal
   photonBlast: Golla
   feedingTable: Table 2
   triggers:
-      pb100: Invulnerability
-      hp10: Resta
-      boss: Shifta & Deband
-      death: null
-  evolutionRequirements:
+    pb100: Invulnerability
+    hp10: Resta
+    boss: Shifta & Deband
+    death: null
+  evolutionConditions:
     - class: null
       sectionIds: []
       magStats: POW > DEX & MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Surya
+  version: Ver. 1
   category: 2nd Evolution
-  introduced: Ver. 1
   evolution: 2
   level: 35
   photonBlastState: normal
   photonBlast: Golla
   feedingTable: Table 3
   triggers:
-      pb100: Invulnerability
-      hp10: Resta
-      boss: Shifta & Deband
-      death: null
-  evolutionRequirements:
+    pb100: Invulnerability
+    hp10: Resta
+    boss: Shifta & Deband
+    death: null
+  evolutionConditions:
     - class: null
       sectionIds: []
       magStats: POW > DEX & MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Tapas
+  version: Ver. 1
   category: 2nd Evolution
-  introduced: Ver. 1
   evolution: 2
   level: 35
   photonBlastState: normal
   photonBlast: Mylla & Youlla
   feedingTable: Table 3
   triggers:
-      pb100: Invulnerability
-      hp10: Resta
-      boss: Resta
-      death: null
-  evolutionRequirements:
+    pb100: Invulnerability
+    hp10: Resta
+    boss: Resta
+    death: null
+  evolutionConditions:
     - class: null
       sectionIds: []
       magStats: MIND > POW & DEX
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Vayu
+  version: Ver. 1
   category: 2nd Evolution
-  introduced: Ver. 1
   evolution: 2
   level: 35
   photonBlastState: normal
   photonBlast: Mylla & Youlla
   feedingTable: Table 4
   triggers:
-      pb100: Invulnerability
-      hp10: Resta
-      boss: Resta
-      death: null
-  evolutionRequirements:
+    pb100: Invulnerability
+    hp10: Resta
+    boss: Resta
+    death: null
+  evolutionConditions:
     - class: null
       sectionIds: []
       magStats: MIND > POW & DEX
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Andhaka
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -264,7 +264,7 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: FO
       sectionIds:
         - Viridia
@@ -278,23 +278,23 @@
         - Oran
         - Whitill
       magStats: POW > MIND & DEX (DEF ≥ 45)
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Apsaras
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
   photonBlast: Estlla
   feedingTable: Table 4
   triggers:
-      pb100: Invulnerability
-      hp10: Invulnerability
-      boss: Invulnerability
-      death: Reverser
-  evolutionRequirements:
+    pb100: Invulnerability
+    hp10: Invulnerability
+    boss: Invulnerability
+    death: Reverser
+  evolutionConditions:
     - class: HU
       sectionIds:
         - Greenill
@@ -311,12 +311,12 @@
         - Redria
         - Yellowboze
       magStats: MIND > DEX > POW
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Bana
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -327,7 +327,7 @@
     hp10: Invulnerability
     boss: Invulnerability
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU
       sectionIds:
         - Greenill
@@ -362,12 +362,12 @@
         - Oran
         - Whitill
       magStats: MIND > POW (DEF ≥ 45)
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Bhirava
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -378,7 +378,7 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU
       sectionIds:
         - Viridia
@@ -411,12 +411,12 @@
         - Oran
         - Whitill
       magStats: DEX > MIND > POW
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Durga
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -427,7 +427,7 @@
     hp10: Invulnerability
     boss: Invulnerability
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: RA
       sectionIds:
         - Greenill
@@ -436,12 +436,12 @@
         - Oran
         - Whitill
       magStats: MIND > DEX > POW
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Garuda
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -452,7 +452,7 @@
     hp10: Resta
     boss: Resta
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU
       sectionIds:
         - Greenill
@@ -469,12 +469,12 @@
         - Oran
         - Whitill
       magStats: DEX > POW > MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Ila
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -485,7 +485,7 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU
       sectionIds:
         - Viridia
@@ -502,12 +502,12 @@
         - Oran
         - Whitill
       magStats: MIND > DEX > POW
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Kabanda
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -518,7 +518,7 @@
     hp10: Shifta & Deband
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU
       sectionIds:
         - Viridia
@@ -543,12 +543,12 @@
         - Redria
         - Yellowboze
       magStats: MIND > DEX > POW
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Kaitabha
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -559,7 +559,7 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: RA
       sectionIds:
         - Greenill
@@ -576,12 +576,12 @@
         - Oran
         - Whitill
       magStats: DEX > POW > MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Kama
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -592,7 +592,7 @@
     hp10: Shifta & Deband
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU
       sectionIds:
         - Greenill
@@ -633,12 +633,12 @@
         - Redria
         - Yellowboze
       magStats: POW = MIND > DEX
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Kumara
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -649,7 +649,7 @@
     hp10: Resta
     boss: Resta
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: FO
       sectionIds:
         - Greenill
@@ -666,12 +666,12 @@
         - Oran
         - Whitill
       magStats: POW = DEX > MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Madhu
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -682,7 +682,7 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: RA
       sectionIds:
         - Greenill
@@ -691,12 +691,12 @@
         - Oran
         - Whitill
       magStats: POW > DEX > MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Marica
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -707,7 +707,7 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: FO
       sectionIds:
         - Greenill
@@ -716,12 +716,12 @@
         - Oran
         - Whitill
       magStats: POW > DEX > MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Naga
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -732,7 +732,7 @@
     hp10: Shifta & Deband
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: FO
       sectionIds:
         - Viridia
@@ -757,12 +757,12 @@
         - Oran
         - Whitill
       magStats: POW > MIND > DEX
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Nandin
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -773,7 +773,7 @@
     hp10: Invulnerability
     boss: Invulnerability
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU
       sectionIds:
         - Viridia
@@ -782,12 +782,12 @@
         - Redria
         - Yellowboze
       magStats: DEX > MIND > POW
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Naraka
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -798,7 +798,7 @@
     hp10: Resta
     boss: Resta
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: FO
       sectionIds:
         - Viridia
@@ -807,12 +807,12 @@
         - Redria
         - Yellowboze
       magStats: POW > DEX > MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Ravana
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -823,7 +823,7 @@
     hp10: Shifta & Deband
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: FO
       sectionIds:
         - Viridia
@@ -832,12 +832,12 @@
         - Redria
         - Yellowboze
       magStats: POW > MIND > DEX
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Ribhava
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -848,7 +848,7 @@
     hp10: Invulnerability
     boss: Invulnerability
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: FO
       sectionIds:
         - Viridia
@@ -857,12 +857,12 @@
         - Redria
         - Yellowboze
       magStats: DEX > POW > MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Sita
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -873,7 +873,7 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: FO
       sectionIds:
         - Viridia
@@ -882,12 +882,12 @@
         - Redria
         - Yellowboze
       magStats: DEX > MIND > POW
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Soma
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -898,7 +898,7 @@
     hp10: Invulnerability
     boss: Invulnerability
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU
       sectionIds:
         - Greenill
@@ -907,12 +907,12 @@
         - Oran
         - Whitill
       magStats: MIND > DEX > POW
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Ushasu
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -923,7 +923,7 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU
       sectionIds:
         - Viridia
@@ -932,12 +932,12 @@
         - Redria
         - Yellowboze
       magStats: MIND > DEX > POW
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Varaha
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -948,7 +948,7 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU
       sectionIds:
         - Viridia
@@ -989,12 +989,12 @@
         - Oran
         - Whitill
       magStats: POW = MIND > DEX
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Yaksa
+  version: Ver. 1
   category: 3rd Evolution
-  introduced: Ver. 1
   evolution: 3
   level: 50+
   photonBlastState: normal
@@ -1005,7 +1005,7 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU
       sectionIds:
         - Greenill
@@ -1014,12 +1014,12 @@
         - Oran
         - Whitill
       magStats: DEX > MIND > POW
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Bhima
+  version: Episode I & II
   category: 4th Evolution
-  introduced: Episode II
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1030,7 +1030,7 @@
     hp10: Invulnerability
     boss: Invulnerability
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: FO ♀
       sectionIds:
         - Greenill
@@ -1043,12 +1043,12 @@
         - Pinkal
         - Yellowboze
       magStats: DEF + POW = DEX + MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Deva
+  version: Episode I & II
   category: 4th Evolution
-  introduced: Episode II
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1059,7 +1059,7 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU ♂
       sectionIds:
         - Viridia
@@ -1067,12 +1067,12 @@
         - Redria
         - Whitill
       magStats: DEF + DEX = POW + MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Diwari
+  version: Episode I & II
   category: 4th Evolution
-  introduced: Episode II
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1083,19 +1083,19 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: RA ♀
       sectionIds:
         - Skyly
         - Pinkal
         - Yellowboze
       magStats: DEF + POW = DEX + MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Nidra
+  version: Episode I & II
   category: 4th Evolution
-  introduced: Episode II
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1106,7 +1106,7 @@
     hp10: Invulnerability
     boss: Invulnerability
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: FO ♂
       sectionIds:
         - Viridia
@@ -1126,12 +1126,12 @@
         - Pinkal
         - Yellowboze
       magStats: DEF + POW = DEX + MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Pushan
+  version: Episode I & II
   category: 4th Evolution
-  introduced: Episode II
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1142,7 +1142,7 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: RA ♂
       sectionIds:
         - Viridia
@@ -1162,23 +1162,23 @@
         - Pinkal
         - Yellowboze
       magStats: DEF + POW = DEX + MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Rati
+  version: Episode I & II
   category: 4th Evolution
-  introduced: Episode II
   evolution: 4
   level: 100+
   photonBlastState: inherited
   photonBlast: null
-  feedingTable: Table 6 
+  feedingTable: Table 6
   triggers:
     pb100: Shifta & Deband
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU ♂
       sectionIds:
         - Greenill
@@ -1191,12 +1191,12 @@
         - Pinkal
         - Yellowboze
       magStats: DEF + POW = DEX + MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Rukmin
+  version: Episode I & II
   category: 4th Evolution
-  introduced: Episode II
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1207,7 +1207,7 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: RA ♀
       sectionIds:
         - Viridia
@@ -1221,12 +1221,12 @@
         - Purplenum
         - Oran
       magStats: DEF + MIND = POW + DEX
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Sato
+  version: Episode I & II
   category: 4th Evolution
-  introduced: Episode II
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1237,7 +1237,7 @@
     hp10: Invulnerability
     boss: Invulnerability
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: FO ♀
       sectionIds:
         - Viridia
@@ -1245,12 +1245,12 @@
         - Redria
         - Whitill
       magStats: DEF + DEX = POW + MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Savitri
+  version: Episode I & II
   category: 4th Evolution
-  introduced: Episode II
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1261,7 +1261,7 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements:
+  evolutionConditions:
     - class: HU ♀
       sectionIds:
         - Viridia
@@ -1281,12 +1281,12 @@
         - Pinkal
         - Yellowboze
       magStats: DEF + POW = DEX + MIND
-  cellRequirements: null
+  cellEvolutionConditions: null
   notes: null
 
 - name: Agastya
+  version: Blue Burst
   category: Cell
-  introduced: Episode IV
   evolution: 4
   level: 50+
   photonBlastState: inherited
@@ -1297,8 +1297,8 @@
     hp10: Resta
     boss: Invulnerability
     death: null
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Liberta Kit
     level: null
     sectionIds: []
@@ -1309,8 +1309,8 @@
   notes: null
 
 - name: Angel's Wing
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 4
   level: 50+
   photonBlastState: inherited
@@ -1321,8 +1321,8 @@
     hp10: Invulnerability
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Heart of Angel
     level: null
     sectionIds: []
@@ -1333,8 +1333,8 @@
   notes: null
 
 - name: Chao
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 4
   level: 140+
   photonBlastState: inherited
@@ -1345,8 +1345,8 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Heart of Chao
     level: null
     sectionIds: []
@@ -1357,8 +1357,8 @@
   notes: null
 
 - name: Chu Chu
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 4
   level: 50+
   photonBlastState: inherited
@@ -1369,8 +1369,8 @@
     hp10: Invulnerability
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Heart of Chu Chu
     level: null
     sectionIds: []
@@ -1381,8 +1381,8 @@
   notes: null
 
 - name: Churel
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1393,8 +1393,8 @@
     hp10: Resta
     boss: Resta
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Cell of Mag 213
     level: null
     sectionIds:
@@ -1410,8 +1410,8 @@
   notes: null
 
 - name: Devil's Tail
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 5
   level: 100+
   photonBlastState: inherited
@@ -1422,8 +1422,8 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Heart of Devil
     level: null
     sectionIds: []
@@ -1434,8 +1434,8 @@
   notes: null
 
 - name: Devil's Wing
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1446,8 +1446,8 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Heart of Devil
     level: null
     sectionIds: []
@@ -1458,8 +1458,8 @@
   notes: null
 
 - name: Dreamcast
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 5
   level: 100+
   photonBlastState: none
@@ -1470,8 +1470,8 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Kit of Dreamcast
     level: 100+
     sectionIds: []
@@ -1482,8 +1482,8 @@
   notes: null
 
 - name: Elenor
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 4
   level: 50+
   photonBlastState: inherited
@@ -1494,8 +1494,8 @@
     hp10: Invulnerability
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Heart of YN-0117
     level: null
     sectionIds: []
@@ -1506,8 +1506,8 @@
   notes: null
 
 - name: Gael Giel
+  version: Blue Burst
   category: Cell
-  introduced: Episode IV
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1518,8 +1518,8 @@
     hp10: Invulnerability
     boss: Shifta & Deband
     death: null
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: D-Photon Core
     level: null
     sectionIds: []
@@ -1530,8 +1530,8 @@
   notes: "Every 5 seconds: `HP -1`"
 
 - name: Genesis
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 3
   level: 70+
   photonBlastState: none
@@ -1542,8 +1542,8 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Kit of Genesis
     level: 80+
     sectionIds: []
@@ -1554,8 +1554,8 @@
   notes: null
 
 - name: Geung-si
+  version: Blue Burst
   category: Cell
-  introduced: Episode IV
   evolution: 5
   level: 100+
   photonBlastState: inherited
@@ -1566,8 +1566,8 @@
     hp10: Invulnerability
     boss: Invulnerability
     death: null
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Tablet
     level: null
     sectionIds: []
@@ -1578,8 +1578,8 @@
   notes: null
 
 - name: Hamburger
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 4
   level: 50+
   photonBlastState: inherited
@@ -1590,8 +1590,8 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Kit of Hamburger
     level: null
     sectionIds: []
@@ -1602,8 +1602,8 @@
   notes: null
 
 - name: Kapu Kapu
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 4
   level: 50+
   photonBlastState: inherited
@@ -1614,8 +1614,8 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Heart of Kapu Kapu
     level: null
     sectionIds: []
@@ -1626,8 +1626,8 @@
   notes: null
 
 - name: Mark III
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 1
   level: 5+
   photonBlastState: none
@@ -1638,8 +1638,8 @@
     hp10: null
     boss: null
     death: null
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Kit of Mark III
     level: 60+
     sectionIds: []
@@ -1650,8 +1650,8 @@
   notes: null
 
 - name: Master System
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 2
   level: 60+
   photonBlastState: none
@@ -1662,8 +1662,8 @@
     hp10: null
     boss: Shifta & Deband
     death: null
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Kit of Master System
     level: 70+
     sectionIds: []
@@ -1674,8 +1674,8 @@
   notes: null
 
 - name: Moro
+  version: Blue Burst
   category: Cell
-  introduced: Episode IV
   evolution: 4
   level: 50+
   photonBlastState: inherited
@@ -1686,8 +1686,8 @@
     hp10: Resta
     boss: Resta
     death: null
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Heart of Morolian
     level: null
     sectionIds: []
@@ -1698,8 +1698,8 @@
   notes: "Set Weapon: Tension Blaster"
 
 - name: Opa-Opa
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1710,8 +1710,8 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Heart of Opa Opa
     level: null
     sectionIds: []
@@ -1722,8 +1722,8 @@
   notes: null
 
 - name: Panzer's Tail
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 4
   level: 50+
   photonBlastState: inherited
@@ -1734,8 +1734,8 @@
     hp10: Invulnerability
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Panther's Spirit
     level: null
     sectionIds: []
@@ -1746,8 +1746,8 @@
   notes: null
 
 - name: Pian
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 4
   level: 120+
   photonBlastState: inherited
@@ -1758,8 +1758,8 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Heart of Pian
     level: null
     sectionIds: []
@@ -1770,8 +1770,8 @@
   notes: null
 
 - name: Pioneer
+  version: Blue Burst
   category: Cell
-  introduced: Episode IV
   evolution: 4
   level: 50+
   photonBlastState: inherited
@@ -1782,8 +1782,8 @@
     hp10: Resta
     boss: Invulnerability
     death: null
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Pioneer Parts
     level: null
     sectionIds: []
@@ -1794,8 +1794,8 @@
   notes: null
 
 - name: Pitri
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1806,8 +1806,8 @@
     hp10: Resta
     boss: Resta
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Cell of Mag 502
     level: null
     sectionIds:
@@ -1823,8 +1823,8 @@
   notes: null
 
 - name: Preta
+  version: Blue Burst
   category: Cell
-  introduced: Episode IV
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1835,8 +1835,8 @@
     hp10: Shifta & Deband
     boss: Shifta & Deband
     death: null
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Cell of Mag 213
     level: null
     sectionIds:
@@ -1852,8 +1852,8 @@
   notes: null
 
 - name: Puyo
+  version: Blue Burst
   category: Cell
-  introduced: Episode IV
   evolution: 5
   level: 50+
   photonBlastState: inherited
@@ -1864,8 +1864,8 @@
     hp10: Shifta & Deband
     boss: Invulnerability
     death: null
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Amitie's Memo
     level: null
     sectionIds: []
@@ -1876,8 +1876,8 @@
   notes: null
 
 - name: Robochao
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 4
   level: 145+
   photonBlastState: inherited
@@ -1888,8 +1888,8 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Parts of Robochao
     level: null
     sectionIds: []
@@ -1900,8 +1900,8 @@
   notes: null
 
 - name: Rappy
+  version: Blue Burst
   category: Cell
-  introduced: Episode IV
   evolution: 4
   level: 50+
   photonBlastState: inherited
@@ -1912,8 +1912,8 @@
     hp10: Resta
     boss: Invulnerability
     death: null
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Rappy's Beak
     level: null
     sectionIds: []
@@ -1924,8 +1924,8 @@
   notes: null
 
 - name: Sega Saturn
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 3
   level: 90+
   photonBlastState: none
@@ -1936,8 +1936,8 @@
     hp10: Resta
     boss: Shifta & Deband
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Kit of Sega Saturn
     level: 90+
     sectionIds: []
@@ -1948,8 +1948,8 @@
   notes: null
 
 - name: Soniti
+  version: Ver. 2
   category: Cell
-  introduced: Ver. 2
   evolution: 4
   level: 100+
   photonBlastState: inherited
@@ -1960,8 +1960,8 @@
     hp10: Invulnerability
     boss: Invulnerability
     death: Reverser
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Cell of Mag 502
     level: null
     sectionIds:
@@ -1977,8 +1977,8 @@
   notes: null
 
 - name: Striker Unit
+  version: Blue Burst
   category: Cell
-  introduced: Episode IV
   evolution: 4
   level: 50+
   photonBlastState: inherited
@@ -1989,8 +1989,8 @@
     hp10: Resta
     boss: Resta
     death: null
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Heaven Striker Coat
     level: null
     sectionIds: []
@@ -2001,8 +2001,8 @@
   notes: "Set Weapon: Heaven Striker"
 
 - name: Tellusis
+  version: Blue Burst
   category: Cell
-  introduced: Episode IV
   evolution: 4
   level: 50+
   photonBlastState: inherited
@@ -2013,8 +2013,8 @@
     hp10: Invulnerability
     boss: Invulnerability
     death: null
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Dragon Scale
     level: null
     sectionIds: []
@@ -2025,8 +2025,8 @@
   notes: "Set Weapon: Excalibur"
 
 - name: Yahoo!
+  version: Blue Burst
   category: Cell
-  introduced: Episode IV
   evolution: 4
   level: 50+
   photonBlastState: inherited
@@ -2037,8 +2037,8 @@
     hp10: Resta
     boss: Invulnerability
     death: null
-  evolutionRequirements: []
-  cellRequirements:
+  evolutionConditions: []
+  cellEvolutionConditions:
     cell: Yahoo!'s engine
     level: null
     sectionIds: []

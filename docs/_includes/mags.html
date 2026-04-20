@@ -1,8 +1,8 @@
 <ul class="mags">
     {% assign mags = site.data.mags | where: 'category', include.category %}
     {% for mag in mags %}
-        <li class="mag {{ mag.introduced | slugify }}" id="{{ mag.name | slugify }}">
-            <h3 class="name"><a href="#{{ mag.name | slugify }}"><span class="text">{{ mag.name }}</span> <span class="introduced">{{ mag.introduced }}</span></a></h3>
+        <li class="mag {{ mag.version | slugify }}" id="{{ mag.name | slugify }}">
+            <h3 class="name"><a href="#{{ mag.name | slugify }}"><span class="text">{{ mag.name }}</span> <span class="version">{{ mag.version }}</span></a></h3>
             <div class="images">
                 <img alt="" class="preview" src="/assets/images/guides/mags/mags/{{ mag.name | slugify }}/preview.webp">
                 <a href="/assets/images/guides/mags/mags/{{ mag.name | slugify }}/large.webp" target="_blank">
@@ -80,68 +80,68 @@
                     </dl>
                 </div>
             {% endif %}
-            {% if mag.evolutionRequirements != empty %}
+            {% if mag.evolutionConditions != empty %}
                 <div class="data">
-                    <h4>Evolution Requirements</h4>
-                    {% for evolutionRequirement in mag.evolutionRequirements %}
+                    <h4>Evolution Conditions</h4>
+                    {% for evolutionCondition in mag.evolutionConditions %}
                         <dl>
-                            {% if evolutionRequirement.class %}
+                            {% if evolutionCondition.class %}
                                 <dt>Class:</dt>
-                                <dd>{{ evolutionRequirement.class }}</dd>
+                                <dd>{{ evolutionCondition.class }}</dd>
                             {% endif %}
-                            {% if evolutionRequirement.sectionIds != empty %}
+                            {% if evolutionCondition.sectionIds != empty %}
                                 <dt>Section IDs:</dt>
                                 <dd>
-                                    {% for sectionId in evolutionRequirement.sectionIds %}
+                                    {% for sectionId in evolutionCondition.sectionIds %}
                                         <span class="tooltip" data-tooltip="{{ sectionId }}">
-                                            <img alt="{{ sectionId }}" src="/assets/images/guides/mags/section-ids/{{ sectionId | slugify }}.webp">
+                                            <img alt="{{ sectionId }}" src="/assets/images/section-ids/{{ sectionId | slugify }}.webp">
                                         </span>
                                     {% endfor %}
                                 </dd>
                             {% endif %}
-                            {% if evolutionRequirement.magStats %}
+                            {% if evolutionCondition.magStats %}
                                 <dt>Mag Stats:</dt>
-                                <dd><code>{{ evolutionRequirement.magStats }}</code></dd>
+                                <dd><code>{{ evolutionCondition.magStats }}</code></dd>
                             {% endif %}
                         </dl>
                     {% endfor %}
                 </div>
             {% endif %}
-            {% if mag.cellRequirements %}
+            {% if mag.cellEvolutionConditions %}
                 <div class="data">
-                    <h4>Cell Requirements</h4>
+                    <h4>Evolution Conditions</h4>
                     <dl>
                         <dt>Cell:</dt>
-                        <dd class="cell">{{ mag.cellRequirements.cell }}</dd>
-                        {% if mag.cellRequirements.level %}
+                        <dd class="cell">{{ mag.cellEvolutionConditions.cell }}</dd>
+                        {% if mag.cellEvolutionConditions.level %}
                             <dt>Level:</dt>
-                            <dd>{{ mag.cellRequirements.level }}</dd>
+                            <dd>{{ mag.cellEvolutionConditions.level }}</dd>
                         {% endif %}
-                        {% if mag.cellRequirements.sectionIds != empty %}
+                        {% if mag.cellEvolutionConditions.sectionIds != empty %}
                             <dt>Section IDs:</dt>
                             <dd>
-                                {% for sectionId in mag.cellRequirements.sectionIds %}
+                                {% for sectionId in mag.cellEvolutionConditions.sectionIds %}
                                     <span class="tooltip" data-tooltip="{{ sectionId }}">
-                                        <img alt="{{ sectionId }}" src="/assets/images/guides/mags/section-ids/{{ sectionId | slugify }}.webp">
+                                        <img alt="{{ sectionId }}" src="/assets/images/section-ids/{{ sectionId | slugify }}.webp">
                                     </span>
                                 {% endfor %}
                             </dd>
                         {% endif %}
-                        {% if mag.cellRequirements.mag %}
+                        {% if mag.cellEvolutionConditions.mag %}
                             <dt>Mag:</dt>
-                            <dd><a href="#{{ mag.cellRequirements.mag | slugify }}">{{ mag.cellRequirements.mag }}</a></dd>
+                            <dd><a href="#{{ mag.cellEvolutionConditions.mag | slugify }}">{{ mag.cellEvolutionConditions.mag }}</a></dd>
                         {% endif %}
-                        {% if mag.cellRequirements.magLevel %}
+                        {% if mag.cellEvolutionConditions.magLevel %}
                             <dt>Mag Level:</dt>
-                            <dd>{{ mag.cellRequirements.magLevel }}</dd>
+                            <dd>{{ mag.cellEvolutionConditions.magLevel }}</dd>
                         {% endif %}
-                        {% if mag.cellRequirements.magEvolution %}
+                        {% if mag.cellEvolutionConditions.magEvolution %}
                             <dt>Mag Evolution:</dt>
-                            <dd>{{ mag.cellRequirements.magEvolution }}</dd>
+                            <dd>{{ mag.cellEvolutionConditions.magEvolution }}</dd>
                         {% endif %}
-                        {% if mag.cellRequirements.magStats %}
+                        {% if mag.cellEvolutionConditions.magStats %}
                             <dt>Mag Stats:</dt>
-                            <dd><code>{{ mag.cellRequirements.magStats }}</code></dd>
+                            <dd><code>{{ mag.cellEvolutionConditions.magStats }}</code></dd>
                         {% endif %}
                     </dl>
                 </div>

@@ -9,15 +9,13 @@ description: "Phantasy Star Online guides written by players - step‑by‑step 
     <hr />
     {% assign categories = site.guides | group_by: 'category' | sort: 'name' %}
     {% for category in categories %}
-        <h2>{{ category.name }}</h2>
+        <h2 id="{{ category.name | slugify }}">{{ category.name }}</h2>
         <ul class="guides">
             {% assign guides = category.items | sort: 'title' %}
             {% for guide in guides %}
                 <li class="guide">
                     <h3 class="title"><a href="{{ guide.url }}"><span class="text">{{ guide.title }}</span> <span class="category">{{ guide.category }}</span></a></h3>
-                    {% if guide.coverImage %}
-                        <img alt="{{ guide.title }}" class="cover" decoding="async" loading="lazy" src="{{ guide.coverImage }}">
-                    {% endif %}
+                    <a class="cover" href="{{ guide.url }}"><img alt="{{ guide.title }}" decoding="async" loading="lazy" src="{{ guide.coverImage }}"></a>
                     <p class="description">{{ guide.description }}</p>
                     {% include meta.html page=guide %}
                 </li>
@@ -25,9 +23,4 @@ description: "Phantasy Star Online guides written by players - step‑by‑step 
         </ul>
         {% if forloop.last == false %}<hr />{% endif %}
     {% endfor %}
-    <footer class="footer">
-        <div class="back-to-top">
-            <a href="#top">↑ Back to top</a>
-        </div>
-    </footer>
 </div>

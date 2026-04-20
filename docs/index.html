@@ -13,11 +13,9 @@
                 <span class="day">{{ featuredPost.date | date: "%-d" }}</span>
             </div>
             <div class="container">
-                {% if featuredPost.coverImage %}
-                    <a class="cover" href="{{ featuredPost.link }}">
-                        <img alt="{{ featuredPost.title }}" src="{{ featuredPost.coverImage }}">
-                    </a>
-                {% endif %}
+                <a class="cover" href="{{ featuredPost.link }}">
+                    <img alt="{{ featuredPost.title }}" src="{{ featuredPost.coverImage }}">
+                </a>
                 <div class="content">
                     {% include category.html page=featuredPost %}
                     <h3 class="title"><a href="{{ featuredPost.link }}">{{ featuredPost.title }}</a></h3>
@@ -36,11 +34,9 @@
                             <span class="month">{{ post.date | date: "%b" }}</span>
                             <span class="day">{{ post.date | date: "%-d" }}</span>
                         </div>
-                        {% if post.coverImage %}
-                            <a class="cover" href="{{ post.link }}">
-                                <img alt="{{ post.title }}" decoding="async" loading="lazy" src="{{ post.coverImage }}">
-                            </a>
-                        {% endif %}
+                        <a class="cover" href="{{ post.link }}">
+                            <img alt="{{ post.title }}" decoding="async" loading="lazy" src="{{ post.coverImage }}">
+                        </a>
                         <div class="content">
                             <div class="category">{{ post.category }}</div>
                             <h3 class="title"><a href="{{ post.link }}">{{ post.title }}</a></h3>
@@ -59,11 +55,9 @@
             {% for guide in guides limit:10 %}
                 <li>
                     <article class="latest-guide">
-                        {% if guide.coverImage %}
-                            <a class="cover" href="{{ guide.url }}">
-                                <img alt="{{ guide.title }}" decoding="async" loading="lazy" src="{{ guide.coverImage }}">
-                            </a>
-                        {% endif %}
+                        <a class="cover" href="{{ guide.url }}">
+                            <img alt="{{ guide.title }}" decoding="async" loading="lazy" src="{{ guide.coverImage }}">
+                        </a>
                         <div class="content">
                             <div class="category">{{ guide.category }}</div>
                             <h3 class="title"><a href="{{ guide.url }}">{{ guide.title }}</a></h3>
@@ -74,9 +68,4 @@
             {% endfor %}
         </ul>
     </aside>
-    <footer class="footer">
-        <div class="back-to-top">
-            <a href="#top">↑ Back to top</a>
-        </div>
-    </footer>
 </div>

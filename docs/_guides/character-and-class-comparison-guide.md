@@ -3,7 +3,7 @@ author: FurryBagi
 category: Character
 coverImage: /assets/images/guides/character-and-class-comparison-guide/cover.webp
 date: 2003-06-15
-title: Character and Class Comparison Guide
+title: "Character and Class Comparison Guide"
 description: "Compare all PSO characters - Hunters, Rangers, and Forces, with tips to help you choose the best class for your playstyle."
 ---
 

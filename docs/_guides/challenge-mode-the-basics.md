@@ -4,7 +4,7 @@ category: Challenge Mode
 commentsUrl: https://forums.ragol.co.uk/showthread.php?tid=1809
 coverImage: /assets/images/guides/challenge-mode-the-basics/cover.webp
 date: 2004-05-20
-title: Challenge Mode - The Basics
+title: "Challenge Mode - The Basics"
 description: "Beginner-friendly guide to PSO Challenge Mode - learn materials, stats, class tips, and essential strategies for Hunters, Rangers, and Forces."
 ---
 

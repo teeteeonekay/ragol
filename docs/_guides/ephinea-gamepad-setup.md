@@ -150,7 +150,7 @@ Apply the **Ephinea - All Action Shortcuts** community layout instead of creatin
 4. Click **Ephinea - All Action Shortcuts**.
 5. Click **Apply Layout**.
 
-> Tip: If you can't find the community button layout on Steam, drop a message on our Discord or Forums for help.
+> Tip: If you can't find the community button layout on Steam, drop a message on our Discord or the Forums for help.
 
 [![Apply a Steam Button Layout - Layouts](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/layouts.webp)](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/layouts.webp){:target="_blank"}
 [![Apply a Steam Button Layout - Community Layouts](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/community-layouts.webp)](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/community-layouts.webp){:target="_blank"}
@@ -247,7 +247,7 @@ Yes. The guide uses an Xbox Series X/S controller as an example. Steam Deck and 
 
 ### I can't find the community button layout on Steam
 
-If you can’t find it, ask for help on our Discord or Forums.
+If you can’t find it, ask for help on our Discord or the Forums.
 
 ### I get the error "XInput support requires Windows 8 or greater. XInput will be disabled."
 
