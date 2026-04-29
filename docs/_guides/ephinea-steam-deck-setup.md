@@ -10,7 +10,7 @@ description: "Step-by-step guide to running Ephinea PSO on Steam Deck with all a
 Ephinea Steam Deck Setup
 ========================
 
-[Ephinea Phantasy Star Online: Blue Burst](https://ephinea.pioneer2.net){:target="_blank"} runs on Steam Deck, but some additional configuration is needed compared with Windows. This step-by-step guide shows you how to run Ephinea on a Steam Deck, enabling all action shortcuts and improving camera control.
+[Ephinea Phantasy Star Online Blue Burst](https://ephinea.pioneer2.net){:target="_blank"} runs on Steam Deck, but some additional configuration is needed compared with Windows. This step-by-step guide shows you how to run Ephinea on a Steam Deck, enabling all action shortcuts and improving camera control.
 
 <div class="contents" markdown="1">
 
@@ -87,9 +87,9 @@ Now we’ll point Steam to the installed game instead of the installer.
 6. Right-click `online.exe` → **Copy Location**.
 7. Open Steam and find the installer entry in your library.
 8. Click **Manage** → **Properties** → **Shortcut**.
-9. Paste into **TARGET**, with quotes (e.g. `"/home/deck/.local/share/Steam/steamapps/compatdata/3535824940/pfx/drive_c/EphineaPSO/online.exe"`).
-10. Paste into **START IN**, without quotes or a filename (e.g. `/home/deck/.local/share/Steam/steamapps/compatdata/3535824940/pfx/drive_c/EphineaPSO/`).
-11. Rename the shortcut to **Phantasy Star Online: Blue Burst**.
+9. Paste into **TARGET**, with quotes (e.g. `"/home/deck/.local/share/Steam/steamapps/compatdata/3954759615/pfx/drive_c/EphineaPSO/online.exe"`).
+10. Paste into **START IN**, without quotes or a filename (e.g. `/home/deck/.local/share/Steam/steamapps/compatdata/3954759615/pfx/drive_c/EphineaPSO/`).
+11. Rename the shortcut to **Phantasy Star Online Blue Burst**.
 
 > Tip: Use Dolphin's **Copy Location** to avoid typos when entering paths.
 
@@ -108,7 +108,7 @@ By default, Proton uses Windows 10 mode, but Ephinea works more reliably with Wi
 1. Open **Discover Software Center**.
 2. Search for and install **Protontricks**.
 3. Open **Protontricks**.
-4. Select **Phantasy Star Online: Blue Burst**.
+4. Select **Phantasy Star Online Blue Burst**.
 5. Select **default wineprefix**.
 6. Select **Run winecfg**.
 7. Set **Windows Version** to **Windows 7**, then click **Apply**.
@@ -130,7 +130,7 @@ Restart your Steam Deck into *Gaming Mode* and launch the game from your library
 [![Finished - Play](/assets/images/guides/ephinea-steam-deck-setup/finished/play.webp)](/assets/images/guides/ephinea-steam-deck-setup/finished/play.webp){:target="_blank"}
 [![Finished - Launcher](/assets/images/guides/ephinea-steam-deck-setup/finished/launcher.webp)](/assets/images/guides/ephinea-steam-deck-setup/finished/launcher.webp){:target="_blank"}
 [![Finished - Sonic Team](/assets/images/guides/ephinea-steam-deck-setup/finished/sonic-team.webp)](/assets/images/guides/ephinea-steam-deck-setup/finished/sonic-team.webp){:target="_blank"}
-[![Finished - Phantasy Star Online: Blue Burst](/assets/images/guides/ephinea-steam-deck-setup/finished/pso-bb.webp)](/assets/images/guides/ephinea-steam-deck-setup/finished/pso-bb.webp){:target="_blank"}
+[![Finished - Phantasy Star Online Blue Burst](/assets/images/guides/ephinea-steam-deck-setup/finished/pso-bb.webp)](/assets/images/guides/ephinea-steam-deck-setup/finished/pso-bb.webp){:target="_blank"}
 
 ---
 

@@ -10,7 +10,7 @@ description: "Step-by-step guide to setting up a gamepad for Ephinea PSO with al
 Ephinea Gamepad Setup
 =====================
 
-[Ephinea Phantasy Star Online: Blue Burst](https://ephinea.pioneer2.net){:target="_blank"} supports gamepads, but some additional configuration is needed to make them fully functional. This step-by-step guide shows you how to set up a gamepad for Ephinea, enabling all action shortcuts and improving camera control.
+[Ephinea Phantasy Star Online Blue Burst](https://ephinea.pioneer2.net){:target="_blank"} supports gamepads, but some additional configuration is needed to make them fully functional. This step-by-step guide shows you how to set up a gamepad for Ephinea, enabling all action shortcuts and improving camera control.
 
 <div class="contents" markdown="1">
 
@@ -116,7 +116,7 @@ Adding PSO to Steam allows you to use Steam Input to map your gamepad to keyboar
 3. Select `online.exe`.
 4. Find the new entry in your library.
 5. Click **Manage** → **Properties**.
-6. Rename the shortcut to **Phantasy Star Online: Blue Burst**.
+6. Rename the shortcut to **Phantasy Star Online Blue Burst**.
 
 [![Add PSO to Steam - Add a Non-Steam Game](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/add-a-non-steam-game.webp)](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/add-a-non-steam-game.webp){:target="_blank"}
 [![Add PSO to Steam - Properties](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/properties.webp)](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/properties.webp){:target="_blank"}
@@ -150,7 +150,7 @@ Apply the **Ephinea - All Action Shortcuts** community layout instead of creatin
 4. Click **Ephinea - All Action Shortcuts**.
 5. Click **Apply Layout**.
 
-> Tip: If you can't find the community button layout on Steam, make sure the shortcut is named **Phantasy Star Online: Blue Burst** as shown in Step 1. If you still can't find it, ask for help on our Discord or the Forums.
+> Tip: If you can't find the community button layout on Steam, make sure the shortcut is named **Phantasy Star Online Blue Burst** as shown in Step 1. If you still can't find it, ask for help on our Discord or the Forums.
 
 [![Apply a Steam Button Layout - Layouts](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/layouts.webp)](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/layouts.webp){:target="_blank"}
 [![Apply a Steam Button Layout - Community Layouts](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/community-layouts.webp)](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/community-layouts.webp){:target="_blank"}
@@ -247,7 +247,7 @@ Yes. The guide uses an Xbox Series X/S controller as an example. Steam Deck and 
 
 ### I can't find the community button layout on Steam
 
-Make sure the shortcut is named **Phantasy Star Online: Blue Burst** as shown in Step 1. If you still can't find it, ask for help on our Discord or the Forums.
+Make sure the shortcut is named **Phantasy Star Online Blue Burst** as shown in Step 1. If you still can't find it, ask for help on our Discord or the Forums.
 
 ### I get the error "XInput support requires Windows 8 or greater. XInput will be disabled."
 
