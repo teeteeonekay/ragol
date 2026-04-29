@@ -26,7 +26,11 @@ Contents
 Area 1
 ------
 
-[![Challenge Mode - Stage 1 - Area 1](/assets/images/guides/challenge-mode-stage-1/area-1.webp)](/assets/images/guides/challenge-mode-stage-1/area-1.webp){:target="_blank"}
+<div class="images" markdown="1">
+
+* [![Challenge Mode - Stage 1 - Area 1](/assets/images/guides/challenge-mode-stage-1/area-1.webp)](/assets/images/guides/challenge-mode-stage-1/area-1.webp){:target="_blank"}
+
+</div>
 
 ### Room 1
 
@@ -52,7 +56,11 @@ The force will be the first one to enter this room. They should push the switch 
 
 ## Area 2
 
-[![Challenge Mode - Stage 1 - Area 2](/assets/images/guides/challenge-mode-stage-1/area-2.webp)](/assets/images/guides/challenge-mode-stage-1/area-2.webp){:target="_blank"}
+<div class="images" markdown="1">
+
+* [![Challenge Mode - Stage 1 - Area 2](/assets/images/guides/challenge-mode-stage-1/area-2.webp)](/assets/images/guides/challenge-mode-stage-1/area-2.webp){:target="_blank"}
+
+</div>
 
 ## Room 1
 

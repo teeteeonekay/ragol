@@ -1,0 +1,19 @@
+@import "../mixins";
+@import "../variables";
+
+.interview-message { display: flex; gap: 0.75rem; margin: 2rem 0; @include mobile { align-items: center; flex-wrap: wrap; column-gap: 0.4rem; } }
+.interview-message--answer { margin-left: 3rem; @include mobile { margin-left: 0; } }
+.interview-message__avatar { height: fit-content; }
+.interview-message__avatar-image { border: 1px solid $color-separator-primary; border-radius: 50%; display: block; height: 3rem; object-fit: cover; width: 3rem; @include mobile { height: 2rem; width: 2rem; } }
+.interview-message__container { display: flex; flex-direction: column; gap: 0.75rem; @include mobile { display: contents; } }
+.interview-message__author { display: flex; flex-direction: column; gap: 0.4rem; line-height: 1; }
+.interview-message__author-name { width: fit-content; }
+.interview-message__author-role { letter-spacing: 0.05em; color: $color-muted; font-family: Sarpanch, sans-serif; font-size: 0.7rem; text-transform: uppercase; }
+.interview-message__content { background: $color-secondary; border-left: 4px solid $color-separator-primary; border-radius: 4px; line-height: 1.65; padding: 1rem; position: relative; @include mobile { flex: 100%; } }
+.interview-message--question .interview-message__content { color: $color-heading-primary; }
+.interview-message--answer .interview-message__content { border-left-color: $color-primary-accent; }
+.interview-message__content > *:first-child { margin-top: 0; }
+.interview-message__content > *:last-child { margin-bottom: 0; }
+.interview-message__notes { border-top: 1px dotted $color-separator-secondary; color: $color-text; margin: 1rem 0 0; padding: 1rem 0 0; }
+.interview-message__notes > *:first-child { margin-top: 0; }
+.interview-message__notes > *:last-child { margin-bottom: 0; }

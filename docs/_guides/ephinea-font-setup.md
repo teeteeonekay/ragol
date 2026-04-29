@@ -31,10 +31,14 @@ Before and After
 
 Before is **Tahoma**, after is **Dotum**.
 
-[![Title Screen - Before](/assets/images/guides/ephinea-font-setup/title-screen-before.webp)](/assets/images/guides/ephinea-font-setup/title-screen-before.webp){:target="_blank"}
-[![Title Screen - After](/assets/images/guides/ephinea-font-setup/title-screen-after.webp)](/assets/images/guides/ephinea-font-setup/title-screen-after.webp){:target="_blank"}
-[![In-Game - Before](/assets/images/guides/ephinea-font-setup/in-game-before.webp)](/assets/images/guides/ephinea-font-setup/in-game-before.webp){:target="_blank"}
-[![In-Game - After](/assets/images/guides/ephinea-font-setup/in-game-after.webp)](/assets/images/guides/ephinea-font-setup/in-game-after.webp){:target="_blank"}
+<div class="images" markdown="1">
+
+* [![Title Screen - Before](/assets/images/guides/ephinea-font-setup/title-screen-before.webp)](/assets/images/guides/ephinea-font-setup/title-screen-before.webp){:target="_blank"}
+* [![Title Screen - After](/assets/images/guides/ephinea-font-setup/title-screen-after.webp)](/assets/images/guides/ephinea-font-setup/title-screen-after.webp){:target="_blank"}
+* [![In-Game - Before](/assets/images/guides/ephinea-font-setup/in-game-before.webp)](/assets/images/guides/ephinea-font-setup/in-game-before.webp){:target="_blank"}
+* [![In-Game - After](/assets/images/guides/ephinea-font-setup/in-game-after.webp)](/assets/images/guides/ephinea-font-setup/in-game-after.webp){:target="_blank"}
+
+</div>
 
 ---
 

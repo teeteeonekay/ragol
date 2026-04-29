@@ -1,0 +1,34 @@
+---
+title: Articles
+description: "Interviews, features, and community stories from Phantasy Star Online players and creators."
+---
+
+<div class="articles">
+    <div class="articles__main">
+        {% include breadcrumbs.html %}
+        <h1>Articles</h1>
+        <p>Interviews, features, and community stories from Phantasy Star Online players and creators.</p>
+        <hr />
+        <h2>Latest Articles</h2>
+        <ul class="articles__articles-list">
+            {% for article in site.articles %}
+                <li class="articles__articles-item">
+                    <article class="articles__article">
+                        <a class="articles__article-cover" href="{{ article.url }}">
+                            <img alt="{{ article.title }}" class="articles__article-image" decoding="async" loading="lazy" src="{{ article.coverImage }}">
+                        </a>
+                        <div class="articles__article-content">
+                            {% include category.html page=article %}
+                            <h3 class="articles__article-title"><a href="{{ article.url }}">{{ article.title }}</a></h3>
+                            <p class="articles__article-description">{{ article.description }}</p>
+                            {% include meta.html page=article %}
+                        </div>
+                    </article>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <aside class="articles__aside">
+        {% include latest-guides.html %}
+    </aside>
+</div>

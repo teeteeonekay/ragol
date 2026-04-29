@@ -1,0 +1,5 @@
+@import "../mixins";
+@import "../variables";
+
+.tip { background: $color-secondary url('/assets/images/components/tip.webp') no-repeat 1rem center; background-size: 3rem auto; border-left: 4px solid $color-separator-primary; border-radius: 4px; margin: 2rem 0; padding: 1rem 1rem 1rem 5rem; }
+.tip > p { font-style: italic; }

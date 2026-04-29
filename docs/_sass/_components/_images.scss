@@ -1,0 +1,12 @@
+@import "../mixins";
+@import "../variables";
+
+.images { margin: 2rem 0; }
+.images a { display: block; position: relative; }
+.images a[title]::after { background: linear-gradient(to left, rgba($color-secondary, 0.85), rgba($color-secondary, 1)); border-radius: 4px 0 0 4px; bottom: 5%; color: $color-text; content: attr(title); left: 5%; padding: 1rem; pointer-events: none; position: absolute; right: 1px; transition: opacity 0.2s ease; }
+.images a[title]:hover::after { opacity: 0; }
+.images img { border: 1px solid $color-link-tertiary; border-radius: 4px; box-sizing: border-box; display: block; transition: border-color 0.2s ease; }
+.images a:is(:hover, :active) > img { border-color: $color-link-primary; }
+.images > p > a > img { max-height: 420px; object-fit: cover; width: 100%; }
+.images > ul { display: grid; gap: 0.5rem; grid-template-columns: repeat(2, 1fr); list-style: none; margin: 0; padding: 0; @include mobile { grid-template-columns: 1fr; } }
+.images > ul > li > a > img { max-height: 720px; max-width: 100%; }

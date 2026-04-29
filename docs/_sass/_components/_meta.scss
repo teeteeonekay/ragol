@@ -1,0 +1,9 @@
+@import "../mixins";
+@import "../variables";
+
+.meta__list { align-items: center; color: $color-meta; display: flex; flex-direction: row; flex-wrap: wrap; gap: 3px; list-style: none; margin: 0; padding: 0; }
+.meta__item { align-items: center; display: flex; gap: 3px; }
+.meta__item:not(:last-child)::after { color: $color-meta; content: "·"; }
+.meta__author-link { align-items: center; display: flex; gap: 0.375rem; }
+.meta__author-avatar { border: 1px solid $color-separator-primary; border-radius: 50%; height: 1.5rem; object-fit: cover; width: 1.5rem; }
+.meta__comments-link { align-items: center; display: flex; gap: 0.375rem; }

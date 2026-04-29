@@ -1,40 +1,40 @@
-<div class="drop-tables {{ include.version | slugify }}">
+<div class="drop-tables drop-tables--{{ include.version | slugify }}">
     {% assign dropTables = 'drop-tables-' | append: include.version | slugify %}
     {% assign difficulty = site.data[dropTables] | where: 'name', include.difficulty | first %}
-    {% assign tabName = include.version | append: '-' | append: difficulty.name | slugify %}
-    <div class="tabs">
+    {% assign tabName = 'drop-tables-' | append: include.version | append: '-' | append: difficulty.name | slugify %}
+    <div class="drop-tables__tabs">
         {% for episode in difficulty.episodes %}
             {% assign tabId = tabName | append: '-' | append: episode.name | slugify %}
-            <input {% if forloop.first %}checked{% endif %} id="{{ tabId }}-tab" name="{{ tabName }}" type="radio">
-            <label for="{{ tabId }}-tab">{{ episode.name }}</label>
+            <input {% if forloop.first %}checked{% endif %} class="drop-tables__tab-input" id="{{ tabId }}-tab" name="{{ tabName }}" type="radio">
+            <label class="drop-tables__tab-label" for="{{ tabId }}-tab">{{ episode.name }}</label>
         {% endfor %}
     </div>
-    <div class="table">
+    <div class="table-wrapper drop-tables__table-wrapper">
         {% for episode in difficulty.episodes %}
             {% assign tabId = tabName | append: '-' | append: episode.name | slugify %}
-            <table id="{{ tabId }}-panel">
-                <thead>
-                    <tr>
-                        <th>Name</th>
+            <table class="drop-tables__table">
+                <thead class="drop-tables__head">
+                    <tr class="drop-tables__head-row">
+                        <th class="drop-tables__column-heading" scope="col">Name</th>
                         {% for sectionId in episode.monsters.first.sectionIds %}
-                            <th class="{{ sectionId.name | slugify }}">
-                                <span class="tooltip bottom right" data-tooltip="{{ sectionId.name }}">
-                                    <img alt="{{ sectionId.name }}" src="/assets/images/section-ids/{{ sectionId.name | slugify }}.webp">
+                            <th class="drop-tables__column-heading" scope="col">
+                                <span class="tooltip tooltip--right" data-tooltip="{{ sectionId.name }}">
+                                    <img alt="{{ sectionId.name }}" class="drop-tables__section-id-image" src="/assets/images/section-ids/{{ sectionId.name | slugify }}.webp">
                                 </span>
                             </th>
                         {% endfor %}
                     </tr>
                 </thead>
-                <tbody>
+                <tbody class="drop-tables__body">
                     {% for monster in episode.monsters %}
-                        <tr>
-                            <th>{{ monster.name }}</th>
+                        <tr class="drop-tables__body-row">
+                            <th class="drop-tables__row-heading" scope="row">{{ monster.name }}</th>
                             {% for sectionId in monster.sectionIds %}
-                                <td class="{{ sectionId.name | slugify }}">
+                                <td class="drop-tables__cell drop-tables__cell--{{ sectionId.name | slugify }}">
                                     {% for item in sectionId.items %}
-                                        <dl>
-                                            <dt>{{ item.name }}</dt>
-                                            <dd><code>{{ item.combinedDropRate }}</code></dd>
+                                        <dl class="drop-tables__item">
+                                            <dt class="drop-tables__item-name">{{ item.name }}</dt>
+                                            <dd class="drop-tables__item-rate"><code class="drop-tables__item-rate-code">{{ item.combinedDropRate }}</code></dd>
                                         </dl>
                                     {% endfor %}
                                 </td>
@@ -42,14 +42,14 @@
                         </tr>
                     {% endfor %}
                     {% for box in episode.boxes %}
-                        <tr>
-                            <th>Box: {{ box.name }}</th>
+                        <tr class="drop-tables__body-row">
+                            <th class="drop-tables__row-heading" scope="row">Box: {{ box.name }}</th>
                             {% for sectionId in box.sectionIds %}
-                                <td class="{{ sectionId.name | slugify }}">
+                                <td class="drop-tables__cell drop-tables__cell--{{ sectionId.name | slugify }}">
                                     {% for item in sectionId.items %}
-                                        <dl>
-                                            <dt>{{ item.name }}</dt>
-                                            <dd><code>{{ item.rareDropRate }}</code></dd>
+                                        <dl class="drop-tables__item">
+                                            <dt class="drop-tables__item-name">{{ item.name }}</dt>
+                                            <dd class="drop-tables__item-rate"><code class="drop-tables__item-rate-code">{{ item.rareDropRate }}</code></dd>
                                         </dl>
                                     {% endfor %}
                                 </td>

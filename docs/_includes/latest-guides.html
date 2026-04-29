@@ -1,0 +1,20 @@
+<div class="latest-guides">
+    <h2 class="latest-guides__heading">Latest Guides</h2>
+    <ul class="latest-guides__list">
+        {% assign guides = site.guides | sort: 'date' | reverse %}
+        {% for guide in guides limit:10 %}
+            <li class="latest-guides__item">
+                <article class="latest-guides__guide">
+                    <a class="latest-guides__guide-cover" href="{{ guide.url }}">
+                        <img alt="{{ guide.title }}" class="latest-guides__guide-image" decoding="async" loading="lazy" src="{{ guide.coverImage }}">
+                    </a>
+                    <div class="latest-guides__guide-content">
+                        {% include category.html page=guide %}
+                        <h3 class="latest-guides__guide-title"><a  class="latest-guides__guide-link" href="{{ guide.url }}">{{ guide.title }}</a></h3>
+                        <div class="latest-guides__guide-date"><time datetime="{{ guide.date | date: '%Y-%m-%d' }}">{{ guide.date | date: '%Y-%m-%d' }}</time></div>
+                    </div>
+                </article>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

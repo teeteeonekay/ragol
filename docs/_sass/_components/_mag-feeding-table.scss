@@ -1,0 +1,13 @@
+@import "../mixins";
+@import "../variables";
+
+.mag-feeding-table__column-heading--stat, .mag-feeding-table__cell--stat { text-align: right; white-space: nowrap; }
+.mag-feeding-table__column-heading--level::before { content: ""; display: inline-block; height: 0.4em; margin: 0 0.5ch 0 0; vertical-align: 0.16em; width: 0.4em; }
+.mag-feeding-table__column-heading--def::before { background: $color-stat-def; }
+.mag-feeding-table__column-heading--pow::before { background: $color-stat-pow; }
+.mag-feeding-table__column-heading--dex::before { background: $color-stat-dex; }
+.mag-feeding-table__column-heading--mind::before { background: $color-stat-mind; }
+.mag-feeding-table__code { white-space: nowrap; }
+.mag-feeding-table__code--zero { color: $color-zero; }
+.mag-feeding-table__code--positive { color: $color-stat-positive; }
+.mag-feeding-table__code--negative { color: $color-stat-negative; }

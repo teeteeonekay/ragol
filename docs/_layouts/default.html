@@ -25,52 +25,34 @@
 		<script src="/assets/js/scripts.js" type="module"></script>
 	</head>
 	<body id="top">
-        <header id="header">
-            <div class="wrapper">
-                <a class="logo" href="/">
-                    <img alt="RAcaseal" class="image" src="/assets/images/racaseal.webp" title="Home" />
-                    <div class="text">
-                        <div class="site">Ragol<span class="tld">.co.uk</span></div>
-                        <div class="tagline">A Phantasy Star Online Fansite</div>
+        <header class="header">
+            <div class="wrapper header__wrapper">
+                <a class="header__logo" href="/">
+                    <img alt="Elenor" class="header__logo-image" src="/assets/images/elenor.webp" title="Home" />
+                    <div class="header__logo-text">
+                        <div class="header__logo-site">Ragol<span class="header__logo-tld">.co.uk</span></div>
+                        <div class="header__logo-tagline">A Phantasy Star Online Fansite</div>
                     </div>
                 </a>
-                <nav class="nav max">
+                <nav class="nav nav--max">
                     {% include nav-links.html %}
                 </nav>
-                <nav class="nav min">
-                    <input id="nav-toggle" type="checkbox" />
-                    <label class="burger" for="nav-toggle">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <nav class="nav nav--min">
+                    <input class="nav__toggle" id="nav__toggle" type="checkbox" />
+                    <label class="nav__burger" for="nav__toggle">
+                        <svg class="nav__burger-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path d="M20 5H4V7H20V5Z" />
                             <path d="M4 11H20V13H4V11Z" />
                             <path d="M20 17H4V19H20V17Z" />
                         </svg>
                     </label>
-                    <label class="overlay" for="nav-toggle"></label>
+                    <label class="nav__overlay" for="nav__toggle"></label>
                     {% include nav-links.html %}
                 </nav>
             </div>
         </header>
-        <div id="container">
-            {% if page.url != '/' %}
-                <nav id="breadcrumbs">
-                    <div class="wrapper">
-                        <ol>
-                            {% assign breadcrumbs = page.url | split: '/' %}
-                            {% for breadcrumb in breadcrumbs %}
-                                {% if forloop.first %}
-                                    <li><a href="/">Home</a></li>
-                                {% elsif forloop.last %}
-                                    <li>{{ page.title }}</li>
-                                {% else %}
-                                    <li><a href="{% for breadcrumb in breadcrumbs limit: forloop.index %}{{ breadcrumb | append: '/' }}{% endfor %}">{{ breadcrumb | capitalize }}</a></li>
-                                {% endif %}
-                            {% endfor %}
-                        </ol>
-                    </div>
-                </nav>
-            {% endif %}
-            <main id="main">
+        <div class="container">
+            <main class="main">
                 <div class="wrapper">
                     {{ content }}
                     <div class="back-to-top">
@@ -78,9 +60,9 @@
                     </div>
                 </div>
             </main>
-            <footer id="footer">
+            <footer class="footer">
                 <div class="wrapper">
-                    <div class="copyright">© 2002-{{ 'now' | date: "%Y" }} <a href="https://ragol.co.uk">Ragol.co.uk</a> · <a href="https://github.com/teeteeonekay/ragol/blob/main/LICENSE">Licence</a> · <a href="/credits/">Credits</a></div>
+                    <div class="footer__copyright">© 2002-{{ 'now' | date: "%Y" }} <a class="footer__copyright-link" href="https://ragol.co.uk">Ragol.co.uk</a> · <a class="footer__copyright-link" href="https://github.com/teeteeonekay/ragol/blob/main/LICENSE">Licence</a> · <a class="footer__copyright-link" href="/credits/">Credits</a></div>
                 </div>
             </footer>
         </div>

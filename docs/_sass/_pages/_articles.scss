@@ -1,0 +1,20 @@
+@import "../mixins";
+@import "../variables";
+
+.articles { column-gap: 2rem; display: flex; flex-wrap: wrap; row-gap: 0; }
+
+.articles__main { flex: 3; }
+
+.articles__aside { flex: 1; @include tablet { display: none; } }
+
+.articles__articles-list { list-style: none; margin: 0; padding: 0; }
+.articles__articles-item  { border-bottom: 1px solid $color-separator-primary; margin: 0 0 2.5rem; padding: 0 0 2.5rem; }
+.articles__articles-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+.articles__article { display: flex; gap: 1rem; @include mobile { flex-direction: column; } }
+.articles__article-cover { flex: 40%; }
+.articles__article-image { border: 1px solid $color-link-tertiary; border-radius: 4px; box-sizing: border-box; display: block; object-fit: cover; max-height: 240px; transition: border-color 0.2s ease; width: 100%; }
+.articles__article-cover:is(:hover, :active) .articles__article-image { border-color: $color-link-primary; }
+.articles__article-content { flex: 60%; }
+.articles__article-title { font-size: 1.5rem; margin: 0 0 1rem; }
+.articles__article .category { margin: 0 0 1rem; }

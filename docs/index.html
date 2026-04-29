@@ -1,45 +1,45 @@
 ---
 ---
 
-<div id="home">
-    <div class="main">
+<div class="home">
+    <div class="home__main">
         <h1>News</h1>
-        <p class="welcome">Since 2003, <strong>Ragol.co.uk</strong> has been home to fans who never stopped playing Phantasy Star Online. We're still here, still playing, and still sharing everything we've learned along the way.</p>
+        <p class="home__welcome">Since 2003, <strong>Ragol.co.uk</strong> has been home to fans who never stopped playing Phantasy Star Online. We're still here, still playing, and still sharing everything we've learned along the way.</p>
         <h2>Featured Post</h2>
         {% assign featuredPost = site.news | where: 'featured', true | sort: 'date' | reverse | first %}
-        <article class="featured-post">
-            <div class="date">
-                <span class="month">{{ featuredPost.date | date: "%b" }}</span>
-                <span class="day">{{ featuredPost.date | date: "%-d" }}</span>
-            </div>
-            <div class="container">
-                <a class="cover" href="{{ featuredPost.link }}">
-                    <img alt="{{ featuredPost.title }}" src="{{ featuredPost.coverImage }}">
+        <article class="home__featured-post">
+            <time class="home__post-date" datetime="{{ featuredPost.date | date: '%Y-%m-%d' }}">
+                <span class="home__post-date-month">{{ featuredPost.date | date: "%b" }}</span>
+                <span class="home__post-date-day">{{ featuredPost.date | date: "%-d" }}</span>
+            </time>
+            <div class="home__featured-post-container">
+                <a class="home__featured-post-cover" href="{{ featuredPost.link }}">
+                    <img alt="{{ featuredPost.title }}" class="home__featured-post-image" src="{{ featuredPost.coverImage }}">
                 </a>
-                <div class="content">
+                <div class="home__featured-post-content">
                     {% include category.html page=featuredPost %}
-                    <h3 class="title"><a href="{{ featuredPost.link }}">{{ featuredPost.title }}</a></h3>
+                    <h3 class="home__featured-post-title"><a href="{{ featuredPost.link }}">{{ featuredPost.title }}</a></h3>
                     {{ featuredPost.content }}
                     {% include meta.html page=featuredPost %}
                 </div>
             </div>
         </article>
         <h2>Latest Posts</h2>
-        <ul class="latest-posts">
+        <ul class="home__latest-posts-list">
             {% assign news = site.news | where_exp: 'post', 'post.url != featuredPost.url' | sort: 'date' | reverse %}
             {% for post in news %}
-                <li>
-                    <article class="latest-post">
-                        <div class="date">
-                            <span class="month">{{ post.date | date: "%b" }}</span>
-                            <span class="day">{{ post.date | date: "%-d" }}</span>
-                        </div>
-                        <a class="cover" href="{{ post.link }}">
-                            <img alt="{{ post.title }}" decoding="async" loading="lazy" src="{{ post.coverImage }}">
+                <li class="home__latest-posts-item">
+                    <article class="home__latest-post">
+                        <time class="home__post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+                            <span class="home__post-date-month">{{ post.date | date: "%b" }}</span>
+                            <span class="home__post-date-day">{{ post.date | date: "%-d" }}</span>
+                        </time>
+                        <a class="home__latest-post-cover" href="{{ post.link }}">
+                            <img alt="{{ post.title }}" class="home__latest-post-image" decoding="async" loading="lazy" src="{{ post.coverImage }}">
                         </a>
-                        <div class="content">
-                            <div class="category">{{ post.category }}</div>
-                            <h3 class="title"><a href="{{ post.link }}">{{ post.title }}</a></h3>
+                        <div class="home__latest-post-content">
+                            {% include category.html page=post %}
+                            <h3 class="home__latest-post-title"><a href="{{ post.link }}">{{ post.title }}</a></h3>
                             {{ post.content }}
                             {% include meta.html page=post %}
                         </div>
@@ -48,24 +48,7 @@
             {% endfor %}
         </ul>
     </div>
-    <aside class="aside">
-        <h2>Latest Guides</h2>
-        <ul class="latest-guides">
-            {% assign guides = site.guides | sort: 'date' | reverse %}
-            {% for guide in guides limit:10 %}
-                <li>
-                    <article class="latest-guide">
-                        <a class="cover" href="{{ guide.url }}">
-                            <img alt="{{ guide.title }}" decoding="async" loading="lazy" src="{{ guide.coverImage }}">
-                        </a>
-                        <div class="content">
-                            <div class="category">{{ guide.category }}</div>
-                            <h3 class="title"><a href="{{ guide.url }}">{{ guide.title }}</a></h3>
-                            <div class="date">{{ guide.date | date: '%Y-%m-%d' }}</div>
-                        </div>
-                    </article>
-                </li>
-            {% endfor %}
-        </ul>
+    <aside class="home__aside">
+        {% include latest-guides.html %}
     </aside>
 </div>

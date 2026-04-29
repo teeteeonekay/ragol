@@ -1,6 +1,0 @@
-@import "../variables";
-
-#guide > img, #guide > p img { box-sizing: border-box; border-radius: 4px; max-width: 747px; width: 100%; }
-#guide > a img, #guide > p a img { border: 1px solid $color-link-tertiary; transition: border-color 0.2s ease; }
-#guide > a:is(:hover, :active) img, #guide > p a:is(:hover, :active) img { border-color: $color-link-primary; }
-#guide .footer { margin: 2.5rem 0 0; }

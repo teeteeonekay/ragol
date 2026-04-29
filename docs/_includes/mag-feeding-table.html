@@ -12,26 +12,26 @@
     <table>
         <thead>
             <tr>
-                <th>Item</th>
-                <th class="stat">Synchro</th>
-                <th class="stat">IQ</th>
-                <th class="stat level def">DEF</th>
-                <th class="stat level pow">POW</th>
-                <th class="stat level dex">DEX</th>
-                <th class="stat level mind">MIND</th>
+                <th class="mag-feeding-table__column-heading" scope="col">Item</th>
+                <th class="mag-feeding-table__column-heading mag-feeding-table__column-heading--stat" scope="col">Synchro</th>
+                <th class="mag-feeding-table__column-heading mag-feeding-table__column-heading--stat" scope="col">IQ</th>
+                <th class="mag-feeding-table__column-heading mag-feeding-table__column-heading--stat mag-feeding-table__column-heading--level mag-feeding-table__column-heading--def" scope="col">DEF</th>
+                <th class="mag-feeding-table__column-heading mag-feeding-table__column-heading--stat mag-feeding-table__column-heading--level mag-feeding-table__column-heading--pow" scope="col">POW</th>
+                <th class="mag-feeding-table__column-heading mag-feeding-table__column-heading--stat mag-feeding-table__column-heading--level mag-feeding-table__column-heading--dex" scope="col">DEX</th>
+                <th class="mag-feeding-table__column-heading mag-feeding-table__column-heading--stat mag-feeding-table__column-heading--level mag-feeding-table__column-heading--mind" scope="col">MIND</th>
             </tr>
         </thead>
         <tbody>
             {% assign group = site.data.mag-feeding-tables | where: 'name', include.name | first %}
             {% for item in group.items %}
                 <tr>
-                    <td>{{ item.name }}</td>
-                    <td class="stat {% if item.synchro > 0 %}positive{% elsif item.synchro < 0 %}negative{% else %}zero{% endif %}"><code>{% if item.synchro > 0 %}+{% endif %}{{ item.synchro }}</code></td>
-                    <td class="stat {% if item.iq > 0 %}positive{% elsif item.iq < 0 %}negative{% else %}zero{% endif %}"><code>{% if item.iq > 0 %}+{% endif %}{{ item.iq }}</code></td>
-                    <td class="stat {% if item.def > 0 %}positive{% elsif item.def < 0 %}negative{% else %}zero{% endif %}"><code>{% if item.def > 0 %}+{% endif %}{{ item.def }}</code></td>
-                    <td class="stat {% if item.pow > 0 %}positive{% elsif item.pow < 0 %}negative{% else %}zero{% endif %}"><code>{% if item.pow > 0 %}+{% endif %}{{ item.pow }}</code></td>
-                    <td class="stat {% if item.dex > 0 %}positive{% elsif item.dex < 0 %}negative{% else %}zero{% endif %}"><code>{% if item.dex > 0 %}+{% endif %}{{ item.dex }}</code></td>
-                    <td class="stat {% if item.mind > 0 %}positive{% elsif item.mind < 0 %}negative{% else %}zero{% endif %}"><code>{% if item.mind > 0 %}+{% endif %}{{ item.mind }}</code></td>
+                    <th class="mag-feeding-table__row-heading" scope="row">{{ item.name }}</th>
+                    <td class="mag-feeding-table__cell mag-feeding-table__cell--stat"><code class="mag-feeding-table__code {% if item.synchro > 0 %}mag-feeding-table__code--positive{% elsif item.synchro < 0 %}mag-feeding-table__code--negative{% else %}mag-feeding-table__code--zero{% endif %}">{% if item.synchro > 0 %}+{% endif %}{{ item.synchro }}</code></td>
+                    <td class="mag-feeding-table__cell mag-feeding-table__cell--stat"><code class="mag-feeding-table__code {% if item.iq > 0 %}mag-feeding-table__code--positive{% elsif item.iq < 0 %}mag-feeding-table__code--negative{% else %}mag-feeding-table__code--zero{% endif %}">{% if item.iq > 0 %}+{% endif %}{{ item.iq }}</code></td>
+                    <td class="mag-feeding-table__cell mag-feeding-table__cell--stat"><code class="mag-feeding-table__code {% if item.def > 0 %}mag-feeding-table__code--positive{% elsif item.def < 0 %}mag-feeding-table__code--negative{% else %}mag-feeding-table__code--zero{% endif %}">{% if item.def > 0 %}+{% endif %}{{ item.def }}</code></td>
+                    <td class="mag-feeding-table__cell mag-feeding-table__cell--stat"><code class="mag-feeding-table__code {% if item.pow > 0 %}mag-feeding-table__code--positive{% elsif item.pow < 0 %}mag-feeding-table__code--negative{% else %}mag-feeding-table__code--zero{% endif %}">{% if item.pow > 0 %}+{% endif %}{{ item.pow }}</code></td>
+                    <td class="mag-feeding-table__cell mag-feeding-table__cell--stat"><code class="mag-feeding-table__code {% if item.dex > 0 %}mag-feeding-table__code--positive{% elsif item.dex < 0 %}mag-feeding-table__code--negative{% else %}mag-feeding-table__code--zero{% endif %}">{% if item.dex > 0 %}+{% endif %}{{ item.dex }}</code></td>
+                    <td class="mag-feeding-table__cell mag-feeding-table__cell--stat"><code class="mag-feeding-table__code {% if item.mind > 0 %}mag-feeding-table__code--positive{% elsif item.mind < 0 %}mag-feeding-table__code--negative{% else %}mag-feeding-table__code--zero{% endif %}">{% if item.mind > 0 %}+{% endif %}{{ item.mind }}</code></td>
                 </tr>
             {% endfor %}
         </tbody>

@@ -4,7 +4,7 @@ export default () => {
     if (!faqsDiv)
         return;
 
-    const faqNodes = [];
+    let faqNodes = [];
 
     Array.from(faqsDiv.children).forEach(n => {
         switch (n.tagName) {
@@ -18,23 +18,24 @@ export default () => {
                 break;
         }
     });
-    
-    const faqsFragment = document.createDocumentFragment();
 
+    const faqsFragment = document.createDocumentFragment();
+    
     faqNodes.forEach(n => {
-        const questionDiv = Object.assign(document.createElement('div'), { className: 'question' });
-        const questionButton = document.createElement('button');
-        const answerDiv = Object.assign(document.createElement('div'), { className: 'answer' });
+        const itemDiv = Object.assign(document.createElement('div'), { className: 'faqs__item' });
+        const questionButton = Object.assign(document.createElement('button'), { className: 'faqs__question-button' });
+        const answerDiv = Object.assign(document.createElement('div'), { className: 'faqs__answer' });
 
         while (n.questionNode.firstChild) {
             questionButton.append(n.questionNode.firstChild);
         }
 
+        n.questionNode.classList.add('faqs__question');
         n.questionNode.append(questionButton);
-        questionDiv.append(n.questionNode, answerDiv);
+        itemDiv.append(n.questionNode, answerDiv);
         answerDiv.append(...n.answerNodes);
         answerDiv.style.maxHeight = '0px';
-        faqsFragment.append(questionDiv);
+        faqsFragment.append(itemDiv);
     });
 
     faqsDiv.append(faqsFragment);
@@ -45,10 +46,10 @@ export default () => {
         if (!questionButton)
             return;
 
-        const questionDiv = questionButton.closest('.question');
-        const answerDiv = questionDiv.querySelector('.answer');
-        const questionDivIsOn = questionDiv.classList.toggle('on');
+        const itemDiv = questionButton.closest('.faqs__item');
+        const answerDiv = itemDiv.querySelector('.faqs__answer');
+        const itemDivIsOn = itemDiv.classList.toggle('faqs__item--on');
 
-        answerDiv.style.maxHeight = questionDivIsOn ? answerDiv.scrollHeight + 'px' : '0px';
+        answerDiv.style.maxHeight = itemDivIsOn ? answerDiv.scrollHeight + 'px' : '0px';
     });
 };

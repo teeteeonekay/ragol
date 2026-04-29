@@ -2,12 +2,25 @@
 ---
 
 @import "_layouts/default";
-@import "_layouts/guide";
+@import "_layouts/article";
+@import "_pages/articles";
 @import "_pages/guides";
 @import "_pages/home";
-@import "_includes/category";
-@import "_includes/drop-tables";
-@import "_includes/mag-feeding-table";
-@import "_includes/mags";
-@import "_includes/meta";
+@import "_components/breadcrumbs";
+@import "_components/category";
+@import "_components/contents";
+@import "_components/drop-tables";
+@import "_components/faqs";
+@import "_components/icon";
+@import "_components/images";
+@import "_components/interview-message";
+@import "_components/latest-guides";
+@import "_components/mag-feeding-table";
+@import "_components/mags";
+@import "_components/meta";
+@import "_components/quote";
+@import "_components/table-wrapper";
+@import "_components/tip";
+@import "_components/tooltip";
+@import "_components/wrapper";
 @import "fonts";

@@ -1,0 +1,15 @@
+@import "../mixins";
+@import "../variables";
+
+.latest-guides__heading { margin: 0 0 1rem; }
+.latest-guides__list { list-style: none; margin: 0; padding: 0; }
+.latest-guides__item { margin: 0 0 1rem; }
+.latest-guides__item:last-child { margin-bottom: 0; }
+.latest-guides__guide { display: flex; flex-direction: row; gap: 1rem; }
+.latest-guides__guide-cover { flex: 1; }
+.latest-guides__guide-image { border: 1px solid $color-link-tertiary; border-radius: 4px; box-sizing: border-box; display: block; object-fit: cover; max-height: 85px; transition: border-color 0.2s ease; width: 100%; }
+.latest-guides .latest-guides__guide-cover:is(:hover, :active) .latest-guides__guide-image { border-color: $color-link-primary; }
+.latest-guides__guide-content { flex: 1; }
+.latest-guides__guide-title { font-size: 0.875rem; margin: 0 0 0.5rem; }
+.latest-guides__guide-date { color: $color-meta; font-size: 0.75rem; line-height: 1; }
+.latest-guides .category { margin: 0 0 0.5rem; }

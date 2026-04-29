@@ -1,0 +1,14 @@
+@import "../mixins";
+@import "../variables";
+
+.faqs { background: $color-secondary; border-left: 4px solid $color-separator-primary; border-radius: 4px; margin: 2rem 0; padding: 1rem; }
+.faqs > h2 { font-size: 1.5rem; line-height: 1.3; margin: 0 0 1rem; }
+.faqs > *:last-child { margin-bottom: 0; }
+.faqs__item { border-bottom: 1px dotted $color-separator-secondary; margin: 0 0 1rem; padding: 0 0 1rem; }
+.faqs__item:last-child { border: 0; margin: 0; padding: 0; }
+.faqs__question { color: $color-link-primary; font-size: 1rem; font-weight: normal; line-height: 1.6; margin: 0; }
+.faqs__question-button { background: none; border: 0; color: inherit; cursor: pointer; font: inherit; padding: 0; text-align: left; width: 100%; -webkit-tap-highlight-color: transparent; @media (hover: hover) { &:hover { text-decoration: underline; } } }
+.faqs__question-button::before { content: "⏷"; float: right; margin: 0 0 0 1rem; transition: transform 0.2s ease; }
+.faqs__item--on .faqs__question-button::before { transform: rotate(180deg); }
+.faqs__answer { overflow: hidden; transition: max-height 0.2s ease; }
+.faqs__answer > *:last-child { margin-bottom: 0; }

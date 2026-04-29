@@ -3,21 +3,31 @@ title: Guides
 description: "Phantasy Star Online guides written by players - step‑by‑step walkthroughs, strategies, and tips."
 ---
 
-<div id="guides">
+<div class="guides">
+    {% include breadcrumbs.html %}
     <h1>Guides</h1>
     <p>Phantasy Star Online guides written by players - step‑by‑step walkthroughs, strategies, and tips.</p>
     <hr />
     {% assign categories = site.guides | group_by: 'category' | sort: 'name' %}
     {% for category in categories %}
         <h2 id="{{ category.name | slugify }}">{{ category.name }}</h2>
-        <ul class="guides">
+        <ul class="guides__guides-list">
             {% assign guides = category.items | sort: 'title' %}
             {% for guide in guides %}
-                <li class="guide">
-                    <h3 class="title"><a href="{{ guide.url }}"><span class="text">{{ guide.title }}</span> <span class="category">{{ guide.category }}</span></a></h3>
-                    <a class="cover" href="{{ guide.url }}"><img alt="{{ guide.title }}" decoding="async" loading="lazy" src="{{ guide.coverImage }}"></a>
-                    <p class="description">{{ guide.description }}</p>
-                    {% include meta.html page=guide %}
+                <li class="guides__guides-item">
+                    <article class="guides__guide">
+                        <h3 class="guides__guide-title">
+                            <a class="guides__guide-link" href="{{ guide.url }}">
+                                <span class="guides__guide-title-text">{{ guide.title }}</span>
+                                {% include category.html page=guide %}
+                            </a>
+                        </h3>
+                        <a class="guides__guide-cover" href="{{ guide.url }}">
+                            <img alt="{{ guide.title }}" class="guides__guide-image" decoding="async" loading="lazy" src="{{ guide.coverImage }}">
+                        </a>
+                        <p class="guides__guide-description">{{ guide.description }}</p>
+                        {% include meta.html page=guide %}
+                    </article>
                 </li>
             {% endfor %}
         </ul>

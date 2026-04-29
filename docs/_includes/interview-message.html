@@ -1,0 +1,18 @@
+<section class="interview-message interview-message--{{ include.type }}">
+    {% assign author = site.data.authors[include.author] %}
+    <a class="interview-message__avatar" href="{{ author.profileUrl }}"><img alt="" class="interview-message__avatar-image" src="{{ author.avatarUrl }}" /></a>
+    <div class="interview-message__container">
+        <div class="interview-message__author">
+            <a class="interview-message__author-name" href="{{ author.profileUrl }}">{{ include.author }}</a>
+            <span class="interview-message__author-role">{{ include.authorRole }}</span>
+        </div>
+        <div class="interview-message__content">
+            {{ include.content | markdownify }}
+            {% if include.notes %}
+                <div class="interview-message__notes">
+                    {{ include.notes | markdownify }}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</section>

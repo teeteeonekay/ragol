@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{% include breadcrumbs.html %}
+<article class="article">
+    {{ content }}
+    <footer class="article__footer">
+        {% include meta.html page=page %}
+    </footer>
+</article>

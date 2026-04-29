@@ -1,0 +1,6 @@
+.icon:not(.icon--after)::before, .icon--after::after { background-color: currentColor; content: ""; height: 0.75em; mask-position: center; mask-repeat: no-repeat; mask-size: 100% 100%; }
+.icon--home:not(.icon--after)::before, .icon--after.icon--home::after { aspect-ratio: 144 / 149; mask-image: url("/assets/images/components/icon-home.svg"); }
+.icon--guides:not(.icon--after)::before, .icon--after.icon--guides::after { aspect-ratio: 130 / 132; mask-image: url("/assets/images/components/icon-guides.svg"); transform: scaleX(-1); }
+.icon--articles:not(.icon--after)::before, .icon--after.icon--articles::after { aspect-ratio: 105 / 149; mask-image: url("/assets/images/components/icon-articles.svg"); }
+.icon--discord:not(.icon--after)::before, .icon--after.icon--discord::after { aspect-ratio: 160 / 138; mask-image: url("/assets/images/components/icon-discord.svg"); transform: scaleX(-1); }
+.icon--forums:not(.icon--after)::before, .icon--after.icon--forums::after { aspect-ratio: 143 / 140; mask-image: url("/assets/images/components/icon-forums.svg"); }

@@ -1,0 +1,7 @@
+@import "../mixins";
+@import "../variables";
+
+.quote { background: url('/assets/images/components/quote.webp') no-repeat 0 center; background-size: 4.5rem auto; border-bottom: 1px dotted $color-separator-primary; border-top: 1px dotted $color-separator-primary; margin: 2rem 0; padding: 2rem 0 2rem 5.5rem; }
+.quote > p { font-size: 1.5rem; font-style: italic; font-weight: 600; }
+.quote > p::before { content: "“"; }
+.quote > p::after { content: "”"; }

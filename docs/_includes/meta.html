@@ -1,35 +1,16 @@
-<ul class="meta {% if include.mobile %}mobile{% endif %}">
-    <li class="meta-author">
-        {% case include.page.author %}
-            {% when 'decswxaqz' %}
-                {% assign authorUrl = 'https://forums.ragol.co.uk/member.php?action=profile&uid=17' %}
-                {% assign authorAvatarUrl = 'https://forums.ragol.co.uk/uploads/avatars/avatar_17.gif' %}
-            {% when 'FurryBagi' %}
-                {% assign authorUrl = 'https://forums.ragol.co.uk/member.php?action=profile&uid=78' %}
-                {% assign authorAvatarUrl = 'https://forums.ragol.co.uk/images/default_avatar.png' %}
-            {% when 'Junon' %}
-                {% assign authorUrl = 'https://forums.ragol.co.uk/member.php?action=profile&uid=2' %}
-                {% assign authorAvatarUrl = 'https://forums.ragol.co.uk/uploads/avatars/avatar_2.gif' %}
-            {% when 'Lee-yoshi' %}
-                {% assign authorUrl = 'https://forums.ragol.co.uk/member.php?action=profile&uid=107' %}
-                {% assign authorAvatarUrl = 'https://forums.ragol.co.uk/uploads/avatars/avatar_107.gif' %}
-            {% when 'T_T1K' %}
-                {% assign authorUrl = 'https://forums.ragol.co.uk/member.php?action=profile&uid=5' %}
-                {% assign authorAvatarUrl = 'https://forums.ragol.co.uk/uploads/avatars/avatar_5.jpg' %}
-        {% endcase %}
-        <a href="{{ authorUrl }}"><img alt="Avatar" src="{{ authorAvatarUrl }}" /> {{ include.page.author }}</a>
-    </li>
-    <li class="meta-date">
-        {{ include.page.date | date: '%Y-%m-%d' }}
-    </li>
-    {% if include.page.commentsUrl %}
-        <li class="meta-comments">
-            <a href="{{ include.page.commentsUrl }}">
-                Comments
-                <svg viewBox="0 0 24 24">
-                    <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/>
-                </svg>
-            </a>
+<div class="meta">
+    <ul class="meta__list">
+        <li class="meta__item">
+            {% assign author = site.data.authors[include.page.author] %}
+            <a class="meta__author-link" href="{{ author.profileUrl }}"><img alt="Avatar" class="meta__author-avatar" src="{{ author.avatarUrl }}" /> {{ include.page.author }}</a>
         </li>
-    {% endif %}
-</ul>
+        <li class="meta__item">
+            <time datetime="{{ include.page.date | date: '%Y-%m-%d' }}">{{ include.page.date | date: '%Y-%m-%d' }}</time>
+        </li>
+        {% if include.page.commentsUrl %}
+            <li class="meta__item">
+                <a class="meta__comments-link icon icon--after icon--forums" href="{{ include.page.commentsUrl }}">Comments</a>
+            </li>
+        {% endif %}
+    </ul>
+</div>

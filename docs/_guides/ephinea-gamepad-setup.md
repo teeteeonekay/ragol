@@ -102,7 +102,11 @@ In the screenshot below:
 * **Shifta** is assigned to **Action Shortcut 1** and can be executed by pressing `RT + A`.
 * **Deband** is assigned to **Action Shortcut 2** and can be executed by pressing `RT + X`.
 
-[![Mappings - Example](/assets/images/guides/ephinea-gamepad-setup/mappings/example.webp)](/assets/images/guides/ephinea-gamepad-setup/mappings/example.webp){:target="_blank"}
+<div class="images" markdown="1">
+
+* [![Mappings - Example](/assets/images/guides/ephinea-gamepad-setup/mappings/example.webp)](/assets/images/guides/ephinea-gamepad-setup/mappings/example.webp){:target="_blank"}
+
+</div>
 
 ---
 
@@ -118,9 +122,13 @@ Adding PSO to Steam allows you to use Steam Input to map your gamepad to keyboar
 5. Click **Manage** → **Properties**.
 6. Rename the shortcut to **Phantasy Star Online Blue Burst**.
 
-[![Add PSO to Steam - Add a Non-Steam Game](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/add-a-non-steam-game.webp)](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/add-a-non-steam-game.webp){:target="_blank"}
-[![Add PSO to Steam - Properties](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/properties.webp)](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/properties.webp){:target="_blank"}
-[![Add PSO to Steam - Shortcut](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/shortcut.webp)](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/shortcut.webp){:target="_blank"}
+<div class="images" markdown="1">
+
+* [![Add PSO to Steam - Add a Non-Steam Game](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/add-a-non-steam-game.webp)](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/add-a-non-steam-game.webp){:target="_blank"}
+* [![Add PSO to Steam - Properties](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/properties.webp)](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/properties.webp){:target="_blank"}
+* [![Add PSO to Steam - Shortcut](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/shortcut.webp)](/assets/images/guides/ephinea-gamepad-setup/add-pso-to-steam/shortcut.webp){:target="_blank"}
+
+</div>
 
 ---
 
@@ -132,10 +140,15 @@ Once your gamepad is connected, enable Steam Input for PSO.
 1. Click **Controller Settings**.
 2. Click **Enable Steam Input**.
 
+{:.tip}
 > Tip: Most modern controllers, including the PlayStation 5 DualSense, are supported.
 
-[![Enable Steam Input for PSO - Controller Settings](/assets/images/guides/ephinea-gamepad-setup/enable-steam-input-for-pso/controller-settings.webp)](/assets/images/guides/ephinea-gamepad-setup/enable-steam-input-for-pso/controller-settings.webp){:target="_blank"}
-[![Enable Steam Input for PSO - Enable Steam Input](/assets/images/guides/ephinea-gamepad-setup/enable-steam-input-for-pso/enable-steam-input.webp)](/assets/images/guides/ephinea-gamepad-setup/enable-steam-input-for-pso/enable-steam-input.webp){:target="_blank"}
+<div class="images" markdown="1">
+
+* [![Enable Steam Input for PSO - Controller Settings](/assets/images/guides/ephinea-gamepad-setup/enable-steam-input-for-pso/controller-settings.webp)](/assets/images/guides/ephinea-gamepad-setup/enable-steam-input-for-pso/controller-settings.webp){:target="_blank"}
+* [![Enable Steam Input for PSO - Enable Steam Input](/assets/images/guides/ephinea-gamepad-setup/enable-steam-input-for-pso/enable-steam-input.webp)](/assets/images/guides/ephinea-gamepad-setup/enable-steam-input-for-pso/enable-steam-input.webp){:target="_blank"}
+
+</div>
 
 ---
 
@@ -150,11 +163,16 @@ Apply the **Ephinea - All Action Shortcuts** community layout instead of creatin
 4. Click **Ephinea - All Action Shortcuts**.
 5. Click **Apply Layout**.
 
+{:.tip}
 > Tip: If you can't find the community button layout on Steam, make sure the shortcut is named **Phantasy Star Online Blue Burst** as shown in Step 1. If you still can't find it, ask for help on our Discord or the Forums.
 
-[![Apply a Steam Button Layout - Layouts](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/layouts.webp)](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/layouts.webp){:target="_blank"}
-[![Apply a Steam Button Layout - Community Layouts](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/community-layouts.webp)](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/community-layouts.webp){:target="_blank"}
-[![Apply a Steam Button Layout - Layout](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/layout.webp)](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/layout.webp){:target="_blank"}
+<div class="images" markdown="1">
+
+* [![Apply a Steam Button Layout - Layouts](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/layouts.webp)](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/layouts.webp){:target="_blank"}
+* [![Apply a Steam Button Layout - Community Layouts](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/community-layouts.webp)](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/community-layouts.webp){:target="_blank"}
+* [![Apply a Steam Button Layout - Layout](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/layout.webp)](/assets/images/guides/ephinea-gamepad-setup/apply-a-steam-button-layout/layout.webp){:target="_blank"}
+
+</div>
 
 ---
 
@@ -163,9 +181,14 @@ Step 4 - Enable Gamepad
 
 Enable your gamepad in the Ephinea Launcher (**Options** → **Page 4** → **Use XInput for Gamepad**).
 
+{:.tip}
 > Tip: If you’re on Steam Deck, you don’t need to enable this.
 
-[![Enable Gamepad](/assets/images/guides/ephinea-gamepad-setup/enable-gamepad/options.webp)](/assets/images/guides/ephinea-gamepad-setup/enable-gamepad/options.webp){:target="_blank"}
+<div class="images" markdown="1">
+
+* [![Enable Gamepad](/assets/images/guides/ephinea-gamepad-setup/enable-gamepad/options.webp)](/assets/images/guides/ephinea-gamepad-setup/enable-gamepad/options.webp){:target="_blank"}
+
+</div>
 
 ---
 
@@ -178,7 +201,11 @@ By default, the game uses a *Chase Cam* that slowly adjusts behind your characte
 2. Invert Analog X-Axis (**Options** → **Page 3** → **Analog Sensitivity** → **Invert**).
 3. Disable **Chase Cam** (**Options** → **Page 3** → **Chase Cam** → **Disabled**).
 
-[![Enable Analog Camera Control](/assets/images/guides/ephinea-gamepad-setup/enable-analog-camera-control/options.webp)](/assets/images/guides/ephinea-gamepad-setup/enable-analog-camera-control/options.webp){:target="_blank"}
+<div class="images" markdown="1">
+
+* [![Enable Analog Camera Control](/assets/images/guides/ephinea-gamepad-setup/enable-analog-camera-control/options.webp)](/assets/images/guides/ephinea-gamepad-setup/enable-analog-camera-control/options.webp){:target="_blank"}
+
+</div>
 
 ---
 
@@ -187,9 +214,14 @@ Step 6 - Update Keyboard Mappings
 
 Update the in-game keyboard mappings (**Menu** → **Options** → **Keyboard Config** → **Custom**).
 
+{:.tip}
 > Tip: The `Q` key (Auto Run) is not mapped by default.
 
-[![Update Keyboard Mappings](/assets/images/guides/ephinea-gamepad-setup/update-keyboard-mappings/keyboard-config.webp)](/assets/images/guides/ephinea-gamepad-setup/update-keyboard-mappings/keyboard-config.webp){:target="_blank"}
+<div class="images" markdown="1">
+
+* [![Update Keyboard Mappings](/assets/images/guides/ephinea-gamepad-setup/update-keyboard-mappings/keyboard-config.webp)](/assets/images/guides/ephinea-gamepad-setup/update-keyboard-mappings/keyboard-config.webp){:target="_blank"}
+
+</div>
 
 ---
 
@@ -207,9 +239,14 @@ Update the in-game button mappings (**Menu** → **Options** → **Pad Button Co
 7. Set **Prev Page / Camera** to `LB`.
 8. Set **Next Page / Action Palette Change** to `RB`.
 
+{:.tip}
 > Tip: Use the D-pad (`←`/`→`) to adjust behaviour for some mappings.
 
-[![Update Gamepad Mappings](/assets/images/guides/ephinea-gamepad-setup/update-gamepad-mappings/pad-button-config.webp)](/assets/images/guides/ephinea-gamepad-setup/update-gamepad-mappings/pad-button-config.webp){:target="_blank"}
+<div class="images" markdown="1">
+
+* [![Update Gamepad Mappings](/assets/images/guides/ephinea-gamepad-setup/update-gamepad-mappings/pad-button-config.webp)](/assets/images/guides/ephinea-gamepad-setup/update-gamepad-mappings/pad-button-config.webp){:target="_blank"}
+
+</div>
 
 ---
 
@@ -218,10 +255,15 @@ Step 8 - Enable Ctrl Shortcuts
 
 Finally, enable [Ctrl Shortcuts](https://wiki.pioneer2.net/w/Chat_commands#Other_commands){:target="_blank"} by typing `/shortcuts` in-game.
 
+{:.tip}
 > Tip: This is required for shortcuts like the map (`Ctrl + M`).
 
-[![Enable Ctrl Shortcuts - Enabled](/assets/images/guides/ephinea-gamepad-setup/enable-ctrl-shortcuts/ctrl-shortcuts-enabled.webp)](/assets/images/guides/ephinea-gamepad-setup/enable-ctrl-shortcuts/ctrl-shortcuts-enabled.webp){:target="_blank"}
-[![Enable Ctrl Shortcuts - Ctrl + M Shortcut](/assets/images/guides/ephinea-gamepad-setup/enable-ctrl-shortcuts/ctrl-m-shortcut.webp)](/assets/images/guides/ephinea-gamepad-setup/enable-ctrl-shortcuts/ctrl-m-shortcut.webp){:target="_blank"}
+<div class="images" markdown="1">
+
+* [![Enable Ctrl Shortcuts - Enabled](/assets/images/guides/ephinea-gamepad-setup/enable-ctrl-shortcuts/ctrl-shortcuts-enabled.webp)](/assets/images/guides/ephinea-gamepad-setup/enable-ctrl-shortcuts/ctrl-shortcuts-enabled.webp){:target="_blank"}
+* [![Enable Ctrl Shortcuts - Ctrl + M Shortcut](/assets/images/guides/ephinea-gamepad-setup/enable-ctrl-shortcuts/ctrl-m-shortcut.webp)](/assets/images/guides/ephinea-gamepad-setup/enable-ctrl-shortcuts/ctrl-m-shortcut.webp){:target="_blank"}
+
+</div>
 
 ---
 
@@ -262,4 +304,8 @@ Original Keyboard Mappings
 
 For reference, here are the original keyboard mappings.
 
-[![Original Keyboard Mappings](/assets/images/guides/ephinea-gamepad-setup/original-keyboard-mappings/keyboard-mappings.webp)](/assets/images/guides/ephinea-gamepad-setup/original-keyboard-mappings/keyboard-mappings.webp){:target="_blank"}
+<div class="images" markdown="1">
+
+* [![Original Keyboard Mappings](/assets/images/guides/ephinea-gamepad-setup/original-keyboard-mappings/keyboard-mappings.webp)](/assets/images/guides/ephinea-gamepad-setup/original-keyboard-mappings/keyboard-mappings.webp){:target="_blank"}
+
+</div>

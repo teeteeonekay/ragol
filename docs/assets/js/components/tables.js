@@ -5,8 +5,8 @@ export default () => {
         return;
 
     tables.forEach(t => {
-        if (!t.parentElement?.classList.contains('table')) {
-            const tableDiv = Object.assign(document.createElement('div'), { className: 'table' });
+        if (!t.parentElement?.classList.contains('table-wrapper')) {
+            const tableDiv = Object.assign(document.createElement('div'), { className: 'table-wrapper' });
 
             t.before(tableDiv);
             tableDiv.append(t);
@@ -18,8 +18,8 @@ export default () => {
             if (!tableCell)
                 return;
 
-            t.querySelectorAll('td.on').forEach(r => r.classList.remove('on'));
-            tableCell.classList.add('on');
+            t.querySelectorAll('td.table__cell--on').forEach(r => r.classList.remove('table__cell--on'));
+            tableCell.classList.add('table__cell--on');
         });
     });
 };
