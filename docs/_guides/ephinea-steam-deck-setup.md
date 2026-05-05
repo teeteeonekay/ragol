@@ -64,9 +64,8 @@ To install PSO, add the installer to Steam and run it using Proton.
 7. Enable **Force the use of a specific Steam Play compatibility tool**.
 8. Select **Proton 10.0-4**.
 9. Close the window, then click **Play**.
-10. Follow the installer prompts.
-11. When asked for a destination folder, use `C:\EphineaPSO`.
-12. After a few minutes, the installer should complete.
+10. Follow the installer prompts, using `C:\EphineaPSO` as the destination folder when asked.
+11. After a few minutes, the installer should complete.
 
 {:.tip}
 > Tip: Hold the **Steam** button while using the trackpad to control the mouse in Windows applications.
