@@ -23,10 +23,11 @@ Contents
 * [Step 3 - Apply a Steam Button Layout](#step-3---apply-a-steam-button-layout)
 * [Step 4 - Enable Gamepad](#step-4---enable-gamepad)
 * [Step 5 - Enable Analog Camera Control](#step-5---enable-analog-camera-control)
-* [Step 6 - Update Keyboard Mappings](#step-6---update-keyboard-mappings)
-* [Step 7 - Update Gamepad Mappings](#step-7---update-gamepad-mappings)
-* [Step 8 - Enable Ctrl Shortcuts](#step-8---enable-ctrl-shortcuts)
-* [Step 9 - Finished](#step-9---finished)
+* [Step 6 - Enable Photon Blast Modifier](#step-6---enable-photon-blast-modifier)
+* [Step 7 - Update Keyboard Mappings](#step-7---update-keyboard-mappings)
+* [Step 8 - Update Gamepad Mappings](#step-8---update-gamepad-mappings)
+* [Step 9 - Enable Ctrl Shortcuts](#step-9---enable-ctrl-shortcuts)
+* [Step 10 - Finished](#step-10---finished)
 * [FAQs](#faqs)
 * [Original Keyboard Mappings](#original-keyboard-mappings)
 
@@ -41,59 +42,59 @@ Following this guide will result in the button mappings below. The triggers act 
 
 ### Movement
 
-| Gamepad Button      | Keyboard Key | Mapping                           |
-| ------------------- | ------------ | --------------------------------- |
-| `Left Stick`        | `W``A``S``D` | Move                              |
-| `Left Stick Click`  | `Q`          | Auto Run                          |
-| `Right Stick`       |              | Adjust Camera                     |
-| `Right Stick Click` | `↑`          | Center Camera                     |
-| `LB`                | `↑` / `←`       | Center Camera / Prev Page         |
+| Gamepad Button      | Keyboard Key | Mapping       |
+| ------------------- | ------------ | ------------- |
+| `Left Stick`        | `W``A``S``D` | Move          |
+| `Left Stick Click`  | `Q`          | Auto Run      |
+| `Right Stick`       |              | Adjust Camera |
+| `Right Stick Click` | `↑`          | Center Camera |
 
 ### Action Palette
 
-| Gamepad Button      | Keyboard Key | Mapping                           |
-| ------------------- | ------------ | --------------------------------- |
-| `A`                 | `↓`          | Action Palette Middle             |
-| `B`                 | `→`          | Action Palette Right              |
-| `X`                 | `←`          | Action Palette Left               |
-| `Y`                 | `End`        | Action Palette Top                |
-| `RB`                | `Ctrl` / `→`    | Change Action Palette / Next Page |
+| Gamepad Button | Keyboard Key  | Mapping                           |
+| -------------- | ------------- | --------------------------------- |
+| `A`            | `↓`           | Action Palette Middle             |
+| `B`            | `→`           | Action Palette Right              |
+| `X`            | `←`           | Action Palette Left               |
+| `Y`            | `End`         | Action Palette Top                |
+| `RB`           | `Ctrl` / `→`  | Change Action Palette / Next Page |
+| `LB`           | `Shift` / `←` | Photon Blast Modifier / Prev Page |
 
 ### Action Shortcuts
 
-| Gamepad Button      | Keyboard Key | Mapping                           |
-| ------------------- | ------------ | --------------------------------- |
-| `RT + A`            | `1`          | Action Shortcut 1                 |
-| `RT + X`            | `2`          | Action Shortcut 2                 |
-| `RT + B`            | `3`          | Action Shortcut 3                 |
-| `RT + Y`            | `4`          | Action Shortcut 4                 |
-| `LT + A`            | `5`          | Action Shortcut 5                 |
-| `LT + X`            | `6`          | Action Shortcut 6                 |
-| `LT + B`            | `7`          | Action Shortcut 7                 |
-| `LT + Y`            | `8`          | Action Shortcut 8                 |
-| `RT + LT + A`       | `9`          | Action Shortcut 9                 |
-| `RT + LT + X`       | `0`          | Action Shortcut 10                |
+| Gamepad Button | Keyboard Key | Mapping            |
+| -------------- | ------------ | ------------------ |
+| `RT + A`       | `1`          | Action Shortcut 1  |
+| `RT + X`       | `2`          | Action Shortcut 2  |
+| `RT + B`       | `3`          | Action Shortcut 3  |
+| `RT + Y`       | `4`          | Action Shortcut 4  |
+| `LT + A`       | `5`          | Action Shortcut 5  |
+| `LT + X`       | `6`          | Action Shortcut 6  |
+| `LT + B`       | `7`          | Action Shortcut 7  |
+| `LT + Y`       | `8`          | Action Shortcut 8  |
+| `RT + LT + A`  | `9`          | Action Shortcut 9  |
+| `RT + LT + X`  | `0`          | Action Shortcut 10 |
 
 ### Other
 
-| Gamepad Button      | Keyboard Key | Mapping                           |
-| ------------------- | ------------ | --------------------------------- |
-| `Menu`              | `Home`       | Main Menu                         |
-| `View`              | `Ctrl + M`   | Map                               |
-| `RT + LT + B`       | `Esc`        | Cancel                            |
-| `RT + LT + Y`       | `Tab`        | Character Info. Change            |
-| `RT + ↑`            | `F1`         | Display F Key Functions           |
-| `RT + →`            | `F2`         | Equipment                         |
-| `RT + ↓`            | `F3`         | Technique                         |
-| `RT + ←`            | `F4`         | Mag                               |
-| `LT + ↑`            | `F5`         | Guild Card                        |
-| `LT + →`            | `F6`         | Simple Mail                       |
-| `LT + ↓`            | `F7`         | Symbol Chat                       |
-| `LT + ←`            | `F8`         | Team                              |
-| `RT + LT + ↑`       | `F9`         | Team Log Window On/Off            |
-| `RT + LT + →`       | `F10`        | Normal/Change Team Chat           |
-| `RT + LT + ↓`       | `F11`        | Keyboard Control On/Off           |
-| `RT + LT + ←`       | `F12`        | Main Menu                         |
+| Gamepad Button | Keyboard Key | Mapping                 |
+| -------------- | ------------ | ----------------------- |
+| `Menu`         | `Home`       | Main Menu               |
+| `View`         | `Ctrl + M`   | Map                     |
+| `RT + LT + B`  | `Esc`        | Cancel                  |
+| `RT + LT + Y`  | `Tab`        | Character Info. Change  |
+| `RT + ↑`       | `F1`         | Display F Key Functions |
+| `RT + →`       | `F2`         | Equipment               |
+| `RT + ↓`       | `F3`         | Technique               |
+| `RT + ←`       | `F4`         | Mag                     |
+| `LT + ↑`       | `F5`         | Guild Card              |
+| `LT + →`       | `F6`         | Simple Mail             |
+| `LT + ↓`       | `F7`         | Symbol Chat             |
+| `LT + ←`       | `F8`         | Team                    |
+| `RT + LT + ↑`  | `F9`         | Team Log Window On/Off  |
+| `RT + LT + →`  | `F10`        | Normal/Change Team Chat |
+| `RT + LT + ↓`  | `F11`        | Keyboard Control On/Off |
+| `RT + LT + ←`  | `F12`        | Main Menu               |
 
 ### Example
 
@@ -195,7 +196,7 @@ Enable your gamepad in the Ephinea Launcher (**Options** → **Page 4** → **Us
 Step 5 - Enable Analog Camera Control
 -------------------------------------
 
-By default, the game uses a *Chase Cam* that slowly adjusts behind your character, but you can enable manual camera control using the right stick for a more modern feel.
+By default, the game uses a **Chase Cam** that slowly adjusts behind your character, but you can enable manual camera control using the right stick for a more modern feel.
 
 1. Enable **Analog Camera Control** (**Options** → **Page 3** → **Analog Camera Control** → **Enabled**).
 2. Invert Analog X-Axis (**Options** → **Page 3** → **Analog Sensitivity** → **Invert**).
@@ -209,7 +210,23 @@ By default, the game uses a *Chase Cam* that slowly adjusts behind your characte
 
 ---
 
-Step 6 - Update Keyboard Mappings
+Step 6 - Enable Photon Blast Modifier
+-------------------------------------
+
+By default, the game automatically overrides the secondary action palette mappings when your Mag's Photon Blasts are ready. This can prevent you from using actions assigned to those mappings, but you can make the overrides require the `Shift` key instead.
+
+1. Select **Hold Button/Key to Enable Photon Blasts** (**Options** → **Page 4** → **Item Pickup and Photon Blast Usage** → **Hold Button/Key to Enable Photon Blasts**).
+2. Enable **Hold Shift Key** (**Options** → **Page 4** → **Hold Shift Key**).
+
+<div class="images" markdown="1">
+
+* [![Enable Photon Blast Modifier](/assets/images/guides/ephinea-gamepad-setup/enable-photon-blast-modifier/options.webp)](/assets/images/guides/ephinea-gamepad-setup/enable-photon-blast-modifier/options.webp){:target="_blank"}
+
+</div>
+
+---
+
+Step 7 - Update Keyboard Mappings
 ---------------------------------
 
 Update the in-game keyboard mappings (**Menu** → **Options** → **Keyboard Config** → **Custom**).
@@ -225,7 +242,7 @@ Update the in-game keyboard mappings (**Menu** → **Options** → **Keyboard Co
 
 ---
 
-Step 7 - Update Gamepad Mappings
+Step 8 - Update Gamepad Mappings
 --------------------------------
 
 Update the in-game button mappings (**Menu** → **Options** → **Pad Button Config**).
@@ -250,7 +267,7 @@ Update the in-game button mappings (**Menu** → **Options** → **Pad Button Co
 
 ---
 
-Step 8 - Enable Ctrl Shortcuts
+Step 9 - Enable Ctrl Shortcuts
 ------------------------------
 
 Finally, enable [Ctrl Shortcuts](https://wiki.pioneer2.net/w/Chat_commands#Other_commands){:target="_blank"} by typing `/shortcuts` in-game.
@@ -267,8 +284,8 @@ Finally, enable [Ctrl Shortcuts](https://wiki.pioneer2.net/w/Chat_commands#Other
 
 ---
 
-Step 9 - Finished
------------------
+Step 10 - Finished
+------------------
 
 Your gamepad should now be fully configured for Ephinea with support for all action shortcuts and improved camera control.
 
