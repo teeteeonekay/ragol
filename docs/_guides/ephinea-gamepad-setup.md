@@ -77,24 +77,25 @@ Following this guide will result in the button mappings below. The triggers act 
 
 ### Other
 
-| Gamepad Button | Keyboard Key | Mapping                 |
-| -------------- | ------------ | ----------------------- |
-| `Menu`         | `Home`       | Main Menu               |
-| `View`         | `Ctrl + M`   | Map                     |
-| `RT + LT + B`  | `Esc`        | Cancel                  |
-| `RT + LT + Y`  | `Tab`        | Character Info. Change  |
-| `RT + ↑`       | `F1`         | Display F Key Functions |
-| `RT + →`       | `F2`         | Equipment               |
-| `RT + ↓`       | `F3`         | Technique               |
-| `RT + ←`       | `F4`         | Mag                     |
-| `LT + ↑`       | `F5`         | Guild Card              |
-| `LT + →`       | `F6`         | Simple Mail             |
-| `LT + ↓`       | `F7`         | Symbol Chat             |
-| `LT + ←`       | `F8`         | Team                    |
-| `RT + LT + ↑`  | `F9`         | Team Log Window On/Off  |
-| `RT + LT + →`  | `F10`        | Normal/Change Team Chat |
-| `RT + LT + ↓`  | `F11`        | Keyboard Control On/Off |
-| `RT + LT + ←`  | `F12`        | Main Menu               |
+| Gamepad Button   | Keyboard Key | Mapping                                         |
+| ---------------- | ------------ | ----------------------------------------------- |
+| `Menu`           | `Home`       | Main Menu                                       |
+| `View`           | `Ctrl + M`   | Map                                             |
+| `RT + LT + B`    | `Esc`        | Cancel                                          |
+| `RT + LT + Y`    | `Tab`        | Character Info. Change                          |
+| `RT + ↑`         | `F1`         | Display F Key Functions                         |
+| `RT + →`         | `F2`         | Equipment                                       |
+| `RT + ↓`         | `F3`         | Technique                                       |
+| `RT + ←`         | `F4`         | Mag                                             |
+| `LT + ↑`         | `F5`         | Guild Card                                      |
+| `LT + →`         | `F6`         | Simple Mail                                     |
+| `LT + ↓`         | `F7`         | Symbol Chat                                     |
+| `LT + ←`         | `F8`         | Team                                            |
+| `RT + LT + ↑`    | `F9`         | Team Log Window On/Off                          |
+| `RT + LT + →`    | `F10`        | Normal/Change Team Chat                         |
+| `RT + LT + ↓`    | `F11`        | Keyboard Control On/Off                         |
+| `RT + LT + ←`    | `F12`        | Main Menu                                       |
+| `RT + LT + View` | `/bank`      | Toggles between character and shared item banks |
 
 ### Example
 
