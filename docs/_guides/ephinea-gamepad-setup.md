@@ -96,6 +96,7 @@ Following this guide will result in the button mappings below. The triggers act 
 | `RT + LT + ↓`    | `F11`        | Keyboard Control On/Off                         |
 | `RT + LT + ←`    | `F12`        | Main Menu                                       |
 | `RT + LT + View` | `/bank`      | Toggles between character and shared item banks |
+| `RT + LT + Menu` | `/lobby`     | Returns you to the lobby                        |
 
 ### Example
 
