@@ -51,14 +51,14 @@ Following this guide will result in the button mappings below. The triggers act 
 
 ### Action Palette
 
-| Gamepad Button | Keyboard Key  | Mapping                           |
-| -------------- | ------------- | --------------------------------- |
-| `A`            | `↓`           | Action Palette Middle             |
-| `B`            | `→`           | Action Palette Right              |
-| `X`            | `←`           | Action Palette Left               |
-| `Y`            | `End`         | Action Palette Top                |
-| `RB`           | `Ctrl` / `→`  | Change Action Palette / Next Page |
-| `LB`           | `Shift` / `←` | Photon Blast Modifier / Prev Page |
+| Gamepad Button | Keyboard Key | Mapping                           |
+| -------------- | ------------ | --------------------------------- |
+| `A`            | `↓`          | Action Palette Middle             |
+| `B`            | `→`          | Action Palette Right              |
+| `X`            | `←`          | Action Palette Left               |
+| `Y`            | `End`        | Action Palette Top                |
+| `RB`           | `Ctrl` / `→` | Change Action Palette / Next Page |
+| `LB`           | `Alt` / `←`  | Photon Blast Modifier / Prev Page |
 
 ### Action Shortcuts
 
@@ -215,10 +215,10 @@ By default, the game uses a **Chase Cam** that slowly adjusts behind your charac
 Step 6 - Enable Photon Blast Modifier
 -------------------------------------
 
-By default, the game automatically overrides the secondary action palette mappings when your Mag's Photon Blasts are ready. This can prevent you from using actions assigned to those mappings, but you can make the overrides require the `Shift` key instead.
+By default, the game automatically overrides the secondary action palette mappings when your Mag's Photon Blasts are ready. This can prevent you from using actions assigned to those mappings, but you can make the overrides require the `Alt` key instead.
 
 1. Select **Hold Button/Key to Enable Photon Blasts** (**Options** → **Page 4** → **Item Pickup and Photon Blast Usage** → **Hold Button/Key to Enable Photon Blasts**).
-2. Enable **Hold Shift Key** (**Options** → **Page 4** → **Hold Shift Key**).
+2. Enable **Hold Alt Key** (**Options** → **Page 4** → **Hold Alt Key**).
 
 <div class="images" markdown="1">
 
